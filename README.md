@@ -1,5 +1,5 @@
 # Saffron
-![saffron](saffron_finance_logo_black_on_white.png)
+![saffron](saffron_finance_logo_black_on_white_180.png)
 
 This is a monorepo for the Saffron smart contract system on Ethereum mainnet. 
 

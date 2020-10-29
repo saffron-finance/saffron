@@ -1,6 +1,5 @@
-# Saffron
 ![saffron](saffron_finance_logo_black_on_white_180.png)
-
+# Saffron
 This is a monorepo for the Saffron smart contract system on Ethereum mainnet. 
 
 Saffron is a protocol for tokenizing on-chain assets, including contracts that otherwise impair access to utilized capital. Tokenized ownership of on-chain assets gives liquidity providers greater flexibility and uninterrupted access to their underlying collateral while enabling leveraged staking and bespoke risk management.

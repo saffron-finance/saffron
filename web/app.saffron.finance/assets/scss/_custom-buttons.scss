@@ -1,0 +1,1450 @@
+/* 
+--------------------------------
+    : Custom - Buttons css :
+--------------------------------
+*/
+.button-list {
+  .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.btn-group {
+  .btn {
+    margin-right: 0;
+  }
+}
+.dropdown-list {
+  .btn {
+    margin-bottom: 5px;
+  }
+}
+.btn {
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+.btn-rounded {
+  border-radius: 20px;
+}
+.btn-round {
+  width: 40px;
+  height: 40px;
+  padding: 6px 11px;
+  border-radius: 50%;  
+}
+.btn-sm {
+    padding: 4px 18px;
+}
+.btn-white {
+    color: $black;
+    background-color: $white;
+    border-color:$white;
+    box-shadow: none;
+}
+.btn-link {
+    color: $primary;
+    text-decoration: none;
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+    &.focus {
+      text-decoration: none;
+    }
+    &:focus {
+      text-decoration: none;
+    }
+}
+/* -- Primary Button -- */
+.btn-primary {
+  color: $white;
+  background-color: $primary;
+  border-color: $primary;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+  &:active {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &:hover {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:visited {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($primary, 5%);
+      border-color: darken($primary, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($primary, 5%);
+        border-color: darken($primary, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+        }        
+      }
+    }
+  }
+}
+/* -- Primary Button Outline -- */
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+  &:active {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:visited {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($primary, 5%);
+      border-color: darken($primary, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($primary, 5%);
+        border-color: darken($primary, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-primary {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+}
+.show {
+  >.btn-outline-primary.dropdown-toggle {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+    }
+  }
+  >.btn-primary.dropdown-toggle {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+    }
+  }
+}
+/* -- Secondary Button -- */
+.btn-secondary {
+  color: $white;
+  background-color: $secondary;
+  border-color: $secondary;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $secondary;
+    border-color: $secondary;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $secondary;
+    border-color: $secondary;
+  }
+  &:active {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+  &:hover {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+  }
+  &:visited {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($secondary, 5%);
+      border-color: darken($secondary, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($secondary, 5%);
+        border-color: darken($secondary, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+        }        
+      }
+    }
+  }
+}
+/* -- Secondary Button Outline -- */
+.btn-outline-secondary {
+  color: $secondary;
+  border-color: $secondary;
+  &:active {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+  }
+  &:visited {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($secondary, 5%);
+      border-color: darken($secondary, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($secondary, 5%);
+        border-color: darken($secondary, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-secondary {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+}
+.show {
+  >.btn-outline-secondary.dropdown-toggle {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($secondary, 20%);
+    }
+  }
+  >.btn-secondary.dropdown-toggle {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($secondary, 20%);
+    }
+  }
+}
+/* -- Success Button -- */
+.btn-success {
+  color: $white;
+  background-color: $success;
+  border-color:$success;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $success;
+    border-color: $success;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $success;
+    border-color: $success;
+  }
+  &:active {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+  &:hover {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+  }
+  &:visited {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($success, 5%);
+      border-color: darken($success, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($success, 5%);
+        border-color: darken($success, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+        }        
+      }
+    }
+  }
+}
+/* -- Success Button Outline -- */
+.btn-outline-success {
+  color: $success;
+  border-color: $success;
+  &:active {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+  }
+  &:visited {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($success, 5%);
+      border-color: darken($success, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($success, 5%);
+        border-color: darken($success, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-success {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+}
+.show {
+  >.btn-outline-success.dropdown-toggle {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+    }
+  }
+  >.btn-success.dropdown-toggle {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+    }
+  }
+}
+/* -- Danger Button -- */
+.btn-danger {
+  color: $white;
+  background-color: $danger;
+  border-color:$danger;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $danger;
+    border-color: $danger;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $danger;
+    border-color: $danger;
+  }
+  &:active {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+  &:hover {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+  }
+  &:visited {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($danger, 5%);
+      border-color: darken($danger, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($danger, 5%);
+        border-color: darken($danger, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+        }        
+      }
+    }
+  }
+}
+/* -- Danger Button Outline -- */
+.btn-outline-danger {
+  color: $danger;
+  border-color: $danger;
+  &:active {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+  }
+  &:visited {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($danger, 5%);
+      border-color: darken($danger, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($danger, 5%);
+        border-color: darken($danger, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-danger {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+}
+.show {
+  >.btn-outline-danger.dropdown-toggle {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+    }
+  }
+  >.btn-danger.dropdown-toggle {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+    }
+  }
+}
+/* -- Warning Button -- */
+.btn-warning {
+  color: $white;
+  background-color: $warning;
+  border-color:$warning;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $warning;
+    border-color: $warning;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $warning;
+    border-color: $warning;
+  }
+  &:active {
+    color: $white;
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+  }
+  &:visited {
+    color: $white;
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      color: $white;
+      background-color: darken($warning, 5%);
+      border-color: darken($warning, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        color: $white;
+        background-color: darken($warning, 5%);
+        border-color: darken($warning, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+        }        
+      }
+    }
+  }
+}
+/* -- Warning Button Outline -- */
+.btn-outline-warning {
+  color: $warning;
+  border-color: $warning;
+  &:active {
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+  }
+  &:visited {
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      color: $white;
+      background-color: darken($warning, 5%);
+      border-color: darken($warning, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        color: $white;
+        background-color: darken($warning, 5%);
+        border-color: darken($warning, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-warning {
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+}
+.show {
+  >.btn-outline-warning.dropdown-toggle {
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+    }
+  }
+  >.btn-warning.dropdown-toggle {
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+    }
+  }
+}
+/* -- Info Button -- */
+.btn-info {
+  color: $white;
+  background-color: $info;
+  border-color:$info;
+  box-shadow: none;  
+  .disabled {
+    color: $white;
+    background-color: $info;
+    border-color: $info;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $info;
+    border-color: $info;
+  }
+  &:active {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+  &:hover {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+  }
+  &:visited {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($info, 5%);
+      border-color: darken($info, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($info, 5%);
+        border-color: darken($info, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+        }        
+      }
+    }
+  }
+}
+/* -- Info Button Outline -- */
+.btn-outline-info {
+  color: $info;
+  border-color: $info;
+  &:active {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+  }
+  &:visited {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($info, 5%);
+      border-color: darken($info, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($info, 5%);
+        border-color: darken($info, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-info {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+}
+.show {
+  >.btn-outline-info.dropdown-toggle {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+    }
+  }
+  >.btn-info.dropdown-toggle {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+    }
+  }
+}
+/* -- Light Button -- */
+.btn-light {
+  color: $muted;
+  background-color: $light;
+  border-color:$light;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $light;
+    border-color: $light;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $light;
+    border-color: $light;
+  }
+  &:active {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+  &:hover {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+  &.focus {
+    color: $muted;
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+  }
+  &:focus {
+    color: $muted;
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+  }
+  &:visited {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($light, 5%);
+      border-color: darken($light, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($light, 5%);
+        border-color: darken($light, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+        }        
+      }
+    }
+  }
+}
+/* -- Light Button Outline -- */
+.btn-outline-light {
+  color: $light;
+  border-color: $light;
+  &:active {
+    color: $white;
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+  }
+  &:visited {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($light, 5%);
+      border-color: darken($light, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        color: $white;
+        background-color: darken($light, 5%);
+        border-color: darken($light, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-light {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+}
+.show {
+  >.btn-outline-light.dropdown-toggle {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+    }
+  }
+  >.btn-light.dropdown-toggle {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($light, 1%);
+    }
+  }
+}
+/* -- Dark Button -- */
+.btn-dark {
+  color: $white;
+  background-color: $dark;
+  border-color:$dark;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $dark;
+    border-color: $dark;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $dark;
+    border-color: $dark;
+  }
+  &:active {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+  &:hover {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+  }
+  &:visited {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($dark, 5%);
+      border-color: darken($dark, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($dark, 5%);
+        border-color: darken($dark, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+        }        
+      }
+    }
+  }
+}
+/* -- Dark Button Outline -- */
+.btn-outline-dark {
+  color: $dark;
+  background-image: none;
+  background-color: transparent;
+  border-color: $dark;
+  &:active {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+  }
+  &:visited {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($dark, 5%);
+      border-color: darken($dark, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($dark, 5%);
+        border-color: darken($dark, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-dark {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+}
+.show {
+  >.btn-outline-dark.dropdown-toggle {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+    }
+  }
+  >.btn-dark.dropdown-toggle {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+    }
+  }
+}
+/* -- Default Button -- */
+.btn-default {
+  color: $white;
+  background-color: $primary;
+  border-color:$primary;
+  box-shadow: none;
+  .disabled {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+  &:disabled {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+  &:active {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &.focus {
+    color: $white;
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:focus {
+    color: $white;
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:visited {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($primary, 5%);
+      border-color: darken($primary, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($primary, 5%);
+        border-color: darken($primary, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+        }        
+      }
+    }
+  }
+}
+/* -- Default Button Outline -- */
+.btn-outline-default {
+  color: $primary;
+  border-color: $primary;
+  &:active {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &:hover {
+    color: $white;
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+  &.focus {
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+  }
+  &:visited {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }  
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      background-color: darken($primary, 5%);
+      border-color: darken($primary, 5%);
+    }
+    &:not(.disabled) {
+      &:active {
+        background-color: darken($primary, 5%);
+        border-color: darken($primary, 5%);
+      }
+    }
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+      }      
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+        }        
+      }
+    }
+  }
+}
+.open {
+  >.dropdown-toggle.btn-default {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+}
+.show {
+  >.btn-outline-default.dropdown-toggle {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+    }
+  }
+  >.btn-default.dropdown-toggle {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+    &:focus {
+      box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+    }
+  }
+}
+/* -- Link Buttons -- */
+.btn-primary-rgba {
+  background-color: $primary-rgba;
+  border: none;
+  color: $primary;
+}
+.btn-primary-rgba:hover {
+  background-color: $primary;
+  border: none;
+  color: $white;
+}
+.btn-primary-rgba:focus {
+    background-color: $primary;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($primary, 20%);
+}
+.btn-secondary-rgba {
+  background-color: $secondary-rgba;
+  border: none;
+  color: $secondary;
+}
+.btn-secondary-rgba:hover {
+  background-color: $secondary;
+  border: none;
+  color: $white;
+}
+.btn-secondary-rgba:focus {
+    background-color: $secondary;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($secondary, 5%);
+}
+.btn-success-rgba {
+  background-color: $success-rgba;
+  border: none;
+  color: $success;
+}
+.btn-success-rgba:hover {
+  background-color: $success;
+  border: none;
+  color: $white;
+}
+.btn-success-rgba:focus {
+    background-color: $success;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+}
+.btn-danger-rgba {
+  background-color: $danger-rgba;
+  border: none;
+  color: $danger;
+}
+.btn-danger-rgba:hover {
+  background-color: $danger;
+  border: none;
+  color: $white;
+}
+.btn-danger-rgba:focus {
+    background-color: $danger;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+}
+.btn-warning-rgba {
+  background-color: $warning-rgba;
+  border: none;
+  color: $warning;
+}
+.btn-warning-rgba:hover {
+  background-color: $warning;
+  border: none;
+  color: $white;
+}
+.btn-warning-rgba:focus {
+    background-color: $warning;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($warning, 20%);
+}
+.btn-info-rgba {
+  background-color: $info-rgba;
+  border: none;
+  color: $info;
+}
+.btn-info-rgba:hover {
+  background-color: $info;
+  border: none;
+  color: $white;
+}
+.btn-info-rgba:focus {
+    background-color: $info;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($info, 20%);
+}
+.btn-light-rgba {
+  background-color: $light-rgba;
+  border: none;
+  color: $muted;
+}
+.btn-light-rgba:hover {
+  background-color: $light;
+  border: none;
+  color: $white;
+}
+.btn-light-rgba:focus {
+    background-color: $light;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($light, 3%);
+}
+.btn-dark-rgba {
+  background-color: $dark-rgba;
+  border: none;
+  color: $dark;
+}
+.btn-dark-rgba:hover {
+  background-color: $dark;
+  border: none;
+  color: $white;
+}
+.btn-dark-rgba:focus {
+    background-color: $dark;
+    border: none;
+    color: $white;
+    box-shadow: 0 0 0 0.2rem lighten($dark, 20%);
+}

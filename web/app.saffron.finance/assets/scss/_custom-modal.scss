@@ -1,0 +1,43 @@
+/* 
+------------------------------
+    : Custom - Modal css :
+------------------------------
+*/
+.example-modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block;
+}
+.modal-content {
+    border: none;
+    background-color: $card-bg;
+}
+.modal-header {
+    background-color: $primary;
+    border: 1px solid $primary;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    .close {
+      color: $white;
+    }
+}
+.modal-title {
+    color: $white;
+    font-size: 18px;
+}
+.modal-body {
+    border-right: 1px solid $border-color;
+    border-left: 1px solid $border-color;
+}
+.modal-footer {
+    border: 1px solid $border-color;
+}
+#session-timeout-dialog {
+  .modal-header {
+    display: block;
+  }
+}

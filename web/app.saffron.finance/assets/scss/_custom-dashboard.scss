@@ -1,0 +1,222 @@
+/* 
+----------------------------------
+    : Custom - Dashboard css :
+----------------------------------
+*/
+.dash-social-icon {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    i {
+        background-color: rgba(255, 255, 255, 0.25);
+        color: $white;
+        border-radius: 50%;
+        font-size: 24px;
+        padding: 14px 15px;
+    }
+}
+.dash-flag-icon .flag {
+    display: inline-block;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: $white;
+    border-radius: 50%;
+}
+.dash-analytic-icon {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    i {
+        border-radius: 3px;
+        font-size: 20px;
+        padding: 12px 12px;
+    }
+}
+.analytic-chart-label {
+  .analytic-label-perform {
+    margin-bottom: 0;
+    text-align: center;
+  }  
+  .list-inline {
+    text-align: center;
+  }
+  .analytic-chart-piety {
+    text-align: right;
+  }
+}
+.ecommerce-widget {
+    .card-header {
+        border-bottom: none;
+        .dash-analytic-icon {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .card-footer {
+        border-top: none;
+    }
+}
+.product-file-type {
+    .img-icon {
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        font-weight: 600;
+        border-radius: 50%;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+.ecommerce-upload {
+    .dropzone {
+            min-height: 278px;
+            border-top: 1px dashed $primary;
+            border-right: 1px dashed $primary;
+            border-left: 1px dashed $primary;
+            border-bottom: none;
+            background: $primary-rgba;
+            border-radius: 0;
+            margin: 0 1px 0 0;
+        .dz-message {
+            font-size: 20px;
+        }
+    }
+    img {
+        margin-top: -22%;
+        width: 100%;
+    }
+}
+#latestorder_wrapper {
+    .dataTables_length {
+        display: none !important;
+    }
+}
+#topproducts_wrapper {
+    .dataTables_length {
+        display: none !important;
+    }
+}
+.best-product-slider {
+    &> i {
+        position: absolute;
+        top: -54px;
+        right: -5px;
+        font-size: 18px;
+        &:first-child {
+            right: 15px;
+        }
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+.user-slider {
+    .slick-slide {
+        .action-icon {
+            width: 80px;
+            height: 80px;
+            line-height: 70px;
+            font-weight: 600;
+            border-radius: 50px;
+            font-size: 20px;
+            text-align: center;
+            margin: 30px auto;
+        }
+    }
+    &> i {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        font-size: 20px;
+        z-index: 1;
+        &:first-child {
+            left: 0;
+            right: auto;
+        }
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.quote-bg {
+    background-image: linear-gradient(180deg, #ffffff 0, #e5f2ff 100%);
+}
+.course-slider {
+    .slick-slide {
+        img {
+            display: inline-block;
+            width: 100px;
+        }
+    }
+    &> i {
+        position: absolute;
+        top: -55px;
+        right: -5px;
+        font-size: 20px;
+        z-index: 9;
+        &:first-child {
+            right: 25px;
+        }
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+.parents-slider {
+    .slick-slide {
+        img {
+            display: block;
+            margin: 15px auto;
+        }
+        .parents-slider-item {
+            padding: 27px 0;
+        }
+    }
+    &> i {
+        position: absolute;
+        top: -55px;
+        right: -5px;
+        font-size: 20px;
+        z-index: 9;
+        &:first-child {
+            right: 25px;
+        }
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.orders-country-slider {
+    .slick-slide {
+        i {
+            display: block;
+            width: 49px;
+            height: 49px;
+            border-radius: 3px;
+        }
+        .orders-country-item {
+            padding: 0;
+        }
+    }
+    &> i {
+        position: absolute;
+        top: -55px;
+        right: -5px;
+        font-size: 20px;
+        z-index: 9;
+        &:first-child {
+            right: 25px;
+        }
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+.img-winner {
+    width: 235px;
+    margin: 30px 0 30px;
+}

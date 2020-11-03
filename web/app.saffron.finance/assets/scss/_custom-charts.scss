@@ -1,0 +1,658 @@
+/* 
+-------------------------------
+    : Custom - Charts css :
+-------------------------------
+*/
+.chart-label {
+  text-align: center;
+  li {
+    margin: 0 15px;
+    padding: 0;
+    border: none;
+    p {
+        font-size: 16px;
+        color: $muted;
+      i {
+        margin-right: 5px;
+      }
+    }    
+  }
+  li.list-inline-item:not(:last-child) {
+      margin-right: 0;
+  }
+}
+/* -- Chartist chart -- */
+.ct-chart {
+  height: 320px;
+}
+.ct-golden-section:before {
+    float: none;
+    padding-bottom: 0;
+}
+.ct-grid {
+  stroke: $border-color;
+  stroke-width: 0.5px;
+  stroke-dasharray: 0;
+}
+.ct-label {
+  fill: $muted;
+  color: $muted;
+  font-size: 14px;
+}
+.chartist-simple-pie-chart .ct-label {
+  fill: $white;
+  color: $white;
+}
+.chartist-donut-fill-rather-chart .ct-label {
+  fill: $white;
+  color: $white;
+}
+.chartist-gauge-fill-rather-chart .ct-label {
+  fill: $white;
+  color: $white;
+}
+.ct-point {
+  cursor: pointer;
+}
+.ct-series-a {
+    .ct-point {
+      stroke: $primary;
+    }
+    .ct-line {
+      stroke: $primary;
+    }
+    .ct-bar {
+      stroke: $primary;
+    }
+    .ct-slice-donut {
+      stroke: $primary;
+    }
+}
+.ct-series-a {
+  .ct-slice-pie {
+    fill: $primary;
+  }
+  .ct-slice-donut-solid {
+    fill: $primary;
+  }
+  .ct-area {
+    fill: $primary;
+  }
+}
+.ct-series-b {
+  .ct-point {
+    stroke: $success;
+  }
+  .ct-line {
+    stroke: $success;
+  }
+  .ct-bar {
+    stroke: $success;
+  }
+  .ct-slice-donut {
+    stroke: $success;
+  }
+}
+.ct-series-b {
+  .ct-slice-pie {
+    fill: $success;
+  }
+  .ct-slice-donut-solid {
+    fill: $success;
+  }
+  .ct-area {
+    fill: $success;
+  }
+}
+.ct-series-c {
+  .ct-point {
+    stroke: $light;
+  }
+  .ct-line {
+    stroke: $light;
+  }
+  .ct-bar {
+    stroke: $light;
+  }
+  .ct-slice-donut {
+    stroke: $light;
+  }
+}
+.ct-series-c {
+  .ct-slice-pie {
+    fill: $light;
+  }
+  .ct-slice-donut-solid {
+    fill: $light;
+  }
+  .ct-area {
+    fill: $light;
+  }
+}
+.ct-series-d {
+  .ct-point {
+    stroke: $danger;
+  }
+  .ct-line {
+    stroke: $danger;
+  }
+  .ct-bar {
+    stroke: $danger;
+  }
+  .ct-slice-donut {
+    stroke: $danger;
+  }
+}
+.ct-series-d {
+  .ct-slice-pie {
+    fill: $danger;
+  }
+  .ct-slice-donut-solid {
+    fill: $danger;
+  }
+  .ct-area {
+    fill: $danger;
+  }
+}
+.ct-series-e {
+  .ct-point {
+    stroke: $warning;
+  }
+  .ct-line {
+    stroke: $warning;
+  }
+  .ct-bar {
+    stroke: $warning;
+  }
+  .ct-slice-donut {
+    stroke: $warning;
+  }
+}
+.ct-series-e {
+  .ct-slice-pie {
+    fill: $warning;
+  }
+  .ct-slice-donut-solid {
+    fill: $warning;
+  }
+  .ct-area {
+    fill: $warning;
+  }
+}
+.ct-series-f {
+  .ct-point {
+    stroke: $info;
+  }
+  .ct-line {
+    stroke: $info;
+  }
+  .ct-bar {
+    stroke: $info;
+  }
+  .ct-slice-donut {
+    stroke: $info;
+  }
+}
+.ct-series-f {
+  .ct-slice-pie {
+    fill: $info;
+  }
+  .ct-slice-donut-solid {
+    fill: $info;
+  }
+  .ct-area {
+    fill: $info;
+  }
+}
+.ct-series-g {
+  .ct-point {
+    stroke: $dark;
+  }
+  .ct-line {
+    stroke: $dark;
+  }
+  .ct-bar {
+    stroke: $dark;
+  }
+  .ct-slice-donut {
+    stroke: $dark;
+  }
+}
+.ct-series-g {
+  .ct-slice-pie {
+    fill: $dark;
+  }
+  .ct-slice-donut-solid {
+    fill: $dark;
+  }
+  .ct-area {
+    fill: $dark;
+  }
+}
+.ct-series-h {
+  .ct-point {
+    stroke: $secondary;
+  }
+  .ct-line {
+    stroke: $secondary;
+  }
+  .ct-bar {
+    stroke: $secondary;
+  }
+  .ct-slice-donut {
+    stroke: $secondary;
+  }
+}
+.ct-series-h {
+  .ct-slice-pie {
+    fill: $secondary;
+  }
+  .ct-slice-donut-solid {
+    fill: $secondary;
+  }
+  .ct-area {
+    fill: $secondary;
+  }
+}
+.ct-series-i {
+  .ct-point {
+    stroke: #f05b4f;
+  }
+  .ct-line {
+    stroke: #f05b4f;
+  }
+  .ct-bar {
+    stroke: #f05b4f;
+  }
+  .ct-slice-donut {
+    stroke: #f05b4f;
+  }
+}
+.ct-series-i {
+  .ct-slice-pie {
+    fill: #f05b4f;
+  }
+  .ct-slice-donut-solid {
+    fill: #f05b4f;
+  }
+  .ct-area {
+    fill: #f05b4f;
+  }
+}
+.ct-series-j {
+  .ct-point {
+    stroke: #dda458;
+  }
+  .ct-line {
+    stroke: #dda458;
+  }
+  .ct-bar {
+    stroke: #dda458;
+  }
+  .ct-slice-donut {
+    stroke: #dda458;
+  }
+}
+.ct-series-j {
+  .ct-slice-pie {
+    fill: #dda458;
+  }
+  .ct-slice-donut-solid {
+    fill: #dda458;
+  }
+  .ct-area {
+    fill: #dda458;
+  }
+}
+.ct-series-k {
+  .ct-point {
+    stroke: #eacf7d;
+  }
+  .ct-line {
+    stroke: #eacf7d;
+  }
+  .ct-bar {
+    stroke: #eacf7d;
+  }
+  .ct-slice-donut {
+    stroke: #eacf7d;
+  }
+}
+.ct-series-k {
+  .ct-slice-pie {
+    fill: #eacf7d;
+  }
+  .ct-slice-donut-solid {
+    fill: #eacf7d;
+  }
+  .ct-area {
+    fill: #eacf7d;
+  }
+}
+.ct-series-l {
+  .ct-point {
+    stroke: #86797d;
+  }
+  .ct-line {
+    stroke: #86797d;
+  }
+  .ct-bar {
+    stroke: #86797d;
+  }
+  .ct-slice-donut {
+    stroke: #86797d;
+  }
+}
+.ct-series-l {
+  .ct-slice-pie {
+    fill: #86797d;
+  }
+  .ct-slice-donut-solid {
+    fill: #86797d;
+  }
+  .ct-area {
+    fill: #86797d;
+  }
+}
+.ct-series-m {
+  .ct-point {
+    stroke: #b2c326;
+  }
+  .ct-line {
+    stroke: #b2c326;
+  }
+  .ct-bar {
+    stroke: #b2c326;
+  }
+  .ct-slice-donut {
+    stroke: #b2c326;
+  }
+}
+.ct-series-m {
+  .ct-slice-pie {
+    fill: #b2c326;
+  }
+  .ct-slice-donut-solid {
+    fill: #b2c326;
+  }
+  .ct-area {
+    fill: #b2c326;
+  }
+}
+.ct-series-n {
+  .ct-point {
+    stroke: #6188e2;
+  }
+  .ct-line {
+    stroke: #6188e2;
+  }
+  .ct-bar {
+    stroke: #6188e2;
+  }
+  .ct-slice-donut {
+    stroke: #6188e2;
+  }
+}
+.ct-series-n {
+  .ct-slice-pie {
+    fill: #6188e2;
+  }
+  .ct-slice-donut-solid {
+    fill: #6188e2;
+  }
+  .ct-area {
+    fill: #6188e2;
+  }
+}
+.ct-series-o {
+  .ct-point {
+    stroke: #a748ca;
+  }
+  .ct-line {
+    stroke: #a748ca;
+  }
+  .ct-bar {
+    stroke: #a748ca;
+  }
+  .ct-slice-donut {
+    stroke: #a748ca;
+  }
+}
+.ct-series-o {
+  .ct-slice-pie {
+    fill: #a748ca;
+  }
+  .ct-slice-donut-solid {
+    fill: #a748ca;
+  }
+  .ct-area {
+    fill: #a748ca;
+  }
+}
+.chartist-tooltip {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  min-width: 12px;
+  padding: 3px 12px;
+  background: $dark;
+  color: $white;
+  font-family: $font-primary;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 3px;
+  pointer-events: none;
+  z-index: 1;
+  -webkit-transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  -o-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-top-color: $dark;
+  }
+  &.tooltip-show {
+    opacity: 1;
+  }
+}
+.ct-area, .ct-line {
+  pointer-events: none;
+}
+/* -- Chartjs chart -- */
+.chartjs-chart {
+  height: 350px;
+}
+canvas{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+/* -- C3 chart -- */
+.c3 svg {
+  font-family: $font-primary;
+  font-size: 14px;
+}
+.c3 path {
+  fill: none;
+  stroke: $border-color;
+}
+.c3 line {
+  fill: none;
+  stroke: $border-color;
+}
+.c3-line {
+  stroke-width: 3px;
+}
+.c3-bar {
+  stroke-width: 0;
+}
+.c3 text {
+  fill: $muted;
+}
+.c3-chart-arc path {
+  stroke: transparent;
+  fill: $white;
+}
+.c3-chart-arc {
+  .c3-gauge-value {
+    fill: $white;
+  }
+  text {
+    fill: $white;
+  }
+}
+.c3-chart-arcs-title {
+  font-size: 14px;
+  color: $white;
+}
+.c3-legend-item {
+    font-size: 14px;
+    padding-right: 10px;
+}
+.c3-tooltip {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent;
+  empty-cells: show;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+  opacity: 1;
+  border-radius: 3px;
+  tr {
+    border: none;
+  }
+  th {
+    background-color: $card-bg;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px 5px;
+    text-align: left;
+    color: $black;
+  }
+  td {
+    font-size: 13px;
+    padding: 3px 6px;
+    background-color: $card-bg;
+    border-left: none;
+    color: $muted;
+    >span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 6px;
+    }
+  }
+  td.value {
+    text-align: right;
+  }
+}
+/* -- Flot chart -- */
+.flot-chart {
+  height: 320px;
+  .legend {
+    div {
+      background-color: transparent !important;
+    }
+  }
+}
+.flotTip {
+    padding: 3px 5px;
+    background-color: $card-bg;
+    z-index: 100;
+    color: $white;
+    opacity: .80;
+    filter: alpha(opacity=85);
+    font-size: 14px;
+}
+.legendLabel {
+    color: $muted;
+    font-size: 14px;
+}
+/* -- Morris chart -- */
+.morris-chart {
+  width: 100%;
+  height: 320px;
+  tspan {
+    font-family: $font-primary;
+    color: $muted;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+.morris-hover.morris-default-style {
+  border-radius: 3px;
+  padding: 10px;
+  color: $white;
+  background: $dark;
+  border: none;
+  font-family: $font-primary;
+  font-size: 14px;
+  text-align: center;
+  .morris-hover-point {
+    font-weight: 400;
+    font-size: 14px;
+    color: $muted !important;
+  }
+  .morris-hover-row-label {
+    background-color: $dark;
+    font-weight: 500;
+    color: $white;
+    padding: 5px;
+    border-radius: 3px 3px 0 0;
+    margin: -5px -5px 0;
+  }
+}
+/* -- jQuery Knob Chart -- */
+.knob {
+  font: 600 30px $font-primary !important;
+}
+.knob-superpose {
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+    .knob-minute {
+      position:absolute;
+      left:30px;
+      top:30px;
+    }
+    .knob-second {
+      position:absolute;
+      left:55px;
+      top:55px;
+    }
+}
+/* -- jQuery Sparkline Chart -- */
+.jqstooltip {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none !important;
+  border-radius: 3px !important;
+  background-color: $black !important;
+  padding: 5px 10px !important;
+  box-shadow: $shadow;
+}
+.jqsfield {
+    font: 12px poppins !important;
+    color: $white !important;
+    text-align: center !important;
+}
+/* -- Apex Chart -- */
+.apexcharts-xaxis text, 
+.apexcharts-yaxis text {
+    font-family: $font-primary !important;
+    fill: $muted;
+}
+.apexcharts-legend-text {
+    position: relative;
+    font-size: 14px;
+    font-family: $font-primary !important;
+}

@@ -1,0 +1,15 @@
+/* 
+-----------------------------------------
+    : Custom - Form File Upload css :
+-----------------------------------------
+*/
+/* -- Dropzone -- */
+.dropzone {
+  min-height: 250px;
+  border: 2px dashed $border-color;
+  background: white;
+  border-radius: 6px;
+  .dz-message {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,57 @@
+/* 
+-------------------------------------------
+    : Custom - Onboarding Screens css :
+-------------------------------------------
+*/
+.onboard-screen {
+    margin-bottom: 90px !important;
+    .onboard-screen-list {
+        text-align: center;
+        img {
+            margin: 0 auto 60px;
+            width: 60%;
+        }
+    }
+    .slick-dots {
+        bottom: -65px;
+        left: 12px;
+        li {
+            margin: 0;
+            button {
+                &:before {
+                font-size: 12px;                    
+                opacity: .25;
+                color: $primary;
+                }
+            }            
+        }
+        li.slick-active {
+            button {
+                &:before {
+                    opacity: .75;
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .slick-arrow {
+        font-family: $font-primary;
+        width: auto;
+        height: auto;
+        top: auto;
+        bottom: -90px;
+        z-index: 999;
+    }
+    .slick-prev {
+        left: 0;        
+        &:before {
+            content: none;
+        }
+    }
+    .slick-next {
+        right: 0;
+        &:before {
+            content: none;
+        }
+    }
+}

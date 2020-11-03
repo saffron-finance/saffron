@@ -1,0 +1,274 @@
+/* 
+----------------------------------
+    : Custom - Bootstrap css :
+----------------------------------
+*/
+/* -- Borders -- */
+.border {
+    border: 1px solid $border-color !important;
+}
+.border-top {
+    border-top: 1px solid $border-color !important;
+}
+.border-right {
+    border-right: 1px solid $border-color !important;
+}
+.border-bottom {
+    border-bottom: 1px solid $border-color !important;
+}
+.border-left {
+    border-left: 1px solid $border-color !important;
+}
+.border-primary {
+    border-color: $primary !important;
+}
+.border-secondary {
+    border-color: $secondary !important;
+}
+.border-success {
+    border-color: $success !important;
+}
+.border-danger {
+    border-color: $danger !important;
+}
+.border-warning {
+    border-color: $warning !important;
+}
+.border-info {
+    border-color: $info !important;
+}
+.border-light {
+    border-color: $light !important;
+}
+.border-dark {
+    border-color: $dark !important;
+}
+/* -- Toasts -- */
+.toast {
+  background-color: $card-bg;
+  width: 320px;
+  border: none;
+  box-shadow: $shadow;
+  z-index: 999;
+  .toast-header {
+    background-color: $card-bg;
+    border-bottom: 1px solid $border-color;
+    .toast-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: $black;
+    }
+    .close {
+      color: $black;
+      background-color: transparent;
+    }
+  }  
+}
+/* -- Dropdown -- */
+.dropdown-menu {
+  padding: 5px 0;
+  font-size: $base-font;  
+  border: none;
+  box-shadow: $shadow;
+  background-color: $card-bg;
+  .dropdown-item {
+    padding: .50rem 1rem;
+    color: $muted;
+    &.active {
+      background-color: $border-color;
+      color: $black;
+      text-decoration: none; 
+    }
+    &:active {
+      background-color: $border-color;
+      color: $black;
+      text-decoration: none; 
+    }
+    &:hover {
+      color: $dark;
+      background-color: $secondary-rgba;
+    }
+  }
+}
+.dropdown-divider {
+    border-top: 1px solid $border-color;
+}
+/* -- Background color -- */
+.bg-primary {
+  background-color: $primary !important;
+}
+.bg-secondary {
+  background-color: $secondary !important;
+}
+.bg-success {
+  background-color: $success !important;
+}
+.bg-danger {
+  background-color: $danger !important;
+}
+.bg-warning {
+  background-color: $warning !important;
+}
+.bg-info {
+  background-color: $info !important;
+}
+.bg-light {
+  background-color: $light !important;
+}
+.bg-dark {
+  background-color: $dark !important;
+}
+.bg-muted {
+  background-color: $muted !important;
+}
+.bg-white {
+  background-color: $white !important;
+}
+/* -- Background color rgba -- */
+.bg-primary-rgba {
+  background-color: $primary-rgba !important;
+}
+.bg-secondary-rgba {
+  background-color: $secondary-rgba !important;
+}
+.bg-success-rgba {
+  background-color: $success-rgba !important;
+}
+.bg-danger-rgba {
+  background-color: $danger-rgba !important;
+}
+.bg-warning-rgba {
+  background-color: $warning-rgba !important;
+}
+.bg-info-rgba {
+  background-color: $info-rgba !important;
+}
+.bg-light-rgba {
+  background-color: $light-rgba !important;
+}
+.bg-dark-rgba {
+  background-color: $dark-rgba !important;
+}
+/* -- Text Color -- */
+.text-white {
+  color: $white !important;
+}
+.text-black {
+  color: $black !important;
+}
+.text-muted {
+  color: $muted !important;
+}
+.text-primary {
+  color: $primary !important;
+}
+.text-secondary {
+  color: $secondary !important;
+}
+.text-success {
+  color: $success !important;
+}
+.text-danger {
+  color: $danger !important;
+}
+.text-warning {
+  color: $warning !important;
+}
+.text-info {
+  color: $info !important;
+}
+.text-light {
+  color: $light !important;
+}
+.text-dark {
+  color: $dark !important;
+}
+a.text-primary {
+  &:focus {
+    color: darken($primary, 5%) !important;
+  }
+  &:hover {
+    color: darken($primary, 5%) !important;
+  }
+}
+a.text-secondary {
+  &:focus {
+    color: darken($secondary, 5%) !important;
+  }
+  &:hover {
+    color: darken($secondary, 5%) !important;
+  }
+}
+a.text-success {
+  &:focus {
+    color: darken($success, 5%) !important;
+  }
+  &:hover {
+    color: darken($success, 5%) !important;
+  }
+}
+a.text-danger {
+  &:focus {
+    color: darken($danger, 5%) !important;
+  }
+  &:hover {
+    color: darken($danger, 5%) !important;
+  }
+}
+a.text-warning {
+  &:focus {
+    color: darken($warning, 5%) !important;
+  }
+  &:hover {
+    color: darken($warning, 5%) !important;
+  }
+}
+a.text-info {
+  &:focus {
+    color: darken($info, 5%) !important;
+  }
+  &:hover {
+    color: darken($info, 5%) !important;
+  }
+}
+a.text-light {
+  &:focus {
+    color: darken($light, 5%) !important;
+  }
+  &:hover {
+    color: darken($light, 5%) !important;
+  }
+}
+a.text-dark {
+  &:focus {
+    color: darken($dark, 5%) !important;
+  }
+  &:hover {
+    color: darken($dark, 5%) !important;
+  }
+}
+/* -- Blockquote -- */
+.blockquote {
+  font-size: 1.05rem;
+}
+/* -- Touch Spin -- */
+.bootstrap-touchspin .btn {
+    box-shadow: none;
+}
+/* -- Media -- */
+.media {
+  .media-body {
+      word-break: break-word;
+  }
+}
+.list-group-item  {
+  background-color: transparent;
+}
+.mark {
+    background-color: $warning-rgba;
+    color: $black;
+}
+mark {
+    background-color: $warning-rgba;
+    color: $black;
+}

@@ -1,0 +1,104 @@
+/* 
+---------------------------------------
+    : Custom - jQuery Confirm css :
+---------------------------------------
+*/
+.jconfirm {
+	&.jconfirm-white {
+		.jconfirm-box {
+			-webkit-box-shadow: $shadow;
+		    box-shadow: $shadow;
+		    border-radius: 3px;
+			.jconfirm-buttons {
+				button {
+					border-radius: 3px;
+					border: none;
+					padding: 6px 12px;
+					font-size: 14px;
+					font-weight: 400;
+					text-transform: capitalize;
+					&.btn-default {
+						&:hover {
+							background: darken($secondary, 5%);
+						}
+					}
+				}
+			}			
+		}
+	}
+}	
+.jconfirm {
+	&.jconfirm-light {
+		.jconfirm-box {
+			-webkit-box-shadow: $shadow;
+		    box-shadow: $shadow;
+		    border-radius: 3px;
+			.jconfirm-buttons {
+				button {
+					border-radius: 3px;
+					border: none;
+					padding: 6px 12px;
+					font-size: 14px;
+					font-weight: 400;
+					text-transform: capitalize;
+					&.btn-default {
+						&:hover {
+							background: darken($secondary, 5%);
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+.jconfirm {
+	.jconfirm-box {
+		.jconfirm-buttons {
+			button.btn-default {
+				background-color: $secondary;
+				color: $white !important;
+			}
+			button.btn-blue {
+				background-color: $primary;
+				&:hover {
+					background-color: darken($primary, 5%);
+				}
+			}
+			button.btn-green {
+				background-color: $success;
+				&:hover {
+					background-color: darken($success, 5%);
+				}
+				&:focus {
+					background-color: darken($success, 5%);
+					box-shadow: 0 0 0 0.2rem lighten($success, 20%);
+				}
+			}
+			button.btn-red {
+				background-color: $danger;
+				&:hover {
+					background-color: darken($danger, 5%);
+				}
+				&:focus {
+					background-color: darken($danger, 5%);
+					box-shadow: 0 0 0 0.2rem lighten($danger, 20%);
+				}
+			}
+		}
+		.jconfirm-title-c {
+			.jconfirm-title {
+				font-size: 20px !important;
+				color: $black;
+			}
+		}
+		.jconfirm-content {
+			color: $muted;
+		}
+		&.jconfirm-type-red {
+	    	border-top: none;
+	    }
+	    &.jconfirm-type-green {
+	    	border-top: none;
+	    }
+	}
+}

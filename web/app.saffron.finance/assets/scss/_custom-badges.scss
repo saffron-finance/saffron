@@ -1,0 +1,200 @@
+/* 
+-------------------------------
+    : Custom - Badges css :
+-------------------------------
+*/
+.badge {
+    font-weight: 600;
+}
+.badge-default {
+  background-color: $primary;
+  color: $white;
+  &[href]:hover{
+    background-color: darken($primary, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($primary, 5%);
+  }
+}
+.badge-primary {
+  background-color: $primary;
+  &[href]:hover{
+    background-color: darken($primary, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($primary, 5%);
+  }
+}
+.badge-secondary {
+  background-color: $secondary;
+  &[href]:hover{
+    background-color: darken($secondary, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($secondary, 5%);
+  }
+}
+.badge-success {
+  background-color: $success;
+  &[href]:hover{
+    background-color: darken($success, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($success, 5%);
+  }
+}
+.badge-danger {
+  background-color: $danger;
+  &[href]:hover{
+    background-color: darken($danger, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($danger, 5%);
+  }
+}
+.badge-warning {
+  color: $white;
+  background-color: $warning;
+  &[href]:hover{
+    background-color: darken($warning, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($warning, 5%);
+  }
+}
+.badge-info {
+  background-color: $info;
+  &[href]:hover{
+    background-color: darken($info, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($info, 5%);
+  }
+}
+.badge-light {
+  color: $muted;  
+  background-color: $light;  
+  &[href]:hover{
+    background-color: darken($light, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($light, 5%);
+  }
+}
+.badge-dark {
+  background-color: $dark;
+  &[href]:hover{
+    background-color: darken($dark, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($dark, 5%);
+  }
+}
+
+
+.badge-default-inverse {
+  background-color: $primary-rgba;
+  color: $primary;
+  &[href]:hover{
+    background-color: darken($primary, 5%);
+  } 
+  &[href]:focus {
+    background-color: darken($primary, 5%);
+  }
+}
+.badge-primary-inverse {
+  background-color: $primary-rgba;
+  color: $primary;
+  &[href]:hover{
+    background-color: darken($primary, 5%);
+    color: $white;
+  } 
+  &[href]:focus {
+    background-color: darken($primary, 5%);
+    color: $white;
+  }
+}
+.badge-secondary-inverse {
+  background-color: $secondary-rgba;
+  color: $secondary;
+  &[href]:hover{
+    background-color: darken($secondary, 5%);
+    color: $white;
+  } 
+  &[href]:focus {
+    background-color: darken($secondary, 5%);
+    color: $white;
+  }
+}
+.badge-success-inverse {
+  background-color: $success-rgba;
+  color: $success;
+  &[href]:hover{
+    background-color: darken($success, 5%);
+    color: $white;
+  } 
+  &[href]:focus {
+    background-color: darken($success, 5%);
+    color: $white;
+  }
+}
+.badge-danger-inverse {
+  background-color: $danger-rgba;
+  color: $danger;
+  &[href]:hover{
+    background-color: darken($danger, 5%);
+    color: $white;
+  } 
+  &[href]:focus {
+    background-color: darken($danger, 5%);
+    color: $white;
+  }
+}
+.badge-warning-inverse {  
+  background-color: $warning-rgba;
+  color: $warning;
+  &[href]:hover{
+    background-color: darken($warning, 5%);
+    color: $white;
+  } 
+  &[href]:focus {
+    background-color: darken($warning, 5%);
+    color: $white;
+  }
+}
+.badge-info-inverse {  
+  background-color: $info-rgba;
+  color: $info;
+  &[href]:hover{
+    background-color: darken($info, 5%);
+    color: $white;
+  } 
+  &[href]:focus {
+    background-color: darken($info, 5%);
+    color: $white;
+  }
+}
+.badge-light-inverse {  
+  background-color: $light-rgba;
+  color: $muted;
+  &[href]:hover{
+    background-color: darken($light, 5%);
+    color: $muted;
+  } 
+  &[href]:focus {
+    background-color: darken($light, 5%);
+    color: $muted;
+  }
+}
+.badge-dark-inverse {
+  background-color: $dark-rgba;
+  color: $dark;
+  &[href]:hover{
+    background-color: darken($dark, 5%);
+    color: $white;
+  } 
+  &[href]:focus {
+    background-color: darken($dark, 5%);
+    color: $white;
+  }
+}

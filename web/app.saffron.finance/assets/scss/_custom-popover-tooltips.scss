@@ -1,0 +1,58 @@
+/* 
+--------------------------------------------
+    : Custom - Popovers & Tooltips css :
+--------------------------------------------
+*/
+/* -- Popovers -- */
+.popover {
+  font-family: $font-primary;
+  border-radius: 3px;
+  border: none;
+  box-shadow: $shadow;
+  background-color: $card-bg;
+}
+.popover-header {
+  margin-top: 0;
+  background-color: $white;
+  font-size: 16px;
+  color: $black;
+  border-bottom: 1px solid $border-color;
+}
+.popover-body {
+    padding: .5rem .75rem;
+    color: $muted;
+    background-color: $card-bg;
+}
+.bs-popover-auto[x-placement^=top] .arrow::before, .bs-popover-top .arrow::before {
+    border-top-color: $white;
+}
+.bs-popover-auto[x-placement^=right]>.arrow::before, .bs-popover-right>.arrow::before {
+    border-right-color: $white;
+}
+.bs-popover-auto[x-placement^=bottom]>.arrow::before, .bs-popover-bottom>.arrow::before {
+  border-bottom-color: $white;
+}
+.bs-popover-auto[x-placement^=left]>.arrow::before, .bs-popover-left>.arrow::before {
+  border-left-color: $white;
+}
+.bs-popover-auto[x-placement^=top] .arrow::after, .bs-popover-top .arrow::after {
+    border-top-color: $white;
+}
+.bs-popover-auto[x-placement^=right]>.arrow::after, .bs-popover-right>.arrow::after {
+    border-right-color: $white;
+}
+.bs-popover-auto[x-placement^=bottom]>.arrow::after, .bs-popover-bottom>.arrow::after {
+  border-bottom-color: $white;
+}
+.bs-popover-auto[x-placement^=left]>.arrow::after, .bs-popover-left>.arrow::after {
+  border-left-color: $white;
+}
+.popover-title {
+  margin-top: 0;
+}
+/* -- Tooltips -- */
+.tooltip {
+	.tooltip-inner {
+	  padding: 4px 10px;
+	}
+}

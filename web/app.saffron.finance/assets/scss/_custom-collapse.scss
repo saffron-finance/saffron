@@ -1,0 +1,139 @@
+/* 
+---------------------------------
+    : Custom - Collapse css :
+---------------------------------
+*/
+.accordion {  
+  >.card {
+    overflow: hidden;
+    border: none;
+    border-radius: 0;
+      .card-header {
+        background-color: $secondary-rgba;
+        border: none;
+        padding: 0;
+        margin-bottom: 0;
+      }      
+      h2 {
+        line-height: 20px;
+        .btn-link {
+          font-size: 16px;
+          font-weight: 600;
+          color: $primary;
+          width: 100%;
+          text-align: left;
+          padding: 15px;
+          border-top: 1px solid $border-color;
+          border-left: 1px solid $border-color;
+          border-bottom: 1px solid transparent;
+          border-right: 1px solid $border-color;
+          border-radius: 0;
+          &.collapsed {
+            color: $black;
+          }
+          &:hover {
+            text-decoration: none;
+          }
+          &:focus {
+            text-decoration: none;
+          }
+        }
+      }
+      .collapse {
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        &.show {
+          border-left: 1px solid $border-color;
+          border-right: 1px solid $border-color;
+        }
+      }
+      &:last-of-type {
+         h2 {
+          .btn-link {
+            border-bottom: 1px solid $border-color;
+          }
+        }
+        .collapse {
+          border-bottom: 1px solid transparent;
+          &.show {
+            border-bottom: 1px solid $border-color;
+          }
+        }
+      }
+  }
+}
+.accordion {
+  &.accordion-outline {
+    >.card {
+      border-radius: 0;
+      margin-bottom: 10px;
+      border: none;
+      .card-header {
+        background-color: transparent;
+      }
+      h2 {
+        line-height: 20px;
+        .btn-link {
+          border-top: 1px solid $primary;
+          border-left: 1px solid $primary;
+          border-bottom: 1px solid $primary;
+          border-right: 1px solid $primary;          
+          &.collapsed {
+              border-top: 1px solid $border-color !important;
+              border-left: 1px solid $border-color !important;
+              border-bottom: 1px solid $border-color !important;
+              border-right:  1px solid $border-color !important;
+          }
+        }
+      }
+      .collapse {
+        border-left: 1px solid $primary;
+        border-bottom: 1px solid $primary;
+        border-right: 1px solid $primary;
+      }
+      &:last-of-type {
+        .collapse {
+          border-bottom: 1px solid transparent;
+          &.show {
+            border-bottom: 1px solid $primary;
+          }
+        }
+      }
+    }
+  }
+}
+.accordion {
+  &.accordion-light {
+    >.card {
+      border-radius: 0;
+      margin-bottom: 10px;
+      border: none;
+      .card-header {
+        background-color: transparent;
+      }
+      h2 {
+        line-height: 20px;
+        .btn-link {
+          padding: 15px 0;
+          border-top: none;
+          border-left: none;
+          border-bottom: 1px solid $primary;
+          border-right: none;          
+          &.collapsed {
+              border-bottom: 1px solid $border-color !important;
+          }
+        }
+      }
+      .collapse {
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+      }
+      &:last-of-type {
+        .collapse {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

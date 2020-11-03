@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #feeec0;
+      }
+
+      .cls-2 {
+        fill: #fdc933;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1_copy_3" data-name="Artboard 1 copy 3">
+    <circle class="cls-1" cx="25" cy="25" r="25"/>
+    <path class="cls-2" d="M229.735,37.639a25.008,25.008,0,0,0-43.4-.125S193.583,50,208,50,229.735,37.639,229.735,37.639Z" transform="translate(-183)"/>
+    <circle class="cls-3" cx="25" cy="18" r="7"/>
+  </g>
+</svg>

@@ -1,0 +1,200 @@
+/* 
+-----------------------------
+    : Custom - Menu css :
+-----------------------------
+*/
+@mixin vertical-menu($rtl:false) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  > li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    > a {
+      @if $rtl {
+        padding: 15px 8px;;
+      }
+      @else {
+        padding: 8px 15px;;
+      }
+      display: block;
+      color: $dark;
+      margin: 0px 15px;
+      border-radius: 3px;
+      > i {
+        display: inline-block;
+        width: 30px;
+        font-size: 18px;
+      }
+      > img {
+        display: inline-block;
+        width: 20px;
+        vertical-align: middle;
+        margin-right: 10px;
+        filter: invert(0.6) sepia(1) saturate(1) hue-rotate(185deg);
+      }
+      > span {
+        
+      }
+      &.active {
+        color: $primary;
+        background-color: $secondary-rgba;
+        img {
+          filter: invert(0.7) sepia(1) saturate(14) hue-rotate(195deg);
+        }
+      }
+    }
+    &:hover > a {
+      background-color: $secondary-rgba;
+      color: $primary;
+      opacity: 1;
+      img {
+        filter: invert(0.7) sepia(1) saturate(14) hue-rotate(195deg);
+      }
+    }
+    &.active > a {
+      font-weight: 400;
+      background-color: $secondary-rgba;
+      color: $primary;
+      opacity: 1;
+      img {
+        filter: invert(0.7) sepia(1) saturate(14) hue-rotate(195deg);
+      }
+    }
+    &.active {
+      background-color: transparent;
+    }
+    .label,
+    .badge {
+      margin-top: 6px;
+    }
+    .new-icon {
+        position: absolute;
+        top: 10px;
+        margin: 0px 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid $white;
+        background-color: $success;
+    }
+  }  
+  li.vertical-header {
+    @if $rtl {
+      padding: 10px 15px 10px 25px;
+    }
+    @else {
+      padding: 15px 25px 5px 25px;
+    }    
+    color: $muted;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: none;
+  }
+  li:first-child.vertical-header {
+    padding: 5px 25px 5px 25px;
+  }
+  li > a > .ri-arrow-right-s-line {
+    width: auto;
+    height: auto;
+    padding: 0;
+    font-size: 14px;
+    line-height: 28px;
+    float: right;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+  li.active {
+    > a > .ri-arrow-right-s-line {
+      transform: rotate(90deg);
+    }
+    > .vertical-submenu {
+      display: block;
+    }
+  }
+  a {
+    color: $muted;
+    text-decoration: none;
+  }  
+  .vertical-submenu {
+    display: none;
+    list-style: none;
+    @if $rtl {
+      padding-right: 5px;
+    }
+    @else {
+      padding-left: 5px;
+      padding: 5px 0 5px 5px;
+    }
+    margin: 0 1px;
+    background: transparent;
+    .vertical-submenu {
+      @if $rtl {
+        padding-right: 15px;
+      }
+      @else {
+        padding-left: 15px;
+      }
+    }
+    > li {
+      > a {
+        @if $rtl {
+          padding: 6px 55px 6px 25px;
+        }
+        @else {
+          padding: 6px 25px 6px 55px;
+        }
+        display: block;
+        font-size: 14px;
+        color: $dark;
+        > .mdi {
+          font-size: 5px;
+          margin-right: 10px;
+          vertical-align: middle;
+          color: $dark;
+        }
+        > .ri-arrow-right-s-line,
+        > .ri-arrow-down-s-line {
+          width: auto;
+          line-height: 20px;
+          margin-right: 3px;
+        }
+        &:before {
+          content: "\eb7c";
+          font-family: "remixicon" !important;
+          font-size: 5px;
+          line-height: 10px;
+          padding-right: 5px;
+          vertical-align: middle;       
+        }
+        &.active {
+          color: $primary;
+        }
+      }
+      &.active > a {
+        opacity: 1;
+        font-weight: 400;
+        color: $primary;
+        > .mdi {
+          opacity: 1;
+          color: $primary;
+        }
+      }
+      > a:hover {
+        opacity: 1;
+        color: $primary;
+        > .mdi {
+          opacity: 1;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+.vertical-menu {
+  @include vertical-menu;
+}
+.vertical-menu-rtl {
+  @include vertical-menu(true);
+}

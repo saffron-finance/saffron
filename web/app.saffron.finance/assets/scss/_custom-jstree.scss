@@ -1,0 +1,36 @@
+/* 
+-------------------------------
+    : Custom - jsTree css :
+-------------------------------
+*/
+.jstree-default {
+	.jstree-hovered {
+	    background: $primary-rgba;
+	    color: $primary;
+	    border-radius: 3px;
+	    box-shadow: inset 0 0 1px $primary-rgba;
+	}
+	.jstree-clicked {
+	    background: $primary-rgba;
+	    color: $primary;
+	    border-radius: 3px;
+	    box-shadow: inset 0 0 1px $primary-rgba;
+	}
+	.jstree-wholerow-hovered {
+		background: $primary-rgba;
+	}
+	.jstree-wholerow-clicked {
+		background: $primary-rgba;
+	}
+	.jstree-node {
+	    min-height: 30px;
+	    line-height: 30px;
+	    margin-left: 30px;
+	    min-width: 30px;
+	}
+	.jstree-icon:empty {
+	    width: 26px;
+	    height: 26px;
+	    line-height: 26px;
+	}
+}

@@ -1,0 +1,102 @@
+/* 
+-------------------------------
+    : Custom - Alerts css :
+-------------------------------
+*/
+.alert {
+    border: 0;
+    .alert-heading {
+        font-size: 20px;
+    }
+   .alert-link {
+        font-weight: 800;
+    }
+}
+.alert-primary {
+	color: $primary;
+    background-color: $primary-rgba;
+    border-color: $primary-rgba;
+    .alert-link {
+        color: $primary;
+    }
+    hr {
+        border-top-color: $primary;
+    }
+}
+.alert-secondary {
+	color: $secondary;
+    background-color: $secondary-rgba;
+    border-color: $secondary-rgba;
+    .alert-link {
+        color: $secondary;
+    }
+    hr {
+        border-top-color: $secondary;
+    }
+}
+.alert-success {
+	color: $success;
+    background-color: $success-rgba;
+    border-color: $success-rgba;
+    .alert-link {
+        color: $success;
+    }
+    hr {
+        border-top-color: $success;
+    }
+}
+.alert-danger {
+	color: $danger;
+    background-color: $danger-rgba;
+    border-color: $danger-rgba;
+    .alert-link {
+        color: $danger;
+    }
+    hr {
+        border-top-color: $danger;
+    }
+}
+.alert-warning {
+	color: $warning;
+    background-color: $warning-rgba;
+    border-color: $warning-rgba;
+    .alert-link {
+        color: $warning;
+    }
+    hr {
+        border-top-color: $warning;
+    }
+}
+.alert-info {
+	color: $info;
+    background-color: $info-rgba;
+    border-color: $info-rgba;
+    .alert-link {
+        color: $info;
+    }
+    hr {
+        border-top-color: $info;
+    }
+}
+.alert-light {
+	color: $muted;
+    background-color: $light-rgba;
+    border-color: $light-rgba;
+    .alert-link {
+        color: $muted;
+    }
+    hr {
+        border-top-color: $muted;
+    }
+}
+.alert-dark {
+	color: $dark;
+    background-color: $dark-rgba;
+    border-color: $dark-rgba;
+    .alert-link {
+        color: $dark;
+    }
+    hr {
+        border-top-color: $dark;
+    }
+}

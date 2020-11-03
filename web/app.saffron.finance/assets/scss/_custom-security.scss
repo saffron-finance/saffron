@@ -1,0 +1,157 @@
+/* 
+---------------------------------------
+    : Custom - Security Pages css :
+---------------------------------------
+*/
+.authenticate-bg {    
+    background: url(../images/authentication/authentication-bg.svg);    
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;    
+}
+.auth-box {
+    >.row {
+        height: 100vh;
+        padding: 15px 0;
+    }
+    .auth-box-left {
+        .card {
+            background: linear-gradient(-90deg, #8a51ff 0%, #ac45ff 100%);
+            border-radius: 3px 0 0 3px;
+            .card-body {
+                padding: 30px;
+            }
+        }
+        .auth-box-icon {
+            margin: 83px 0;
+        }
+        .auth-box-logo {
+            width: 150px;
+        }
+    }       
+    .auth-box-right {
+        .card {
+            text-align: center;
+            .card-body {
+                padding: 30px;
+            }
+        }
+        .error-title {
+          font-size: 90px;
+        }
+        .web-logo {
+          img {
+            margin: 30px 0;
+          }          
+        }
+        .user-logo {
+          position: relative;
+          z-index: 999;
+          img {
+            height: 80px;
+            width: 80px;
+          }
+        }
+        .form-head {
+            padding-bottom: 20px;
+            border-bottom: 1px solid $border-color;
+            img {
+                width: 150px;
+            }
+        }
+        .login-or {
+            position: relative;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            &:before {
+                content: '';
+                background: $border-color;
+                height: 1px;
+                width: 45%;
+                top: 45%;
+                left: 0;
+                position: absolute;
+            }
+            &:after {
+                content: '';
+                background: $border-color;
+                height: 1px;
+                width: 45%;
+                top: 45%;
+                right: 0;
+                position: absolute;
+            }
+        }
+        .forgot-psw {
+            text-align: right;
+        }
+        .custom-checkbox {
+            .custom-control-label {
+                &:before {
+                    margin-top: -2px;
+                }
+                &:after {
+                    margin-top: -2px;
+                }
+            }
+        }
+    }
+    &.error-box {
+        .error-logo {
+            width: 150px;
+        }
+        .error-image {
+            margin: 30px 0;
+        }
+        >.row {
+            height: 100vh;
+        }
+    }
+    .countdown-block {
+        display: inline-block;
+        padding: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .auth-box { 
+        >.row {
+            height: auto;
+        } 
+        .auth-box-left {
+            .card {
+                border-radius: 3px 3px 0 0;
+            }
+            .auth-box-icon {
+                margin: 30px 0;
+                img {
+                    width: 150px;
+                }
+            }
+            .auth-box-logo {
+                width: 100px;
+            }
+            h4 {
+                font-size: 22px;
+            }
+        }
+        .auth-box-right {
+            .card {
+                border-radius: 0 0 3px 3px;
+            }
+            h4 {
+                font-size: 22px;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .auth-box {
+        .auth-box-right {
+            .forgot-psw {
+                text-align: left;
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+/* 
+-----------------------------
+    : Custom - Tabs css :
+-----------------------------
+*/
+/* -- Navs & Tabs -- */
+.nav-tabs {
+  border-bottom: 1px solid $border-color;
+  .nav-link {
+    color: $dark;
+    &:hover {
+      border-color: $border-color $border-color $white;
+    }
+    &:focus {
+      border-color: $border-color $border-color $white;
+    }
+    &.active {
+        color: $primary;
+        background-color: $white;
+        border-color: $border-color $border-color $white;
+    }
+    &.disabled {
+        color: $secondary;
+    }
+  }
+  .nav-item {
+    &.show {
+      .nav-link {
+        color: $primary;
+        background-color: $white;
+        border-color: $border-color $border-color $white;
+      }
+    }
+  }
+}
+.nav-pills {
+  .nav-link {
+    color: $dark;
+    &.disabled {
+        color: $secondary;
+    }
+  }
+  .nav-link.active {
+    color: $white;
+    background-color: $primary;
+  }
+  .show {
+    >.nav-link {
+      color: $white;
+      background-color: $primary;
+    }
+  }
+}
+/* -- Custom Tabs -- */
+.nav-tabs {
+  &.custom-tab-line {
+    .nav-item {
+      margin-right: 20px;
+      &.show {
+        .nav-link  {
+            color: $primary;
+            background-color: $white;
+            border-color: $white $white $primary;
+        }
+      }
+    }
+    .nav-link {
+      border-bottom-width: 2px;
+      padding-left: 0;
+      padding-right: 0;
+      &.active {
+          color: $primary;
+          background-color: $white;
+          border-color: $white $white $primary;
+      }
+      &:focus {
+        color: $primary;
+        background-color: $white;
+        border-color: $white $white $primary;
+      }
+      &:hover {
+        color: $primary;
+        background-color: $white;
+        border-color: $white $white $primary;
+      }
+    }
+  }  
+}
+.nav-pills {
+  &.custom-tab-button {
+    text-align: center;
+    .nav-item {
+      margin-right: 20px;
+    }
+    .nav-link {
+      .tab-btn-icon {
+          display: block;
+      }
+    }
+  }
+}

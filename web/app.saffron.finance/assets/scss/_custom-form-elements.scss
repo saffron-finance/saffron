@@ -1,0 +1,398 @@
+/* 
+--------------------------------------
+    : Custom - Form Elements css :
+--------------------------------------
+*/
+label {
+  font-weight: 500;
+}
+input {
+  &:-internal-autofill-selected {
+    background-color: transparent !important;
+    color: $muted !important;
+  }
+}
+.form-control {
+  background-color: $card-bg;
+  font-size: $base-font;
+  color: $muted;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  &:focus { 
+    border-color: $primary;
+    box-shadow: none !important;
+  &:disabled {
+      background-color: $light;
+      opacity: 1;
+    }
+  }
+  &:disabled {
+    background-color: $light;
+    opacity: 1;
+  }
+  &[readonly] {
+    background-color: $light;
+    opacity: 1;
+  }
+  .form-check-input {
+    margin-top: 0.25rem;
+  }
+}
+.form-control-plaintext {
+  color: $muted;  
+}
+.custom-radio {
+  .custom-control-input {
+    &:checked~.custom-control-label {
+      &::before {
+        background-color: $primary;
+      }
+    }
+  }
+}
+.custom-checkbox {
+  .custom-control-input {
+    &:checked~.custom-control-label {
+      &::before {
+        background-color: $primary;
+      }
+    }
+  }
+}
+.custom-control-input {
+  &:checked~.custom-control-label {
+    &::before {
+      color: $white;
+      background-color: $primary;
+      border-color: $primary;
+    }
+  }
+  &:focus~.custom-control-label {
+    &::before {
+      box-shadow: 0 0 0 1px $white, 0 0 0 0.2rem lighten($primary, 25%);
+    }
+  }
+  &:disabled~.custom-control-label {
+    &::before {
+      background-color: $light;
+      border-color: $border-color;
+    }    
+  }
+}
+.custom-control-label {
+  &::before {
+    background-color: transparent;
+    border: 1px solid $muted;
+    &:focus {
+      border-color: $primary;
+    }   
+  }
+  &::after {
+  }
+}
+.input-group-addon {
+  border-radius: 5px;
+  border: none;
+}
+.input-group-text {
+  border: 1px solid $light;
+  background: lighten($light, 3%);
+  color: $muted;
+}
+.custom-select {
+  background-color: $white;
+  border: 1px solid $border-color;
+  color: $muted;
+  &:focus {
+    border-color: $primary;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+.custom-file-label {
+  color: $muted;
+  background-color: $white;
+  border: 1px solid $border-color;
+  line-height: 1.9;
+  font-weight: 400;
+  &::after {
+    background-color: $primary;
+    border: none;
+    color: $white;
+    height: 36px;
+    line-height: 24px;
+  }
+}
+.custom-file-input {
+  &:focus~.custom-file-label {
+    border-color: $primary;
+    box-shadow: none !important;
+  }
+  &.is-invalid~.custom-file-label {
+    border-color: lighten($success, 30%);
+    color: $muted;
+  }
+}
+.custom-file-input.is-invalid~.custom-file-label
+.form-control[readonly] {
+  background-color: $light;
+  opacity: 1;
+}
+.custom-select.is-valid {
+  border-color: lighten($success, 30%);
+  background-color: $white;
+  &:focus {
+    border-color: $success;
+  }
+}
+.form-control.is-valid {
+  border-color: lighten($success, 30%);
+  background-color: $white;
+  &:focus {
+    border-color: $success;
+  }
+}
+.was-validated {
+  .custom-select {
+    &:valid {
+      border-color: lighten($success, 30%);
+      background-color: $white;
+      &:focus {
+        border-color: $success;
+        box-shadow: none !important;
+      }
+    }
+    &:invalid {
+      border-color: lighten($danger, 30%);
+      background-color: $white;
+      &:focus {
+        border-color: $danger;
+        box-shadow: none !important;
+      }
+    }
+  }
+  .form-control {
+    &:valid {
+      border-color: lighten($success, 30%);
+      background-color: $white;
+      &:focus {
+        border-color: $success;
+      }
+    }
+    &:invalid {
+      border-color: lighten($danger, 30%);
+      background-color: $white;
+      &:focus {
+        border-color: $danger;
+      }
+    }
+  }
+  .custom-control-input {
+    &:valid~.custom-control-label {
+      color: $success;
+    }
+    &:invalid~.custom-control-label {
+      color: $danger;
+    }
+    &:valid {
+      &:checked~.custom-control-label {
+        &::before {
+          background-color: $success;
+        }
+      }
+    }
+  }
+  .custom-file-input {
+    &:invalid~.custom-file-label {
+      border-color: lighten($danger, 30%);
+      color: $muted;
+    }
+    &:invalid:focus~.custom-file-label {
+      border-color: $danger;
+    }
+  }  
+}
+.valid-feedback {
+  color: $success;
+}
+.custom-select.is-invalid {
+  border-color: lighten($danger, 30%);
+  background-color: $white;
+}
+.form-control.is-invalid {
+  border-color: lighten($danger, 30%);
+  background-color: $white;
+  &:focus {
+    border-color: $danger;
+  }
+}
+.valid-tooltip {
+  background-color: lighten($success, 5%);
+}
+.invalid-tooltip {
+  background-color: lighten($danger, 5%);
+}
+.custom-control-input.is-valid~.custom-control-label {
+  color: $success;
+}
+.custom-control-input.is-invalid~.custom-control-label {
+  color: $danger;
+  &::before {
+    background-color: $danger;
+  }
+}
+.custom-control-input.is-valid {
+  &:checked~.custom-control-label {
+    &::before {
+      background-color: $success;
+    }
+  }
+}
+.invalid-feedback {
+  color: $danger;
+}
+.form-check-input.is-invalid~.form-check-label {
+    color: $danger;
+}
+.was-validated .form-check-input:invalid~.form-check-label {
+    color: $danger;
+}
+.editable-click, a.editable-click, a.editable-click:hover {
+  border-bottom: dashed 1px $primary;
+}
+.editable-empty, .editable-empty:hover, .editable-empty:focus {
+    color: $danger;
+}
+.editable-submit {
+  padding: 4px 8px;
+}
+.editable-cancel {
+  padding: 4px 8px;
+}
+
+.custom-range {
+  width: 100%;
+  height: calc(1rem + .4rem);
+  padding: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &:focus {
+    outline: 0;
+    &::-webkit-slider-thumb, &::-moz-range-thumb, &::-ms-thumb {
+      box-shadow: 0 0 0 1px $white, 0 0 0 0.2rem lighten($primary, 25%);
+    }
+  }
+  &::-moz-focus-outer {
+    border: 0;
+  }
+  &::-webkit-slider-thumb {
+    width: 1rem;
+    height: 1rem;
+    margin-top: -.25rem;
+    background-color: $primary;
+    border: 0;
+    border-radius: 1rem;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    appearance: none;
+    &:active {
+      background-color: $light;
+    }
+  }
+  &::-webkit-slider-runnable-track {
+    width: 100%;
+    height: .5rem;
+    color: transparent;
+    cursor: pointer;
+    background-color: $light;
+    border-color: transparent;
+    border-radius: 1rem;
+  }
+  &::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+    background-color: #007bff;
+    border: 0;
+    border-radius: 1rem;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -moz-appearance: none;
+    appearance: none;
+    &:active {
+      background-color: #b3d7ff;
+    }
+  }
+  &::-moz-range-track {
+    width: 100%;
+    height: .5rem;
+    color: transparent;
+    cursor: pointer;
+    background-color: #dee2e6;
+    border-color: transparent;
+    border-radius: 1rem;
+  }
+  &::-ms-thumb {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0;
+    margin-right: .2rem;
+    margin-left: .2rem;
+    background-color: #007bff;
+    border: 0;
+    border-radius: 1rem;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    appearance: none;
+    &:active {
+      background-color: #b3d7ff;
+    }
+  }
+  &::-ms-track {
+    width: 100%;
+    height: .5rem;
+    color: transparent;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0.5rem;
+  }
+  &::-ms-fill-lower {
+    background-color: #dee2e6;
+    border-radius: 1rem;
+  }
+  &::-ms-fill-upper {
+    margin-right: 15px;
+    background-color: #dee2e6;
+    border-radius: 1rem;
+  }
+  &:disabled {
+    &::-webkit-slider-thumb {
+      background-color: #adb5bd;
+    }
+    &::-webkit-slider-runnable-track {
+      cursor: default;
+    }
+    &::-moz-range-thumb {
+      background-color: #adb5bd;
+    }
+    &::-moz-range-track {
+      cursor: default;
+    }
+    &::-ms-thumb {
+      background-color: #adb5bd;
+    }
+  }
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    color: $border-color;
+    background-color: $border-color;
+    height: 5px;
+    cursor: default;
+    padding: initial;
+    border: initial;
+    margin: 2px;
+    &:focus {
+      background-color: $border-color;
+    }
+}

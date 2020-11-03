@@ -1,0 +1,22 @@
+/* 
+------------------------------
+    : Custom - Print css :
+------------------------------
+*/
+@media print {
+  .leftbar {
+    display: none;
+  }
+  .topbar {
+    display: none;
+  }
+  .footerbar {
+    display: none;
+  }
+  .breadcrumbbar {
+    display: none
+  }
+  .rightbar {
+    margin-left: 0;
+  }  
+}

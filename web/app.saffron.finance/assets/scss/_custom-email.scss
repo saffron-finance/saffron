@@ -1,0 +1,101 @@
+/* 
+-------------------------------
+    : Custom - Emails css :
+-------------------------------
+*/
+.email-leftbar {
+  .card-header .btn { 
+  }
+  ul {
+    li {
+      border: none;
+      padding: 12px 0 !important;
+      background-color: transparent;
+      a {
+        color: $muted;
+        &:hover {
+          color: $primary;
+        }
+      }
+      a.active {
+        color: $primary;
+      }
+    }
+  }
+}
+.email-rightbar {
+  .card-header {
+    ul {
+      li {
+        a {
+          i {
+            padding: 8px 5px;
+            color: $muted;
+          }
+          &:hover {
+            i {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+  .card-body {
+    tr {
+      td {
+        color: $muted;
+        vertical-align: top;
+        a {
+          color: $muted;
+        }
+      }
+      &:hover {
+        background-color: $secondary-rgba;
+      }
+    }
+    tr.email-unread {
+      td {
+        font-weight: 600;
+        color: $dark;
+        a {
+          color: $dark;
+        }
+      }
+    }
+  }
+  .email-open-box {
+     .media {
+        img {
+          width: 50px;
+          border-radius: 50%;
+        }
+     } 
+     .open-email-head ul {
+       text-align: right;
+     }
+     .open-email-head ul li a i {
+       color: $muted;
+     }
+     .open-email-head ul li a:hover i {
+       color: $primary;
+     }
+    .open-email-head {
+      ul {
+        text-align: right;
+        li {
+          a {
+            i {
+              color: $muted;
+            }
+            &:hover {
+              i {
+                color: $primary;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

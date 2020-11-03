@@ -1,0 +1,210 @@
+/* 
+--------------------------------
+    : Custom - Widgets css :
+--------------------------------
+*/
+/* -- Widget - Basic -- */
+.widget-icon-bg {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+/* --  Widget - To Do Lists -- */
+.to-do-list {
+	.list-group-item {
+		border: none;
+	}	
+    .custom-control-label {
+        color: $black;
+    }
+}
+.to-do-list-remove {
+	float: right;
+    vertical-align: middle;
+    cursor: pointer;
+    &:hover {
+    	color: $danger !important;
+    }
+}
+/* -- Widget - Action History -- */
+.activities-history-list {
+    position: relative;
+    i {
+        position: absolute;
+        color: $primary;
+        top: 9px;
+        left: 9px;
+        font-size: 18px;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 2px solid $light;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 3px;
+        top: 20px;
+        left: 6px;
+        background: $secondary-rgba;
+    }
+    .activities-history-item {
+        margin-left: 30px;
+        margin-bottom: 30px;
+        p {
+            font-size: 12px;
+        }
+    }
+}
+.icon-timer i {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.2);
+}
+.widget-newsletter {
+    .form-control {
+        background-color: $white;
+        border-radius: 50px;
+        &:focus {
+            background-color: $white;
+        }
+    }
+    .input-group-append {
+        padding: 3px;
+        background: $white;
+        border-radius: 0 50px 50px 0;
+        .btn {
+            border-radius: 50px;
+            background-color: $danger;
+            color: $white;
+            padding: 4px 10px;
+            font-weight: 700;
+        }
+    }
+}
+.chartist-widget-color {
+    height: 194px !important;
+    .ct-series-a .ct-bar {
+        stroke: $white;
+    }
+    .ct-label {
+        fill: $white;
+        color: $white;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+.blog-meta {
+  text-align: right;
+  font-size: 14px;
+}
+.action-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+.dash-widget {
+    .nav-pills {
+        .nav-link {
+            border: 1px solid $border-color;
+            border-radius: 0;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 3px 10px;
+            &.active {
+                color: $primary;
+                background-color: $secondary-rgba;
+            }
+        }
+    }
+}
+.storage-num {
+    font-size: 18px;
+    font-weight: 600;
+    color: $white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.ecom-chart-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: $white;
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    span {
+        background-color: $white;
+        border-radius: 3px;
+        color: $dark;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
+#apex-pie-chart {
+    .apexcharts-canvas {
+        margin: 0 auto;
+    }
+}
+#apex-donut-chart {
+    .apexcharts-canvas {
+        margin: 0 auto;
+    }
+}
+.appointment-widget {
+    .bg-icon {
+        margin-bottom: 0;
+        text-align: right;
+        font-size: 80px;
+        line-height: 80px;
+        color: $primary;
+        opacity: 0.2;
+    }
+}
+.blog-slider {
+    i {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        z-index: 9;
+        color: $white;
+        &:first-child {
+            right: 35px;
+        }
+    }
+}
+.action-bg {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+@media (max-width: 767px) {
+    .blog-link {
+        text-align: center;
+    }
+    .blog-meta {
+      text-align: center;
+      margin-top: 15px;
+    }
+}

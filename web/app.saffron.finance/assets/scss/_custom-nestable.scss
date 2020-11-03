@@ -1,0 +1,133 @@
+/* 
+---------------------------------
+    : Custom - Nestable css :
+---------------------------------
+*/
+.dd-list {  
+  .dd-item {
+      >button {
+        height: 27px;
+        margin: 5px 0 5px 10px;
+        &:before {
+          color: $muted;
+        }
+      }
+      .dd-list {
+        padding-left: 40px;
+      }
+      .dd-handle {
+          display: block;
+          height: auto;
+          margin: 10px 0;
+          padding: 10px 15px;
+          color: $muted;
+          text-decoration: none;
+          font-weight: 600;
+          border: 1px solid $border-color;
+          background: $white;
+          border-radius: 3px;
+          box-sizing: border-box;
+          &:hover {
+            color: $primary;
+            background: $white;
+            border: 1px solid $primary;
+            cursor: move;
+          }
+      }
+    }
+}
+/* -- Nestable List 2 -- */
+#nestable2 {  
+  .dd-list {
+    .dd-item {
+      > button {
+        :before {
+          color: $muted;
+        }
+      }
+      .dd-handle {
+          color: $muted;
+          border: 1px solid $border-color;
+          background: $white;
+          &:hover {
+              color: $primary;
+              background: $white;
+              border: 1px solid $primary;
+          }
+      }
+    }
+  }
+}
+/* -- Nestable Draggable Handles -- */
+.dd-list {
+    .dd-item {
+      &.dd3-item {
+         > button {
+          margin-left: 40px;
+        }
+      }
+      .dd3-handle {
+          position: absolute;
+          margin: 0;
+          left: 0;
+          top: 0;
+          cursor: pointer;
+          width: 40px;
+          text-indent: 40px;
+          white-space: nowrap;
+          overflow: hidden;
+          border: 1px solid $border-color;
+          background: $light;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          box-shadow: none;
+          &:hover {
+              color: $primary;
+              background: $primary-rgba;
+              border: 1px solid $primary;
+              cursor: move;
+              &:before {
+                color: $primary;
+            }
+          }
+          &:before {
+              content: '\ec2e';
+              font-family: 'remixicon' !important;
+              display: block;
+              position: absolute;
+              left: 0;
+              top: 11px;
+              width: 100%;
+              text-align: center;
+              text-indent: 0;
+              color: $muted;
+              font-size: 20px;
+              font-weight: 400;
+          }
+
+      }
+      .dd3-content {
+            display: block;
+            margin: 10px 10px 10px 0;
+            padding: 10px 15px 10px 50px;
+            color: $muted;
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid $border-color;
+            background: $white;
+            border-radius: 3px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;            
+            &:hover {
+              color: $primary;
+              background: $white;
+              border: 1px solid $primary;
+            }
+        }
+    }
+}
+.dd-placeholder {
+ background-color: $primary-rgba;
+ border-color: $primary;
+ border-radius: 3px; 
+}

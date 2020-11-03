@@ -1,0 +1,143 @@
+/* 
+-------------------------------
+    : Custom - Tour css :
+-------------------------------
+*/
+.tourbar {
+    .card-body {
+        padding: 20px;
+    }
+}
+.cd-single-step {
+        .cd-more-info {
+            font-family: $font-primary !important;
+            border-radius: 3px;
+            border: none;
+            box-shadow: $shadow;
+            background-color: $white;
+            padding: 20px;
+            &:before {
+                color: $white;
+            }
+            h2 {
+                font-size: 18px;
+                color: $black;
+                line-height: 1.2;
+                margin-bottom: .4em;
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+                margin-bottom: 1.4em;
+                font-family: $font-primary !important;
+                color: $muted;
+            }
+            img {
+                margin-bottom: 1.4em;
+                max-width: 100%;
+                width: 150px;
+            }
+            span {
+                float: left;
+                padding-top: .1em;
+                font-size: 14px;
+                font-family: $font-primary !important;
+            }
+            .cd-close {
+                &:before {
+                    background-color: $muted;
+                }
+                &:after {
+                    background-color: $muted;
+                }
+            }
+            .cd-tour-nav {
+                li:first-of-type {
+                    margin-right: 15px;
+                }
+                a {
+                    font-size: 14px;
+                    color: $primary;
+                    font-weight: 400;
+                    background-color: $primary-rgba;
+                    padding: 6px 12px;
+                    border-radius: 3px;
+                    &.cd-prev.inactive {
+                        background-color: $secondary-rgba;
+                        border: none;
+                        color: $secondary
+                    }
+                     &.cd-next.inactive {
+                        background-color: $secondary-rgba;
+                        border: none;
+                        color: $secondary
+                    }
+                }
+            }
+        }
+   }
+@media only screen and (min-width: 768px) {
+   .cd-single-step {
+        .cd-more-info {
+            font-family: $font-primary !important;
+            border-radius: 3px;
+            border: none;
+            box-shadow: $shadow;
+            background-color: $white;
+            padding: 20px;
+            &:before {
+                color: $white;
+            }
+            h2 {
+                font-size: 18px;
+                color: $black;
+                line-height: 1.2;
+                margin-bottom: .4em;
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+                margin-bottom: 1.4em;
+                font-family: $font-primary !important;
+                color: $muted;
+            }
+            span {
+                float: left;
+                padding-top: .1em;
+                font-size: 14px;
+                font-family: $font-primary !important;
+            }
+            .cd-close {
+                &:before {
+                    background-color: $muted;
+                }
+                &:after {
+                    background-color: $muted;
+                }
+            }
+            .cd-tour-nav {
+                li:first-of-type {
+                    margin-right: 15px;
+                }
+                a {
+                    font-size: 14px;
+                    color: $primary;
+                    font-weight: 400;
+                    background-color: $primary-rgba;
+                    padding: 6px 12px;
+                    border-radius: 3px;
+                    &.cd-prev.inactive {
+                        background-color: $secondary-rgba;
+                        border: none;
+                        color: $secondary
+                    }
+                     &.cd-next.inactive {
+                        background-color: $secondary-rgba;
+                        border: none;
+                        color: $secondary
+                    }
+                }
+            }
+        }
+   } 
+}

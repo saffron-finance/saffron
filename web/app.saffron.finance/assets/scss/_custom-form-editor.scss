@@ -1,0 +1,103 @@
+/* 
+-------------------------------------
+    : Custom - Form Editors css :
+-------------------------------------
+*/
+.mce-panel {
+	border-color: $border-color !important;
+	background-color: $card-bg !important;
+	border-radius: 3px !important;
+}
+.mce-flow-layout-item {
+    margin: 5px 0 5px 5px !important;
+}
+.mce-menubar {
+	.mce-menubtn {
+		border-color: transparent !important;
+		background: $light !important;
+		border-radius: 3px;
+		button {
+			span {
+				color: $muted !important;
+			}
+		}
+	}
+}
+.mce-btn {
+	border: 1px solid transparent !important;
+	background-color: $light !important;
+	border-radius: 3px;
+	.mce-txt {
+		color: $muted !important;
+	}
+	button {
+	    padding: 5px 10px !important;
+	}
+}
+.mce-btn-group {
+	.mce-btn {
+		margin-left: 5px !important;
+	}
+	&:not(:first-child) {
+		border-left: 1px solid $border-color !important;
+		padding-left: 0 !important;
+	}
+}
+.mce-caret {
+    border-top-color: $muted !important;
+}
+.mce-ico {
+	color: $muted !important;
+}
+.mce-label {
+	text-shadow: none !important;
+	color: $black !important;
+}
+.mce-menu-item {
+	.mce-ico {
+		color: $muted !important;
+	}
+	.mce-text {
+	    color: $muted !important;
+	}
+	&:hover {
+		background-color: $primary !important;
+		.mce-ico {
+			color: $white !important;
+		}
+		.mce-text {
+		    color: $white !important;
+		}
+	}
+	&.mce-selected {
+		background-color: $primary !important;
+		.mce-ico {
+			color: $white !important;
+		}
+		.mce-text {
+		    color: $white !important;
+		}
+	}
+	&:focus {
+	    background-color: $primary !important;
+	    .mce-ico {
+			color: $white !important;
+		}
+		.mce-text {
+		    color: $white !important;
+		}
+	}
+}
+.mce-grid-border {
+	a {
+		border-color: $muted !important;
+		&:hover {
+			border-color: $primary !important;
+    		background: $primary !important;
+		}
+		&.mce-active {
+			border-color: $primary !important;
+    		background: $primary !important;
+		}
+	}
+}

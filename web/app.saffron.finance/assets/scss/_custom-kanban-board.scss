@@ -1,0 +1,36 @@
+/* 
+--------------------------------------
+    : Custom - Kanban Board css :
+--------------------------------------
+*/
+.kanban-menu {
+    text-align: right;
+}
+.kanban-users {
+    text-align: right;
+}
+.avatar-group {
+    display: inline-flex;
+    .avatar {
+        position: relative;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+        margin-left: -.8rem;
+        transition: transform 0.2s;
+        img {
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            border: 2px solid $card-bg;
+        }
+        &:hover {
+            -webkit-mask-image: none;
+            mask-image: none;
+            z-index: 1;
+            transform: scale(1.1);
+        }
+    }
+}

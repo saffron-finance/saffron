@@ -1,0 +1,204 @@
+/* 
+-----------------------------------------
+    : Custom - Form Date Picker css :
+-----------------------------------------
+*/
+.datepicker { 
+	font-family: $font-primary;
+	background: $card-bg;
+	color: $muted;
+	border: none;
+  	box-shadow: $shadow;
+  	border-radius: 5px;
+}
+.datepicker--day-name {
+	color: $primary;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.datepicker--cell-day.-other-month- {
+	color: $light;
+}
+.datepicker--cell-year.-other-decade- {
+	color: $light;
+}
+.datepicker--nav {
+	border-bottom: 1px solid $border-color;
+	.datepicker--nav-title {
+		color: $black;
+		border-radius: 50px;
+		font-weight: 700;
+		i {
+			font-style: normal;
+			color: $black;
+			margin-left: 5px;
+		}
+	}
+}
+.datepicker--nav-action {
+	&:hover {
+		background: transparent;
+	}
+}
+.datepicker--nav-title {
+	&:hover {
+		background: transparent;
+	}
+}
+.datepicker--pointer {
+	border-top: none;
+    border-right: none;
+    background: $card-bg;
+}
+.datepicker--cell {
+	border-radius: 50px;
+}
+.datepicker--cell.-selected- {
+    color: $white;
+    background: $primary;    
+}
+.datepicker--cell.-selected-.-current- {
+    color: $white;
+    background: $primary;    
+}
+.datepicker--cell.-selected-.-focus- {
+    background: $primary; 
+}
+.datepicker--cell.-focus- {
+    background: transparent;
+    color: $black;
+}
+.datepicker--cell.-current- {
+    color: $primary;
+}
+.datepicker--cell.-range-from- {
+	border: 1px solid $primary;
+    background-color: $primary;
+    border-radius: 50px 0 0 50px;
+}
+.datepicker--cell.-range-to- {
+	border: 1px solid $primary;
+    background-color: $primary;
+    border-radius: 0 50px 50px 0;
+    color: $white;
+}
+.datepicker--cell.-in-range- {
+    background: $primary-rgba;;
+    color: $black;
+    border-radius: 0;
+}
+.datepicker--time-current-hours {
+	font-family: $font-primary;
+}
+.datepicker--time-current-minutes {
+	font-family: $font-primary;
+}
+.datepicker--buttons {
+    border-top: 1px solid lighten($light, 5%);
+    padding: 5px;
+}
+.datepicker--time {
+    border-top: 1px solid lighten($light, 5%);
+    padding: 5px;
+}
+.-selected-.datepicker--cell-day.-other-month-, 
+.-selected-.datepicker--cell-year.-other-decade- {
+    color: $white;
+    background: lighten($primary, 30%);
+}
+.datepicker--time-row {
+	background: linear-gradient(to right,$light,$light) left 50%/100% 1px no-repeat;
+	input[type='range'] {
+		&:hover {
+			&::-webkit-slider-thumb {
+				background: $primary;
+				border-color: $primary;
+			}
+			&::-moz-range-thumb {
+				background: $primary;
+				border-color: $primary;
+			}
+			&::-ms-thumb {
+				background: $primary;
+				border-color: $primary;
+			}
+		}
+		&:focus {
+			&::-webkit-slider-thumb {
+				background: $primary;
+				border-color: $primary;
+			}
+			&::-moz-range-thumb {
+				background: $primary;
+				border-color: $primary;
+			}
+			&::-ms-thumb {
+				background: $primary;
+				border-color: $primary;
+			}
+		}
+		&::-webkit-slider-thumb {
+			box-sizing: border-box;
+			height: 12px;
+			width: 12px;
+			border-radius: 50px;
+			border: 1px solid $primary;
+			background: $white;
+			cursor: pointer;
+			transition: background .2s;
+		}
+		&::-moz-range-thumb {
+			box-sizing: border-box;
+			height: 12px;
+			width: 12px;
+			border-radius: 50px;
+			border: 1px solid $primary;
+			background: $white;
+			cursor: pointer;
+			transition: background .2s;
+		}
+		&::-ms-thumb {
+			box-sizing: border-box;
+			height: 12px;
+			width: 12px;
+			border-radius: 50px;
+			border: 1px solid $primary;
+			background: $white;
+			cursor: pointer;
+			transition: background .2s;
+		}
+	}
+}
+.datepicker-inline {
+	.datepicker {
+	    border-color: transparent;
+	    box-shadow: none;
+	    position: static;
+	    left: auto;
+	    right: auto;
+	    opacity: 1;
+	    -webkit-transform: none;
+	    transform: none;
+	    width: 100%;
+	    .datepicker--day-name {
+		    color: $primary;
+		    font-size: 16px;
+		    font-weight: 700;
+		    text-transform: capitalize;
+		}
+		.datepicker--cell-day {
+		    width: 14.28571%;
+		    height: 43px;
+		}
+		.datepicker--cell.-current- {
+		    color: $primary;
+		    background-color: transparent;
+		}
+		.datepicker--nav-title {
+		    border-radius: 15px;
+		    padding: 4px 15px;
+		    font-size: 16px;
+		}
+	}
+} 

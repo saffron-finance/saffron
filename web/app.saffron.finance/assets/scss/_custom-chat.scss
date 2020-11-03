@@ -1,0 +1,157 @@
+/* 
+-------------------------------
+    : Custom - Chat css :
+-------------------------------
+*/
+.chat-list {
+    background-color: $card-bg;
+    border-radius: 8px;   
+    padding-bottom: 15px; 
+    margin-bottom: 30px;
+    border: 1px solid $border-color;
+    .chat-search {
+        padding: 21px 30px;
+        border-bottom: 1px solid $border-color;
+        input[type="search"] {
+            background-color: $secondary-rgba;
+            color: $muted;
+            font-size: 16px;
+            padding-left: 20px;
+            border: none;
+            border-radius: 3px 0 0 3px;
+          }
+          ::placeholder {
+            color: $muted;
+          }
+          .input-group-append {
+            margin-left: 0px;
+          }
+          .btn {
+            background-color: $secondary-rgba;
+            color: $muted;
+            font-size: 18px;
+            border-radius: 0 3px 3px 0;
+            padding: 5px 15px 3px 5px;
+            box-shadow: none;
+            z-index: 0;
+          }
+    }
+    .chat-user-list li {
+        padding: 15px 30px;
+        img {
+            width: 35px;
+            margin-right: 10px;
+        }
+        h5 {
+            font-size: 16px;
+            margin-bottom: 3px;
+            .timing {
+                color: $muted;
+                float: right;
+                font-size: 12px;
+                margin-top: 3px;
+            }
+        }
+        p {
+            margin-bottom: 0;
+        }
+        &:hover {
+            background-color: $secondary-rgba;
+        }
+    }
+}
+.chat-detail {
+    background-color: $card-bg;
+    border-radius: 8px; 
+    margin-bottom: 30px;
+    border: 1px solid $border-color;
+    .chat-head {
+        padding: 15px 30px;
+        border-bottom: 1px solid $border-color;
+    }
+    &.order-chat-detail {
+        .chat-body { 
+            padding: 0 20px;
+        }
+    }
+    .chat-body {
+        padding: 30px 40px;
+        .chat-message {
+            margin-bottom: 20px;
+            .chat-message-text {
+                background-color: $light;
+                color: $black;
+                padding: 5px 15px;
+                display: inline-block;
+                border-radius: 3px;
+                position: relative;
+            }
+            .chat-message-meta {
+                margin-top: 5px;
+                font-size: 14px;
+            }
+            &.chat-message-left {
+                text-align: left;
+                .chat-message-text {
+                    &:after {
+                        content: ' ';
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        left: -10px;
+                        right: auto;
+                        top: auto;
+                        bottom: 0;
+                        border: 6px solid $light;
+                        border-color: transparent $light $light transparent;
+                    }
+                }
+            }
+            &.chat-message-right {
+                text-align: right;
+                .chat-message-text {
+                    background-color: $primary;
+                    color: $white;
+                    &:after {
+                        content: ' ';
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        left: auto;
+                        right: -10px;
+                        top: auto;
+                        bottom: 0;
+                        border: 6px solid $primary;
+                        border-color: transparent transparent $primary $primary ;
+                    }
+                }
+                .chat-message-meta {
+                    text-align: right;
+                }
+            }
+        }
+    }
+    .chat-bottom {
+        padding: 15px 30px;
+        border-top: 1px solid $border-color;
+        .chat-messagebar {
+            input[type="text"] {
+                    background-color: transparent;
+                    color: $muted;
+                    font-size: 16px;
+                    border: none;
+                    border-radius: 0;
+            }
+            ::placeholder {
+                color: $muted;
+            }
+            .input-group-append {
+                margin-left: 0px;
+            }
+            .btn {
+                border-radius: 50% !important;
+                margin: 0 5px;
+            }
+        }
+    }
+}

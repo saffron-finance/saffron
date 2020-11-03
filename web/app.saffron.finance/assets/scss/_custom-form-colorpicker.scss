@@ -1,0 +1,52 @@
+/* 
+-----------------------------------------
+    : Custom - Form Colorpicker css :
+-----------------------------------------
+*/
+.colorpicker-input-addon:before {
+	height: 20px;
+    width: 20px;
+    border-radius: 3px;
+}
+.colorpicker-input-addon i {
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+}
+.colorpicker-saturation {
+	border-radius: 5px;
+	box-shadow: none;
+	cursor: pointer;
+	.colorpicker-guide {
+		height: 10px;
+		width: 10px;
+		box-shadow: none;
+	}
+}
+.colorpicker-hue {
+	border-radius: 5px;
+	box-shadow: none;
+	cursor: pointer;
+	.colorpicker-guide {
+		height: 5px;
+	}
+}
+.colorpicker-alpha {
+	cursor: pointer;
+	.colorpicker-alpha-color {
+		border-radius: 5px;	
+		box-shadow: none;
+
+	}
+	.colorpicker-guide {
+		height: 5px;
+	}	
+}
+.colorpicker-bar {
+	border-radius: 5px;
+	box-shadow: none;
+	> div {
+		border-radius: 5px;	
+		box-shadow: none;
+	}	
+}

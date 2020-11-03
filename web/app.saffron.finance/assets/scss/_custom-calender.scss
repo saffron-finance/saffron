@@ -1,0 +1,102 @@
+/* 
+---------------------------------
+    : Custom - Calender css :
+---------------------------------
+*/
+.fc-toolbar {
+    h2 {
+        margin: 0;
+        font-size: 18px;
+        color: $black;
+    }
+    .fc-state-active {
+        z-index: 4;
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+    }
+    .ui-state-active {
+        z-index: 4;
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+    }
+    .fc-left {
+        margin-bottom: 10px;
+    }
+    .fc-center {
+        margin-bottom: 10px;
+    }
+    .fc-right {
+        margin-bottom: 10px;
+    }
+}
+.fc-button {
+    background: $light;
+    border: 1px solid darken($light, 5%);
+    color: $black;    
+    outline: 0;
+    box-shadow: none;
+    text-transform: capitalize;
+    height: auto !important;
+    padding: 6px 15px !important;
+}
+.fc-state-hover {
+    background: darken($light, 5%);
+    border: 1px solid darken($light, 5%);
+}
+.fc-state-default.fc-corner-left {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.fc-state-default.fc-corner-right {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.fc-widget-header {
+    background-color: lighten($light, 5%);
+    border: 1px solid darken($light, 5%);    
+}
+.fc th.fc-widget-header {
+    padding: 12px 0;
+    font-size: 14px; 
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.fc-unthemed {
+    .fc-content {
+        border-color: $border-color;
+    }
+    .fc-divider {
+        border-color: $border-color;
+    }
+    .fc-popover {
+        border-color: $border-color;
+    }
+    .fc-row {
+        border-color: $border-color;
+    }
+    tbody {
+        border-color: $border-color;
+    }
+    td {
+        border-color: $border-color;
+    }
+    th {
+        border-color: $border-color;
+    }
+    thead {
+        border-color: $border-color;
+    }
+}
+.fc-event {
+    background-color: $primary;
+    color: $white !important;
+    border: none;
+    border-radius: 3px;  
+    text-align: center;
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 5px 5px;   
+    cursor: move;
+}

@@ -1,0 +1,149 @@
+/* 
+------------------------------
+    : Custom - Cards css :
+------------------------------
+*/
+.card {
+  border:1px solid $border-color;
+  border-radius: 3px;
+  background-color: $card-bg;
+}
+.card.border-primary {
+  border: 1px solid;
+}
+.card.border-secondary {
+  border: 1px solid;
+}
+.card.border-success {
+  border: 1px solid;
+}
+.card.border-danger {
+  border: 1px solid;
+}
+.card.border-warning {
+  border: 1px solid;
+}
+.card.border-info {
+  border: 1px solid;
+}
+.card.border-light {
+  border: 1px solid;
+}
+.card.border-dark {
+  border: 1px solid;
+}
+.card-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+.card-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+}
+.card-success {
+  background-color: $success;
+  border-color: $success;
+}
+.card-danger {
+  background-color: $danger;
+  border-color: $danger;
+}
+.card-warning {
+  background-color: $warning;
+  border-color: $warning;
+}
+.card-info {
+  background-color: $info;
+  border-color: $info;
+}
+.card-light {
+  background-color: $light;
+  border-color: $light;
+}
+.card-dark {
+  background-color: $dark;
+  border-color: $dark;
+}
+.card-header {
+  border-bottom: 1px solid transparent;
+  background-color: transparent;
+}
+.card-header:first-child {
+    border-radius: calc(5px - 1px) calc(5px - 1px) 0 0;
+    padding: 15px 20px;
+}
+.card {
+  .card-header {
+    .card-title {
+        font-size: 16px;
+        margin-bottom: 0;
+    } 
+  }
+}
+.card {
+  .card-header {
+    .row {
+      .card-title {
+        font-size: 16px;
+      }
+    }
+  }
+}
+.card-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $muted;
+    margin-bottom: 15px;
+}
+.card-img {
+    width: 100%;
+    border-radius: calc(5px - 1px);
+}
+.card-footer {
+  border-top: 1px solid $border-color;
+  background-color: transparent;
+}
+.card-arrow {
+    background-color: $primary-rgba;
+    color: $primary;
+    border-radius: 50%;
+    display: flex;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    i {
+      padding: 5px;
+    }
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+}
+.amount-spent-select {
+  .form-control {
+    font-size: 12px;
+    padding: 0px 5px;
+    line-height: 24px;
+    height: 24px;
+  }
+}
+.card-statistics {
+  .nav-pills {
+    float: right;
+    .nav-link {
+      padding: 0 6px 16px 6px;
+      margin-bottom: -16px;
+      font-size: 14px;
+    }
+    .nav-link.active {
+        color: $primary;
+        background-color: transparent;
+        border-bottom: 2px solid $primary;
+        border-radius: 0; 
+      }
+  }
+  .nav-tabs {
+    float: right;
+  }
+}

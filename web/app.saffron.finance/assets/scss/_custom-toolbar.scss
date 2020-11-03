@@ -1,0 +1,198 @@
+/* 
+--------------------------------
+    : Custom - Toolbar css :
+--------------------------------
+*/
+.btn-toolbar {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.tool-bottom .tool-item:first-child, .tool-top .tool-item:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.tool-bottom .tool-item:last-child, .tool-top .tool-item:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.btn-toolbar > i {
+    color: $white;
+    font-size: 20px;
+    line-height: 20px;
+}
+.toolbar-primary .tool-item {
+    background: $primary;
+}
+.toolbar-primary .tool-item > i {
+    color: $white;
+}
+.toolbar-primary.tool-top .arrow {
+    border-color: $primary transparent transparent;
+}
+.toolbar-primary {
+    .tool-item.selected {
+        background: darken($primary, 5%);
+    }
+    .tool-item:hover {
+        background: darken($primary, 5%);
+    }
+}
+.btn-toolbar-primary.pressed {
+    background: darken($primary, 5%);
+}
+
+.toolbar-secondary .tool-item {
+    background: $secondary;
+}
+.toolbar-secondary .tool-item > i {
+    color: $white;
+}
+.toolbar-secondary.tool-top .arrow {
+    border-color: $secondary transparent transparent;
+}
+.toolbar-secondary {
+    .tool-item.selected {
+        background: darken($secondary, 5%);
+    }
+    .tool-item:hover {
+        background: darken($secondary, 5%);
+    }
+}
+.btn-toolbar-secondary.pressed {
+    background: darken($secondary, 5%);
+}
+
+.toolbar-success .tool-item {
+    background: $success;
+}
+.toolbar-success .tool-item > i {
+    color: $white;
+}
+.toolbar-success.tool-top .arrow {
+    border-color: $success transparent transparent;
+}
+.toolbar-success.tool-right .arrow {
+    border-color: transparent $success transparent transparent;
+}
+.toolbar-success {
+    .tool-item.selected {
+        background: darken($success, 5%);
+    }
+    .tool-item:hover {
+        background: darken($success, 5%);
+    }
+}
+.btn-toolbar-success.pressed {
+    background: darken($success, 5%);
+}
+
+.toolbar-danger .tool-item {
+    background: $danger;
+}
+.toolbar-danger .tool-item > i {
+    color: $white;
+}
+.toolbar-danger.tool-top .arrow {
+    border-color: $danger transparent transparent;
+}
+.toolbar-danger.tool-bottom .arrow {
+    border-color: transparent transparent $danger;
+}
+.toolbar-danger {
+    .tool-item.selected {
+        background: darken($danger, 5%);
+    }
+    .tool-item:hover {
+        background: darken($danger, 5%);
+    }
+}
+.btn-toolbar-danger.pressed {
+    background: darken($danger, 5%);
+}
+
+.toolbar-warning .tool-item {
+    background: $warning;
+}
+.toolbar-warning .tool-item > i {
+    color: $white;
+}
+.toolbar-warning.tool-top .arrow {
+    border-color: $warning transparent transparent;
+}
+.toolbar-warning.tool-left .arrow {
+    border-color: transparent transparent transparent $warning;
+}
+.toolbar-warning {
+    .tool-item.selected {
+        background: darken($warning, 5%);
+    }
+    .tool-item:hover {
+        background: darken($warning, 5%);
+    }
+}
+.btn-toolbar-warning.pressed {
+    background: darken($warning, 5%);
+}
+
+.toolbar-info .tool-item {
+    background: $info;
+}
+.toolbar-info .tool-item > i {
+    color: $white;
+}
+.toolbar-info.tool-top .arrow {
+    border-color: $info transparent transparent;
+}
+.toolbar-info {
+    .tool-item.selected {
+        background: darken($info, 5%);
+    }
+    .tool-item:hover {
+        background: darken($info, 5%);
+    }
+}
+.btn-toolbar-info.pressed {
+    background: darken($info, 5%);
+}
+
+.toolbar-light .tool-item {
+    background: $light;
+}
+.toolbar-light .tool-item > i {
+    color: $white;
+}
+.toolbar-light.tool-top .arrow {
+    border-color: $light transparent transparent;
+}
+.toolbar-light {
+    .tool-item.selected {
+        background: darken($light, 5%);
+    }
+    .tool-item:hover {
+        background: darken($light, 5%);
+    }
+}
+.btn-toolbar-light.pressed {
+    background: darken($light, 5%);
+}
+
+.toolbar-dark .tool-item {
+    background: $dark;
+}
+.toolbar-dark .tool-item > i {
+    color: $white;
+}
+.toolbar-dark.tool-top .arrow {
+    border-color: $dark transparent transparent;
+}
+.toolbar-dark {
+    .tool-item.selected {
+        background: darken($dark, 5%);
+    }
+    .tool-item:hover {
+        background: darken($dark, 5%);
+    }
+}
+.btn-toolbar-dark.pressed {
+    background: darken($dark, 5%);
+}

@@ -1,0 +1,35 @@
+/* 
+----------------------------------
+    : Custom - Switchery css :
+----------------------------------
+*/
+.switchery {
+    background-color: $white;
+    border: 1px solid tranparent;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    vertical-align: middle;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.switchery-small {
+    border-radius: 20px;
+    height: 20px;
+    width: 33px;
+    >small {
+        height: 20px;
+        width: 20px;
+    }
+}
+.switchery-large {
+    border-radius: 40px;
+    height: 40px;
+    width: 66px;
+    >small {
+        height: 40px;
+        width: 40px;
+    }
+}

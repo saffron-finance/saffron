@@ -1,0 +1,69 @@
+/* 
+--------------------------------
+    : Custom - Invoice css :
+--------------------------------
+*/
+.invoice {	
+	.invoice-logo {
+		img {
+			width: 120px;
+			margin-bottom: 20px;
+		}
+	}
+	.invoice-head {
+		margin-top: 15px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid $border-color;
+		.invoice-name {
+			text-align: right;
+		}
+	}
+	.invoice-billing {
+		margin-top: 30px;
+		border-bottom: 1px solid $border-color;
+		.invoice-address {
+			margin-bottom: 30px;
+		}
+	}
+	.invoice-summary{
+		padding-top: 15px;
+		border-bottom: 1px solid $border-color;
+	}
+	.invoice-summary-total {
+		padding-top: 15px;
+		border-bottom: 1px solid $border-color;
+	}
+	.invoice-meta {
+		padding-top: 30px;
+		border-bottom: 1px solid $border-color;
+		.invoice-meta-box {
+			margin-bottom: 30px;
+		}
+	}
+	.invoice-footer {
+		padding-top: 20px;
+		.invoice-footer-btn {
+			text-align: right;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.invoice {
+		.invoice-head {
+			.invoice-name {
+				margin-top: 30px;
+				text-align: left;
+			}
+		}	
+		.invoice-meta {
+			text-align: left;
+		}
+		.invoice-footer {
+			text-align: center;
+			.invoice-footer-btn {
+				text-align: center;
+				margin-top: 30px;
+			}
+		}
+	}
+}

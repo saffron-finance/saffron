@@ -1,0 +1,576 @@
+/* 
+--------------------------------
+    : Custom - Example css :
+--------------------------------
+*/
+/* -- Icons -- */
+.icon-box-list {
+  div {
+    color: $muted;
+    border-radius: 50px;
+    line-height: 38px;
+    white-space: nowrap;
+    p {
+      margin: 10px;
+      line-height: inherit;
+      i {
+        display: inline-block;
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        text-align: center;
+        border-radius: 50%;
+        margin-right: 12px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+        transition: transform .2s;
+        &.flag {
+          background-size: cover;
+          background-position: center;
+        }
+      }
+      span.text-alias {
+        color: $lightgray;
+      }
+
+    }
+    &:hover {      
+       p {
+          color: $primary;
+        i { 
+          color: $primary;
+          background-color: $primary-rgba !important;
+          transform: scale(1.2);
+        } 
+        span.text-alias { 
+          color: $primary;
+        }
+      }
+
+    }
+  }  
+}
+.icon-svg-list {
+    div {
+        p {
+            span {
+                padding: 11px 12px 15px;
+                border-radius: 50%;
+                margin-right: 12px;
+                width: 40px;
+                height: 40px;
+                .icon-svg {
+                    filter: invert(0.6) sepia(1) saturate(1) hue-rotate(185deg);
+                    width: 20px; 
+                    transition: transform 0.2s;
+                }
+            }
+            &:hover {
+                span {
+                    background-color: $primary-rgba !important;
+                    .icon-svg {
+                        filter: invert(0.7) sepia(1) saturate(14) hue-rotate(195deg);
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}
+/* -- Grid -- */
+.example-row {    
+    .grid-example {
+        position: relative;
+        padding: 1rem;
+        margin: 1rem -15px 0;
+        border: solid lighten($primary, 35%);
+        border-width: .2rem 0 0;
+    }
+
+    .row {
+      >.col, >[class^=col-] {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        background-color: $primary-rgba;
+        border: 1px solid lighten($primary, 20%);
+        color: $primary;
+      }
+      +.row {
+          margin-top: 1rem;
+      }      
+    }
+
+    &.example-row-flex-cols {
+        .row {
+            min-height: 10rem;
+            background-color: lighten($primary, 30%);
+        }
+    }    
+}
+@media (min-width: 576px) {
+    .grid-example {
+      padding: 1.5rem;
+      margin-right: 0;
+      margin-left: 0;
+      border-width: .2rem;
+    }
+}
+
+.docs-data > .input-group > span {
+    min-width: 2rem !Important;
+}
+
+/* -- Custom Checkbox -- */
+.custom-checkbox-button {
+    input[type=checkbox] {
+        cursor: pointer;
+        opacity: 0;        
+        outline: 0 !important;
+        z-index: 1;
+        &:checked {
+            &+label {
+                &:after {
+                    -webkit-transform: scale(1,1);
+                    transform: scale(1,1);
+                }
+            }
+        }
+    }
+    label {
+        position: relative;
+        display: inline-block;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -18px;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            background-color: $white;
+            border-radius: 3px;
+            border: 2px solid transparent;       
+            outline: 0 !important;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: -12px;
+            display: inline-block; 
+            width: 8px;
+            height: 8px;
+            border-radius: 3px;          
+            -webkit-transform: scale(0,0);
+            transform: scale(0,0);            
+        }
+    }
+    .checkbox-primary {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $primary;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $primary;
+                    }
+                    &:after { 
+                        background-color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    .checkbox-secondary {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $secondary;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $secondary;
+                    }
+                    &:after { 
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+    .checkbox-success {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $success;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $success;
+                    }
+                    &:after { 
+                        background-color: $success;
+                    }
+                }
+            }
+        }
+    }
+    .checkbox-danger {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $danger;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $danger;
+                    }
+                    &:after { 
+                        background-color: $danger;
+                    }
+                }
+            }
+        }
+    }
+    .checkbox-warning {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $warning;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $warning;
+                    }
+                    &:after { 
+                        background-color: $warning;
+                    }
+                }
+            }
+        }
+    }
+    .checkbox-info {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $info;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $info;
+                    }
+                    &:after { 
+                        background-color: $info;
+                    }
+                }
+            }
+        }
+    }
+    .checkbox-light {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $light;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $light;
+                    }
+                    &:after { 
+                        background-color: $light;
+                    }
+                }
+            }
+        }
+    }
+    .checkbox-dark {
+        input[type=checkbox] {
+            &+label {
+                &:before { 
+                    border-color: $dark;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $dark;
+                    }
+                    &:after { 
+                        background-color: $dark;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* -- Custom Radio Button -- */
+.custom-radio-button {
+    input[type=radio] {
+        cursor: pointer;
+        opacity: 0;        
+        outline: 0 !important;
+        z-index: 1;
+        &:checked {
+            &+label {
+                &:after {
+                    -webkit-transform: scale(1,1);
+                    transform: scale(1,1);
+                }
+            }
+        }
+    }
+    label {
+        position: relative;
+        display: inline-block;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -18px;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            background-color: $white;
+            border-radius: 50%;
+            border: 2px solid transparent;       
+            outline: 0 !important;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: -12px;
+            display: inline-block; 
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;          
+            -webkit-transform: scale(0,0);
+            transform: scale(0,0);            
+        }
+    }
+    .radio-primary {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $primary;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $primary;
+                    }
+                    &:after { 
+                        background-color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    .radio-secondary {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $secondary;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $secondary;
+                    }
+                    &:after { 
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+    .radio-success {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $success;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $success;
+                    }
+                    &:after { 
+                        background-color: $success;
+                    }
+                }
+            }
+        }
+    }
+    .radio-danger {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $danger;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $danger;
+                    }
+                    &:after { 
+                        background-color: $danger;
+                    }
+                }
+            }
+        }
+    }
+    .radio-warning {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $warning;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $warning;
+                    }
+                    &:after { 
+                        background-color: $warning;
+                    }
+                }
+            }
+        }
+    }
+    .radio-info {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $info;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $info;
+                    }
+                    &:after { 
+                        background-color: $info;
+                    }
+                }
+            }
+        }
+    }
+    .radio-light {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $light;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $light;
+                    }
+                    &:after { 
+                        background-color: $light;
+                    }
+                }
+            }
+        }
+    }
+    .radio-dark {
+        input[type=radio] {
+            &+label {
+                &:before { 
+                    border-color: $dark;
+                }
+                &:after { 
+                    border-color: $white;
+                }
+            }
+            &:checked {
+                &+label {
+                    &:before { 
+                        background-color: $dark;
+                    }
+                    &:after { 
+                        background-color: $dark;
+                    }
+                }
+            }
+        }
+    }
+}
+
+[class^=ri-] {
+    vertical-align: middle;
+}
+[class*=" ri-"] {
+    vertical-align: middle;
+}

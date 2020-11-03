@@ -1,0 +1,115 @@
+/* 
+------------------------------------
+    : Custom - Sweet Alert css :
+------------------------------------
+*/
+.swal2-modal {
+  font-family: $font-primary;
+  border-radius: 3px;
+  border: none;
+  .swal2-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: $black;
+  }
+  .swal2-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: $muted;
+  }
+  .swal2-spacer {
+    margin: 10px 0;
+  }
+  .swal2-file, .swal2-input, .swal2-textarea {
+    border: 1px solid $border-color;
+    font-size: 16px;
+    box-shadow: none !important;
+    background-color: transparent;
+    &:focus {
+      border: 1px solid $primary;
+    }
+  }
+  .swal2-styled {
+    border: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px;
+    padding: 6px 12px;
+  }
+  .swal2-confirm {
+    background-color: $primary !important;
+    border: none;
+
+    &.btn-success {
+      background-color: $success !important;
+      box-shadow: none;
+      border: none;
+      border-radius: 3px;
+    }
+  }
+  .swal2-cancel {
+    background-color: $danger !important;
+    border: none;
+    border-radius: 3px;
+  }
+  .swal2-icon.swal2-error {
+    color: $danger;
+    border-color: lighten($danger, 20%);
+  }
+  .swal2-icon.swal2-question {
+   color: $primary; 
+   border-color: lighten($primary, 20%); 
+  }
+  .swal2-icon.swal2-warning {
+    color: $warning;
+    border-color: lighten($warning, 20%);
+  }
+  .swal2-icon.swal2-info {
+    color: $info;
+    border-color: lighten($info, 20%);
+  }
+  .swal2-icon.swal2-success {
+    color: $success;
+    border-color: $success;
+    .line {
+      background-color: $success;
+    }
+    .placeholder {
+      border: 4px solid lighten($success, 30%);
+    }
+    &:before {
+      background: transparent;
+    }
+    &:after {
+      background: transparent;
+    }
+    .fix {
+      background: transparent;
+    }
+  }
+  .swal2-progresssteps {
+    .swal2-progresscircle.swal2-activeprogressstep {
+      background: $primary;
+    }
+    .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle {
+      background: lighten($primary, 20%);
+    }
+    .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline {
+      background: lighten($primary, 20%);
+    }
+    .swal2-progresscircle {
+      background: $primary;
+    }
+    .swal2-progressline {
+      background: $primary;
+    }
+  }
+  .swal2-validationerror {
+    background-color: $light;
+    color: $muted;
+    font-weight: 400;
+    &:before {
+      background-color: $danger;
+    }
+  }
+}

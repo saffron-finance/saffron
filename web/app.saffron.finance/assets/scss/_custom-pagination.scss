@@ -1,0 +1,38 @@
+/* 
+-----------------------------------
+    : Custom - Pagination css :
+-----------------------------------
+*/
+.page-item {	
+	.page-link {
+	  	color: $primary;
+	  	background-color: transparent;
+    	border: 1px solid $border-color;
+	  	&:focus {
+		  background-color: $light;
+		  border-color: $border-color;
+		  box-shadow: 0 0 0 0.2rem lighten($primary, 30%);
+		}
+		&:hover {
+		  color: $dark;		
+		  background-color: $light;
+		  border-color: $border-color;
+		}
+	}
+	&.active {
+		.page-link {
+			color: $white;
+		  	background-color: $primary;
+		  	border-color: $primary;
+		}
+	}
+	&.disabled {
+		.page-link {
+			color: $muted;
+		    pointer-events: none;
+		    cursor: auto;
+		    background-color: transparent;
+		    border-color: $border-color;
+		}
+	}
+}

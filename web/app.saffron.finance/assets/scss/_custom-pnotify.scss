@@ -1,0 +1,56 @@
+/* 
+--------------------------------
+    : Custom - Pnotify css :
+--------------------------------
+*/
+.ui-pnotify {
+  .ui-pnotify-shadow {
+    box-shadow: $shadow;
+  }
+  .brighttheme {
+    border: none;
+    border-radius: 3px;
+    .ui-pnotify-action-button {
+        text-transform: capitalize;
+        font-weight: 600;
+        padding: 4px 8px;
+        border: none;
+        background: 0 0;
+        &.btn-primary {
+            background-color: $warning;
+            color: $black;
+            box-shadow: $shadow;
+            &:focus {
+              box-shadow: $shadow;
+            }
+        }
+    }
+    &.ui-pnotify-container {
+      padding: 15px;    
+    }
+    &.brighttheme-notice {
+      background-color: $warning;
+      color: $black;
+    }
+    &.brighttheme-success {
+      background-color: $success;
+      color: $black;
+    }
+    &.brighttheme-info {
+      background-color: $info;
+      color: $black;
+    }
+    &.brighttheme-error {
+        background-color: $danger;
+        background-image: repeating-linear-gradient(135deg,transparent,transparent 35px,rgba(255,255,255,.3) 35px,rgba(255,255,255,.3) 70px);
+        border: none;
+        color: $black;
+    }
+  }
+}
+.ui-pnotify-title {
+    display: block;
+    margin-bottom: .4em;
+    margin-top: 0;
+    font-size: 20px;
+}

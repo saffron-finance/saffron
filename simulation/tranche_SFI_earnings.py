@@ -23,6 +23,8 @@ tranche_principal = [
     200      # A 
 ]
 
+# Interest rate applied to principal to arrive at principal+interest = bi-weekly final balance
+# Each epoch (2 week period) is defined as an activity period and a removal window
 interest_rate = 0.03
 
 # Simulate tranches having an existing balance of dsec (DAI * seconds until next removal window) 

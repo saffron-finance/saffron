@@ -3,17 +3,21 @@
 
 ## Background
 Lending pools in Saffron add LP's liquidity to underlying lending platforms. In the current version of Saffron, Compound is the first lending platform.
-LPs can select between three tranches for their liquidity: S, AA, and A. The S tranche fills in liquidity where it's needed. AA is low risk, A is high risk.
-When capital is added to a lending pool, the pool must be balanced in such a way that A tranche = AA/(tranche_A_multiplier+1).
+LPs can select between three tranches for their liquidity: S, AA, and A. The S tranche fills in liquidity where it's needed. 
+
+AA is low risk, A is high risk.  When capital is added to a lending pool, the pool must be balanced in such a way that `A tranche = AA/(tranche_A_multiplier+1)`.
+
 S tranche participants liquidity is used to fill up A or AA as needed as it comes in to the pool.
+
 For epoch 1 (November 15th - November 30th) only the S tranche and A tranche exists (technically the AA and S tranches are the same here).
 
-Example scenario:
- tranche_A_multiplier = 10
- S capacity = 30
- AA = 1100
- A  = 110
-Total possible deposit for someone with DAI into the AA tranche = MIN(((AA/(tranche_A_multiplier+1))-A), S)
+Example scenario:  
+ tranche_A_multiplier = 10  
+ S capacity = 30  
+ AA = 1100  
+ A  = 110  
+
+Total possible deposit for someone with DAI into the AA tranche = `MIN(((AA/(tranche_A_multiplier+1))-A), S)`
 
 Glossary
 ========

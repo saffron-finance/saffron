@@ -5,7 +5,7 @@
 Lending pools in Saffron add LP's liquidity to underlying lending platforms. In the current version of Saffron, Compound is the first lending platform.
 LPs can select between three tranches for their liquidity: S, AA, and A. The S tranche fills in liquidity where it's needed. 
 
-AA is low risk, A is high risk.  When capital is added to a lending pool, the pool must be balanced in such a way that `A tranche = AA/(tranche_A_multiplier+1)`.
+AA is low risk, A is high risk.  When capital is added to a lending pool, the pool must be balanced in such a way that `A tranche = AA/(tranche_A_multiplier)`.
 
 S tranche participants liquidity is used to fill up A or AA as needed as it comes in to the pool.
 
@@ -17,7 +17,7 @@ Example scenario:
  AA = 1100  
  A  = 110  
 
-Total possible deposit for someone with DAI into the AA tranche = `MIN(((AA/(tranche_A_multiplier+1))-A), S)`
+Total possible deposit for someone with DAI into the AA tranche = `MIN(((AA/tranche_A_multiplier)-A), S)`
 
 Glossary
 ========
@@ -45,12 +45,12 @@ S tranche interest is the remainder of interest earned from AA and A.
 
 Consider two scenarios:
 
------ Scenario 1 -----
-S contributes 100 seconds with 2000 DAI = 200000 dsec, 2000 DAI earned in interest
-Someone adds liquidity to the A tranche with 50 seconds remaining. 100 DAI to the A tranche = 5000 dsec = 50*10 DAI earned in interest
-\> S tranche usage = 1000 DAI, S tranche vdsec_AA = 50000 
-Someone adds liquidity to the AA tranche with 10 seconds remaining. 100 DAI to the AA tranche = 1000 dsec = 10/10 DAI earned in interest
-\> S tranche usage = 10 DAI, S tranche vdsec_A = 100 
+----- Scenario 1 -----  
+* S contributes 100 seconds with 2000 DAI = 200000 dsec, 2000 DAI earned in interest
+* Someone adds liquidity to the A tranche with 50 seconds remaining. 100 DAI to the A tranche = 5000 dsec = 50*10 DAI earned in interest
+* \> S tranche usage = 1000 DAI, S tranche vdsec_AA = 50000 
+* Someone adds liquidity to the AA tranche with 10 seconds remaining. 100 DAI to the AA tranche = 1000 dsec = 10/10 DAI earned in interest
+* \> S tranche usage = 10 DAI, S tranche vdsec_A = 100 
 
 ```
 total interest earned = 2000 + 50 + 10 = 2060 DAI
@@ -64,10 +64,10 @@ tranche_A  LPs: produce 50 DAI, 450 DAI sent from S to A, earns 500 DAI
 1559 + 1 + 500 = 2060
 ```
 
------ Scenario 2 -----
-S contributes 100 seconds with 2000 DAI = 200000 dsec, 2000 DAI earned in interest
-A contributes  50 seconds with  200 DAI =   1000 dsec, 100*10 DAI earned in interest
-\> S tranche usage = 100% (2000 DAI into AA) = 2000 * 50 = 100000 dsec into AA
+----- Scenario 2 -----  
+* S contributes 100 seconds with 2000 DAI = 200000 dsec, 2000 DAI earned in interest
+* A contributes  50 seconds with  200 DAI =   1000 dsec, 100*10 DAI earned in interest
+* \> S tranche usage = 100% (2000 DAI into AA) = 2000 * 50 = 100000 dsec into AA
 
 ```
 Total interest earned = 2000 + 0 + 100

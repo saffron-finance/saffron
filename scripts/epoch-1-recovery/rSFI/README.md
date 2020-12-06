@@ -1,6 +1,6 @@
-# Generate Redeem logs
+# Generate rSFI Rewards for Epoch 1 Recovery
 
-
+## Extract the Redeem events
 ```shell script
 cd $PROJECT_ROOT/scripts/epoch-1-recovery/rSFI
 vim secrets.json
@@ -51,6 +51,23 @@ Example format is:
     "share": "10000000000000000000000",
     "transactionHash": "0x0443b57a16659d6be503c92e1c47d4afdd8f008a5d34a61a10f29d5b73f416c1"
   },
-  ...
+// ...
 ]
+```
+
+## Generate rSFI Values
+
+```
+$ node calc_desc_rsfi.js --help
+Usage: calc_dsec_rsfi [options]
+
+Options:
+  -V, --version                 output the version number
+  -i, --input <path_to_file>    Input path (default: "0x3Eef97-DistributionAInterest-log.json")
+  -o, --output <path_to_file>   Output path (default: "0x3Eef97-DistributionAInterest-rewards.json")
+  -t, --tranche <tranche_name>  Tranche name: S or A (default: "A")
+  -h, --help                    display help for command
+
+$ node calc_dsec_rsfi.js -i 0xFdbd25-DistributionSInterest-log.json -o 0xFdbd25-DistributionSInterest-reward.json -t S
+$ node calc_dsec_rsfi.js -i 0x3Eef97-DistributionAInterest-log.json -o 0x3Eef97-DistributionAInterest-reward.json -t A
 ```

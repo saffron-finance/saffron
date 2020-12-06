@@ -1,6 +1,18 @@
 # Generate rSFI Rewards for Epoch 1 Recovery
 
-## Extract the Redeem events
+## rSFI
+rSFI is a token representing redeemable SFI from the stuck epoch 1 pool at a 1:1 basis. rSFI will be airdropped to epoch 1 LPs periodically as LP token (dsec/principal) redemptions happen via the epoch 1 FundRescue contracts.
+
+Please see here for more information about Saffron epoch 1 recovery and the FundRescue contract:
+
+- https://github.com/saffron-finance/epoch1-recovery
+- https://app.saffron.finance/#recover
+- https://medium.com/saffron-finance/saffron-epoch-1-recovery-d10b84c95940
+
+
+## Scripts
+
+### Extract the Redeem events
 ```shell script
 cd $PROJECT_ROOT/scripts/epoch-1-recovery/rSFI
 vim secrets.json
@@ -14,7 +26,7 @@ Usage: node get_redeem_distributions.js [options]
 Options:
   -V, --version                   output the version number
   -f, --fromblock <block number>  Block number to start reading events
-  -t, --toblock <block number>    Block number to read events to
+  -t, --toblock <block number>    Block number to read events to (default to web3.eth.getBlockNumber())
   -h, --help                      display help for command
 
 ```
@@ -55,7 +67,7 @@ Example format is:
 ]
 ```
 
-## Generate rSFI Values
+### Generate rSFI Values
 
 ```
 $ node calc_desc_rsfi.js --help

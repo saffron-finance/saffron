@@ -1,0 +1,1402 @@
+[
+  {
+    "sendto": "0x635B230C3fdf6A466bb6dc3b9B51a8cEB0659b67",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0x09E9FF67d9D5A25Fa465Db6f0bEdE5560581f8Cb",
+    "reward_sfi_wei": "36620591469863905"
+  },
+  {
+    "sendto": "0xf69EA6646cf682262E84cd7c67133eac59cef07b",
+    "reward_sfi_wei": "46537103240622454732"
+  },
+  {
+    "sendto": "0x316F99537B4Bade5EEA51073f1B7c38Dfbf69A70",
+    "reward_sfi_wei": "23509411943695317576"
+  },
+  {
+    "sendto": "0x26bdDe6506bd32bD7B5Cc5C73cd252807fF18568",
+    "reward_sfi_wei": "8903263450479818484"
+  },
+  {
+    "sendto": "0x614D98a57A5D879D717152dE0690ed2b04562adE",
+    "reward_sfi_wei": "132312792637462222367"
+  },
+  {
+    "sendto": "0xe2Bb94210B41Ce4c01B9B97f3Ac62E728E472f9C",
+    "reward_sfi_wei": "65196950427913599962"
+  },
+  {
+    "sendto": "0x7C5fC7cD37FE26a37150F2f322e48D7cD3C77447",
+    "reward_sfi_wei": "7654723754504106770"
+  },
+  {
+    "sendto": "0xC71ACC7863F3bc7347B24C3B835643bD89D4d161",
+    "reward_sfi_wei": "168583548274490000000"
+  },
+  {
+    "sendto": "0xD72708E95577F80056Fd6A44EC30d644B5A86486",
+    "reward_sfi_wei": "7695961156861423370"
+  },
+  {
+    "sendto": "0xE4De9BE89BBD92BDc636690224A7cAE90cC7302d",
+    "reward_sfi_wei": "5989293318686798573"
+  },
+  {
+    "sendto": "0x55e1490a1878D0B61811726e2cB96560022E764c",
+    "reward_sfi_wei": "71027390122550000000"
+  },
+  {
+    "sendto": "0xDbCE66C4468AC0EFE660cea7B667E9e222BE8C0C",
+    "reward_sfi_wei": "138961188568060000"
+  },
+  {
+    "sendto": "0x455d7Eb74860d0937423b9184f9e8461aa354Ebb",
+    "reward_sfi_wei": "19381501035042987264"
+  },
+  {
+    "sendto": "0x389Eb9f6A52265cF691d54B5fb455aae439B4719",
+    "reward_sfi_wei": "18385697270822074575"
+  },
+  {
+    "sendto": "0x432DcBdA06e8B296CA29705572D7cb6315Ed8Bed",
+    "reward_sfi_wei": "635085548392321742"
+  },
+  {
+    "sendto": "0x3af015f6e3aC79D217198f00ef36AF099D223e29",
+    "reward_sfi_wei": "27209712338417301109"
+  },
+  {
+    "sendto": "0x091d8de14dC0db1C7266aFC1726880dc532Fb90c",
+    "reward_sfi_wei": "1136797495600506815628"
+  },
+  {
+    "sendto": "0xF1c0dC910eCfb7260E97e79d9E89774DCa231456",
+    "reward_sfi_wei": "231791397518851888970"
+  },
+  {
+    "sendto": "0x052564eB0fd8b340803dF55dEf89c25C432f43f4",
+    "reward_sfi_wei": "42297734070212595367"
+  },
+  {
+    "sendto": "0x056F2F34aE9f48c1622EAB9Cf12A0B156E34ACc1",
+    "reward_sfi_wei": "1740340706166075172"
+  },
+  {
+    "sendto": "0xADEEb9d09B8Bcee10943198FB6F6a4229bAB3675",
+    "reward_sfi_wei": "6932959494338840177"
+  },
+  {
+    "sendto": "0x26Bc299F13f0453ff8307761328fAb03A5091bE4",
+    "reward_sfi_wei": "366284540481609686"
+  },
+  {
+    "sendto": "0x537037C5ae805b9D4CeCAB5Ee07F12a8e59A15B2",
+    "reward_sfi_wei": "22229576984476516499"
+  },
+  {
+    "sendto": "0x6b0ABF7fcaa10EBAd592409d931571306B875CF4",
+    "reward_sfi_wei": "6973834209321871312"
+  },
+  {
+    "sendto": "0xcfB464585241eab3Ecb392011648a8e829b951eD",
+    "reward_sfi_wei": "19508449775655476975"
+  },
+  {
+    "sendto": "0x28265b4188FF587E5Cfe1155606026cD2CCd243d",
+    "reward_sfi_wei": "1164303188153528709"
+  },
+  {
+    "sendto": "0xFCFA4369EAa965AC4e36f1Dd9fd2852C6542b0F7",
+    "reward_sfi_wei": "120054323143151114"
+  },
+  {
+    "sendto": "0x8335bff7cE4Cdbd37bAf0aAE5BdDbD58aB0F6854",
+    "reward_sfi_wei": "181979391529440000"
+  },
+  {
+    "sendto": "0x0b0B1C6CcF23B1E85dc90519612Da5Fe9fc91c16",
+    "reward_sfi_wei": "389105505397358535619"
+  },
+  {
+    "sendto": "0x89d0E842B3c76d376C9b6af2f3b2a9Abd2B22897",
+    "reward_sfi_wei": "833554052404685230"
+  },
+  {
+    "sendto": "0x128f19a6FdD737B0937627738313E8BF5527ACEB",
+    "reward_sfi_wei": "24999494734668946"
+  },
+  {
+    "sendto": "0xc0819E1e01204BCB9CB5a0a3Be826afedAd6EDEf",
+    "reward_sfi_wei": "629638467436921147208"
+  },
+  {
+    "sendto": "0xf67ee7222Ee6144aBf4344c6537a7d612A9b7F40",
+    "reward_sfi_wei": "4112542957026817231"
+  },
+  {
+    "sendto": "0x4e65175f05B4140a0747c29cce997CD4BB7190d4",
+    "reward_sfi_wei": "22214977545126298164"
+  },
+  {
+    "sendto": "0x702D4960C5042E605a1DAE7B005784A9CB0F0137",
+    "reward_sfi_wei": "3519255177353174222"
+  },
+  {
+    "sendto": "0x37f48060490EEADcE18Da8965139b4Af6AC1b3C6",
+    "reward_sfi_wei": "6665089592930990073"
+  },
+  {
+    "sendto": "0x8A26CCa5d9C53E662EfB60dEcB2EB940E796c070",
+    "reward_sfi_wei": "832349163204104988"
+  },
+  {
+    "sendto": "0xcA9f486512154391C63A67069BFc1b1E4FB44774",
+    "reward_sfi_wei": "1327392128883615113"
+  },
+  {
+    "sendto": "0xF6B29fbEbff9f4457fAf9aAd463D341021F2B8e6",
+    "reward_sfi_wei": "124179241733521304"
+  },
+  {
+    "sendto": "0xad91BaE71E4569eC5ff09BE170e223cc6B388AB0",
+    "reward_sfi_wei": "11245169113540188224"
+  },
+  {
+    "sendto": "0x5fCF316bb2A86F9444633BF5aDb1531FBdCAB669",
+    "reward_sfi_wei": "857320805570177851"
+  },
+  {
+    "sendto": "0x5558647B57C6BE0Cd4a08fe2725965f1d9237AE7",
+    "reward_sfi_wei": "2717151772361600000"
+  },
+  {
+    "sendto": "0xe519f4cd2803BA53A40E6377E82406e548418660",
+    "reward_sfi_wei": "29484747836631467157"
+  },
+  {
+    "sendto": "0x1F2091d9D5D79D0B0d4752CD458c08920E80e814",
+    "reward_sfi_wei": "1082337849283163677579"
+  },
+  {
+    "sendto": "0x37f48060490EEADcE18Da8965139b4Af6AC1b3C6",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0x15943509d0C216a9aa36fbFe0095948065433df7",
+    "reward_sfi_wei": "1483828931620529477"
+  },
+  {
+    "sendto": "0x2d53B848079979B6B10202e38290d6F4C2Ff7c5F",
+    "reward_sfi_wei": "19734321467109550"
+  },
+  {
+    "sendto": "0x46a8536703975fA7729616cf0f901e49c930c23B",
+    "reward_sfi_wei": "274716352290796800"
+  },
+  {
+    "sendto": "0x652151c8521A46bEA762624726214FADd2e666Cc",
+    "reward_sfi_wei": "10316828148798906674"
+  },
+  {
+    "sendto": "0x70e4d7dC67A5dE6e0F4ef561a745D2aa6b2C39bf",
+    "reward_sfi_wei": "2737555114369397329"
+  },
+  {
+    "sendto": "0xD492aFF2A83d9B73EFBcC29C707a6756F6905e87",
+    "reward_sfi_wei": "4451497943392744464"
+  },
+  {
+    "sendto": "0x0487FeD00E5f5e81507b1cd6E851B741a4a020FD",
+    "reward_sfi_wei": "29418658177935563660"
+  },
+  {
+    "sendto": "0xE902C9339E0377cB22c7BB22Bb878fe32B63C20C",
+    "reward_sfi_wei": "2417695280918595315"
+  },
+  {
+    "sendto": "0x9b3f49A186670194f625199B822FCbDFD3Feacf7",
+    "reward_sfi_wei": "3933241487222300000"
+  },
+  {
+    "sendto": "0x455d7Eb74860d0937423b9184f9e8461aa354Ebb",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0x4F9a04Bf67a65A59Ef0beB8dcC83f7f3cC5C5D23",
+    "reward_sfi_wei": "13108732362954000000"
+  },
+  {
+    "sendto": "0x9CBBDA094cc0FA9217b783aCE7F0C103a8265cC4",
+    "reward_sfi_wei": "10339325373237553213"
+  },
+  {
+    "sendto": "0x3F8Bc02B3A8D74F8D90cB36c3008601db90fEefA",
+    "reward_sfi_wei": "25740297778073444450"
+  },
+  {
+    "sendto": "0xa2B9a5f796ef1f68B2aEF0c984F961beD1085500",
+    "reward_sfi_wei": "2511040438644181314"
+  },
+  {
+    "sendto": "0x5FEDDF388f844D00Ed2774BEa879C782405AEcb1",
+    "reward_sfi_wei": "7003732170066387806"
+  },
+  {
+    "sendto": "0x6d61DAfFfCAD9d6b8DfEA8936D0408e7872952f3",
+    "reward_sfi_wei": "210190235364359013"
+  },
+  {
+    "sendto": "0xdbc46C788f7249251FA6b49303BAbCB1C519F608",
+    "reward_sfi_wei": "7913037455141234035"
+  },
+  {
+    "sendto": "0xbC90B3Ce40fc3Ed921D910f3e046C65954fFF7cB",
+    "reward_sfi_wei": "33972235160189326388"
+  },
+  {
+    "sendto": "0xFF7cB3F05A2fB23c8d97b3A4F5DA89FAb00D7AE6",
+    "reward_sfi_wei": "22739624424737964374"
+  },
+  {
+    "sendto": "0xDDFB4C1841d57C9aCAe1dC1D1c8C1EAecc1568FC",
+    "reward_sfi_wei": "265183313655952656"
+  },
+  {
+    "sendto": "0x18B7F95442ec71442f45F480C4F56633C323d991",
+    "reward_sfi_wei": "283211768650804973159"
+  },
+  {
+    "sendto": "0x646806ae4e798Bc4411a904f57595bc661d66092",
+    "reward_sfi_wei": "10649528039710233628"
+  },
+  {
+    "sendto": "0x1e9C0bB00Ff504e2c4ed9368656E876616E25666",
+    "reward_sfi_wei": "1376051417322387368"
+  },
+  {
+    "sendto": "0xFD1A8F214d03100BBfF4CC664F21256DB04dd293",
+    "reward_sfi_wei": "4161238511894432210"
+  },
+  {
+    "sendto": "0xE902C9339E0377cB22c7BB22Bb878fe32B63C20C",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0xD3Ba480F555469D574417DDaB3a48A15e663a809",
+    "reward_sfi_wei": "4342856225248796143"
+  },
+  {
+    "sendto": "0x3Ee505bA316879d246a8fD2b3d7eE63b51B44FAB",
+    "reward_sfi_wei": "453977375967844307248"
+  },
+  {
+    "sendto": "0x7ce8CD580Cfae9f162BcbBFA80dcf3765f99Ca7f",
+    "reward_sfi_wei": "3756354877725484789"
+  },
+  {
+    "sendto": "0x18442affF92BCD9F347CC1569356f1f8f153Ef12",
+    "reward_sfi_wei": "166867067390063849"
+  },
+  {
+    "sendto": "0x3F805d522b57dDc95232Bca06F68C166c860c55F",
+    "reward_sfi_wei": "73413980474834048"
+  },
+  {
+    "sendto": "0x6555e1CC97d3cbA6eAddebBCD7Ca51d75771e0B8",
+    "reward_sfi_wei": "94142114129649661196"
+  },
+  {
+    "sendto": "0xCDD28226Cff0166082836a025419ED93986032a8",
+    "reward_sfi_wei": "5708617144851175431"
+  },
+  {
+    "sendto": "0x30AF04Ea1988d7e95CfCBD5C3788481e719378cA",
+    "reward_sfi_wei": "202388894465735204"
+  },
+  {
+    "sendto": "0x18442affF92BCD9F347CC1569356f1f8f153Ef12",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0xc018272800c4a989bDDb0D3437be912443bf9737",
+    "reward_sfi_wei": "174273918074231492"
+  },
+  {
+    "sendto": "0x8e842a7CBaE7e76DFB3a2b3E9A60134794FFec2d",
+    "reward_sfi_wei": "25028019194878422191"
+  },
+  {
+    "sendto": "0x7Fa56024E3FFf2c195eDC0E56e47D01816326Ceb",
+    "reward_sfi_wei": "4111882971173001063"
+  },
+  {
+    "sendto": "0x07de59aa336C0Ba080410EBCB42529554EBaD0E7",
+    "reward_sfi_wei": "2104834053916071715"
+  },
+  {
+    "sendto": "0x424687a2BB8B34F93c3DcB5E3Cdd2AD6A21163Bf",
+    "reward_sfi_wei": "23503150197071619264"
+  },
+  {
+    "sendto": "0x7c68F34B9D0D9f60d3BE8Aa828605E567cBeb3c6",
+    "reward_sfi_wei": "33778914844190991127"
+  },
+  {
+    "sendto": "0xAF5df2af19f1fc9687E71ba3b6666eA5193a4889",
+    "reward_sfi_wei": "241631667070336737073"
+  },
+  {
+    "sendto": "0xA8502b841D9fcD5d2a4C7439A13e87796AEd56A1",
+    "reward_sfi_wei": "16884829686270070203"
+  },
+  {
+    "sendto": "0x621370F543D4e829Ce5ca06adDAB3E784B90d06C",
+    "reward_sfi_wei": "1063472811393188166"
+  },
+  {
+    "sendto": "0x645E4BFd69A692BB7314eE5b0568342d0a34388b",
+    "reward_sfi_wei": "113854879088880199873"
+  },
+  {
+    "sendto": "0xbD6F5BdC401AB1Ca811e40755f4A2ddAd75cE2cc",
+    "reward_sfi_wei": "1339578494094636960"
+  },
+  {
+    "sendto": "0xAB6E1938D982dBDE84a1F4aF0e268aC1C3113f99",
+    "reward_sfi_wei": "1246185281817000000"
+  },
+  {
+    "sendto": "0x4166d3a2682b0764415EA2Ea2dC170afb518f523",
+    "reward_sfi_wei": "133759794024148765"
+  },
+  {
+    "sendto": "0xf8523151211e6cFB2D285b9B92F2eE517722253B",
+    "reward_sfi_wei": "176812682695389959467"
+  },
+  {
+    "sendto": "0xA98feaC76bA29ED76F97d522874E7cD604df654f",
+    "reward_sfi_wei": "61068850563772236"
+  },
+  {
+    "sendto": "0xc7a2C692657aD80DB478e602D46135383547A083",
+    "reward_sfi_wei": "164302066629568000"
+  },
+  {
+    "sendto": "0xFd72FAc7D08F9912E5D02091417304D5a0072E2b",
+    "reward_sfi_wei": "50512565953435749993"
+  },
+  {
+    "sendto": "0x2197f9b3c9a2F3f168e490bdFE6aA80eAD1e41a7",
+    "reward_sfi_wei": "1475749962066382852"
+  },
+  {
+    "sendto": "0x9F7610115501abD147d1d82Ce92cea2A716690ED",
+    "reward_sfi_wei": "7085603019470554985"
+  },
+  {
+    "sendto": "0xC8C2b727d864CC75199f5118F0943d2087fB543b",
+    "reward_sfi_wei": "62400503183718860314"
+  },
+  {
+    "sendto": "0x21F0ea893b517a6487Ed8b4A357b52551EB4dBD2",
+    "reward_sfi_wei": "1549906915915280000"
+  },
+  {
+    "sendto": "0x4190c17f06cD7F291eAf0E22B1d5337017832C2E",
+    "reward_sfi_wei": "550424896918873339371"
+  },
+  {
+    "sendto": "0xf7845cc3D24a511e15a0368871465f0dC5Ae4fB1",
+    "reward_sfi_wei": "44559543715959600000"
+  },
+  {
+    "sendto": "0x9694c964e2cE3624FF4d1f91E8D1f177c18daC6f",
+    "reward_sfi_wei": "11110226032508064000"
+  },
+  {
+    "sendto": "0xa0019248A3e80225C9C552C5796EA890BbBD3Ce0",
+    "reward_sfi_wei": "217653707867640000000"
+  },
+  {
+    "sendto": "0x0BfD52de6A1b494D4Fea95828B4EF759661cD164",
+    "reward_sfi_wei": "277980954843059556"
+  },
+  {
+    "sendto": "0x196A3Dc8446920Cef0f0d1f6Bf7Ba5b40702C79f",
+    "reward_sfi_wei": "25152394630136197440"
+  },
+  {
+    "sendto": "0x8E949B62a177452f5B327B539eAA63802a3ab6A4",
+    "reward_sfi_wei": "71952357827354697040"
+  },
+  {
+    "sendto": "0x4205F336Dd3B5886e4874FB353FB3c2B9F17527D",
+    "reward_sfi_wei": "1164344882480706529"
+  },
+  {
+    "sendto": "0x76B687cF4E5a4e73Fa3950D6cC642bCC64e40B88",
+    "reward_sfi_wei": "7172769750782266484"
+  },
+  {
+    "sendto": "0x19DA2CFC2d0faA3CAF1F906D66C2BD1BC8Ca20e4",
+    "reward_sfi_wei": "759213448214025582"
+  },
+  {
+    "sendto": "0x24ee78F038525eccAE186bC3bcF5d2BAdD850Bd9",
+    "reward_sfi_wei": "2452921910087442873"
+  },
+  {
+    "sendto": "0x2b4b2fDb67Ea31f8cF0543663CB4ee1b965a7B35",
+    "reward_sfi_wei": "5772014969181853967"
+  },
+  {
+    "sendto": "0x90aBCf1598ed3077861bCFb3B11EFcd1D7277223",
+    "reward_sfi_wei": "1387158133246000000"
+  },
+  {
+    "sendto": "0x95e68eDce9Af243424A16d9949EA78f5f7899597",
+    "reward_sfi_wei": "54309291772957144"
+  },
+  {
+    "sendto": "0x63a895D222CceC41AbF456A20D59850F75A854bB",
+    "reward_sfi_wei": "259700330157923758"
+  },
+  {
+    "sendto": "0x1649B7518ED8D64f07771Ee16DEF11174aFe8B12",
+    "reward_sfi_wei": "36235285788368000"
+  },
+  {
+    "sendto": "0xC065A07F9FE675D3a4B452A791e187bb4CEfAa43",
+    "reward_sfi_wei": "179459135386567520"
+  },
+  {
+    "sendto": "0x1A6a15BF5e616332E742990f34298D2C513A3631",
+    "reward_sfi_wei": "15855631692307279946"
+  },
+  {
+    "sendto": "0x3B47eA5e78f8fD82D3ce80fF870484cc1953Ba96",
+    "reward_sfi_wei": "4581020840676587088"
+  },
+  {
+    "sendto": "0x39c09fdc4E5C5AB72F6319dDbc2CAe40E67b2A60",
+    "reward_sfi_wei": "71779793676160000000"
+  },
+  {
+    "sendto": "0x94CcF50D661213958B92863433Eb39780d25032E",
+    "reward_sfi_wei": "34292684612218800000"
+  },
+  {
+    "sendto": "0x5ea7ea516720a8F59C9d245E2E98bCA0B6DF7441",
+    "reward_sfi_wei": "422323103715907631"
+  },
+  {
+    "sendto": "0x2afB58A22E7D3c241ab7b9A1f68B9e8E74ec9D68",
+    "reward_sfi_wei": "19824500595980521118"
+  },
+  {
+    "sendto": "0x83B7b877Dd0f31bee22Dfe0A3e74b699208EDbc9",
+    "reward_sfi_wei": "25910680585293059265"
+  },
+  {
+    "sendto": "0xc7d9dB303e4c08d623F48148F201213b93F49982",
+    "reward_sfi_wei": "275961736512518334"
+  },
+  {
+    "sendto": "0x42d02f4cd48BDAC116b7E3A4895f586777948FaE",
+    "reward_sfi_wei": "2175086047500544951"
+  },
+  {
+    "sendto": "0x9BE80C23245b576B23c01670137726Fef0f9b64e",
+    "reward_sfi_wei": "21619931227723025501"
+  },
+  {
+    "sendto": "0x9dd3571f34A38e844D74D56757cEEb37837E8Bf3",
+    "reward_sfi_wei": "27714863410400000"
+  },
+  {
+    "sendto": "0x5e8d405Cbc564473d85A9A31FBFcA76167d69978",
+    "reward_sfi_wei": "9342133106649880000"
+  },
+  {
+    "sendto": "0x0ef6E547DD86de09F0E8eCE1E5A9f5cCB335aDE1",
+    "reward_sfi_wei": "2909057477154332921"
+  },
+  {
+    "sendto": "0x5746C04803a7F3c709ea030DD256C793c872D23B",
+    "reward_sfi_wei": "81507202266930000"
+  },
+  {
+    "sendto": "0x8f4B3e60F6DEdE39f91774BB96aB0C4993DA349b",
+    "reward_sfi_wei": "80998261917364167"
+  },
+  {
+    "sendto": "0x47EdF911B3c4915c947dc2b66beC977b8db65Ab0",
+    "reward_sfi_wei": "379991728205555103"
+  },
+  {
+    "sendto": "0x044a9c43e95AA9FD28EEa25131A62b602D304F1f",
+    "reward_sfi_wei": "3013903089159486111"
+  },
+  {
+    "sendto": "0x6A6aD778829ACbe085d257160ac4EbBb0E228383",
+    "reward_sfi_wei": "6532668429218600120"
+  },
+  {
+    "sendto": "0xD25D447b35213e23b6a1F402C203D491Ed7A89C8",
+    "reward_sfi_wei": "2215188486989380913"
+  },
+  {
+    "sendto": "0x914ebffCbd9AD6a35286c1B269E6310e345E42DC",
+    "reward_sfi_wei": "314798031302040298"
+  },
+  {
+    "sendto": "0x4FeB5e8b30b355653E27470Ef4a1F3D5cd355762",
+    "reward_sfi_wei": "573447810884640000"
+  },
+  {
+    "sendto": "0x1712fdDC84EFa346D51261f0fa5a809fF457aBDc",
+    "reward_sfi_wei": "4064111972925939853"
+  },
+  {
+    "sendto": "0xCF2C6580E9798c09246CEB6cb8bC99613964a805",
+    "reward_sfi_wei": "2650912237630064200"
+  },
+  {
+    "sendto": "0xaB02cA6151925a94fc24683694A812bc7bc8593B",
+    "reward_sfi_wei": "1171920660171799278"
+  },
+  {
+    "sendto": "0xF1394140fe0982E40fa9A9846E7c5b0842CECe56",
+    "reward_sfi_wei": "11876829538615686779"
+  },
+  {
+    "sendto": "0xfcda475BE963071ac315B0B44648B94322355d3F",
+    "reward_sfi_wei": "1947464802702898236"
+  },
+  {
+    "sendto": "0x5D6DD6E8Caa61Fd01AAF3367706b1d0eD8Ae6557",
+    "reward_sfi_wei": "1418224042527000000"
+  },
+  {
+    "sendto": "0x071Fe6456f926722b2731087395a5335612269fd",
+    "reward_sfi_wei": "210426694028800538"
+  },
+  {
+    "sendto": "0xf6C75d85Ef66d57339f859247C38f8F47133BD39",
+    "reward_sfi_wei": "4546216148959111813"
+  },
+  {
+    "sendto": "0xb43923634fF5556E8188886b24EDB8f17204B25c",
+    "reward_sfi_wei": "2528567304233194382"
+  },
+  {
+    "sendto": "0xdEB08D04004ea00BB6898D19267f7d3399E2827D",
+    "reward_sfi_wei": "6183511494001950461"
+  },
+  {
+    "sendto": "0x0003189FA95767DF7C2d95142775D9e32f81009d",
+    "reward_sfi_wei": "3966592674837193366"
+  },
+  {
+    "sendto": "0x43725bcf72bBbdd9f2B206c4D5320E2AadE16934",
+    "reward_sfi_wei": "46675488773214796"
+  },
+  {
+    "sendto": "0xDB19D3186Ea32001F6F16867D5D31a39BbA139Be",
+    "reward_sfi_wei": "6582317074474611200"
+  },
+  {
+    "sendto": "0xad1e365152589d3501340Af5c004bfa1EF0d724a",
+    "reward_sfi_wei": "705063085342550116"
+  },
+  {
+    "sendto": "0x2237Ab6ecd5277c4Bee571A86c83cfcD5B688cE1",
+    "reward_sfi_wei": "416252051447694001"
+  },
+  {
+    "sendto": "0xDC7360c50F9c1E7842c12ee9ED625f189992BeCc",
+    "reward_sfi_wei": "262632138829136506"
+  },
+  {
+    "sendto": "0xF393600f32A69af141B17c0C3bA71A0cbe9DA861",
+    "reward_sfi_wei": "4771129533841237794"
+  },
+  {
+    "sendto": "0x69E0E2b3d523D3b247d798a49C3fa022a46DD6bd",
+    "reward_sfi_wei": "7433638974304000000"
+  },
+  {
+    "sendto": "0xd380Ab76b42254992622b7272335d1Bb37667246",
+    "reward_sfi_wei": "78445523412146277339"
+  },
+  {
+    "sendto": "0xd380Ab76b42254992622b7272335d1Bb37667246",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0xE0e8C1D735698060477e79a8e4C20276Fc2Ec7A7",
+    "reward_sfi_wei": "1908384176580075092"
+  },
+  {
+    "sendto": "0xB6fB5193230F38351009f7e9345f194E12B28955",
+    "reward_sfi_wei": "157330824423700231656"
+  },
+  {
+    "sendto": "0x3CC9063E7AC5fa8345e1F59bC32a470ccd30cA6d",
+    "reward_sfi_wei": "47801908832195294453"
+  },
+  {
+    "sendto": "0x32156a5cFD2a3A97788cd7149b47A8B45B7e4829",
+    "reward_sfi_wei": "1935685801619485367"
+  },
+  {
+    "sendto": "0xF737Cf1a705c8ff6aC2592db084B8FE3C338Daf5",
+    "reward_sfi_wei": "4091784016047481551"
+  },
+  {
+    "sendto": "0x9eD04A577c1c37E64A621b0Bb21a21B9a0483948",
+    "reward_sfi_wei": "20028332634545200000"
+  },
+  {
+    "sendto": "0x9b422e571eb2cb9837efDc4F9087194d65Fb070A",
+    "reward_sfi_wei": "34708276420488000000"
+  },
+  {
+    "sendto": "0x10Ac093411Ab176Af22CAaB884910E8c4B087640",
+    "reward_sfi_wei": "2733555157156911427"
+  },
+  {
+    "sendto": "0x7BFEe91193d9Df2Ac0bFe90191D40F23c773C060",
+    "reward_sfi_wei": "1702327805121152000"
+  },
+  {
+    "sendto": "0x2d8Ffc88e492323d5D7bD90f04Cd8D79CfE0B308",
+    "reward_sfi_wei": "471050017746823509"
+  },
+  {
+    "sendto": "0x73254d06f0e28f6602866d128a5F451917988896",
+    "reward_sfi_wei": "903829804741946"
+  },
+  {
+    "sendto": "0x543657598f7b237ab7289c2CED5D5418551cD057",
+    "reward_sfi_wei": "264931325829451855390"
+  },
+  {
+    "sendto": "0xED60d8590019e5E145ea81455c01F3e817Fe54EB",
+    "reward_sfi_wei": "100381503795235132000"
+  },
+  {
+    "sendto": "0x0A53E28f2f7b27971E18a6305C2C74A449BADd2e",
+    "reward_sfi_wei": "6203622694205339460"
+  },
+  {
+    "sendto": "0x5be10f3434bC1aC6C0A34f86Da39Ea0095392f21",
+    "reward_sfi_wei": "160853454873128539"
+  },
+  {
+    "sendto": "0x504cb17F68525F798b6638708ADEe69a16fB8D2e",
+    "reward_sfi_wei": "232118531287826521"
+  },
+  {
+    "sendto": "0x5333dF24D8d9109d472E5b61D711E11aCFa62530",
+    "reward_sfi_wei": "553874070040368276"
+  },
+  {
+    "sendto": "0xc91F9A086d6A8B1eBcD84F9b4E3796AB86CF3f4a",
+    "reward_sfi_wei": "22959845942798998358"
+  },
+  {
+    "sendto": "0xe69010Fbd39e258d0c5fE015A6Fc16E4241709a0",
+    "reward_sfi_wei": "282973660752122695"
+  },
+  {
+    "sendto": "0x91968E4bde01E1dD5d595AE4d5CAF306797b6d87",
+    "reward_sfi_wei": "376959582520622355"
+  },
+  {
+    "sendto": "0x04122BAfBFdb9026B9a5933CED1A6F7E249b38fB",
+    "reward_sfi_wei": "2951442911767413320"
+  },
+  {
+    "sendto": "0x267c3Ca6e21d037D9B311796bd7c5D7B9ddb1AF0",
+    "reward_sfi_wei": "6917768454670679200"
+  },
+  {
+    "sendto": "0x54A85CFDb41f0B4f9001b4837E594940d375ed37",
+    "reward_sfi_wei": "4161101677849200000"
+  },
+  {
+    "sendto": "0x9b616Ac1D31F17Be9B23560d93699cA7732e2808",
+    "reward_sfi_wei": "15274677697881760000"
+  },
+  {
+    "sendto": "0x54683a50f0D2B3F3d1b32780524AE01AA1A583c2",
+    "reward_sfi_wei": "29473173120440548451"
+  },
+  {
+    "sendto": "0x50Ad452DD4434E547c88262a00f08517743B4c02",
+    "reward_sfi_wei": "81145880134904376"
+  },
+  {
+    "sendto": "0xef764BAC8a438E7E498c2E5fcCf0f174c3E3F8dB",
+    "reward_sfi_wei": "185111872824297200000"
+  },
+  {
+    "sendto": "0x578761F0a290EE9746A49276C3CEff79Bc51B333",
+    "reward_sfi_wei": "5598524348778000000"
+  },
+  {
+    "sendto": "0x54cBcAf81e4b23e35eF69A64ca7A03C36f6EA64d",
+    "reward_sfi_wei": "191378885972152814"
+  },
+  {
+    "sendto": "0xe67e43b831A541c5Fa40DE52aB0aFbE311514E64",
+    "reward_sfi_wei": "8079138067648000000"
+  },
+  {
+    "sendto": "0xB9433fd97274c124FfF197f78E1c8B0299B3DD9f",
+    "reward_sfi_wei": "438601090128146742"
+  },
+  {
+    "sendto": "0x45f937d6032796b1e65d93A70c2C64C0E3EAb62e",
+    "reward_sfi_wei": "2024295535666489131"
+  },
+  {
+    "sendto": "0xD84c76FC00901C6EE4CBd5e48dcc6F2487E6fd80",
+    "reward_sfi_wei": "148081938262793326354"
+  },
+  {
+    "sendto": "0x29213292e606EBC5FbC481172D5ADa5802315c60",
+    "reward_sfi_wei": "6153097227799737282"
+  },
+  {
+    "sendto": "0x2Debdf4427CcBcfDbC7f29D63964499a0ec184F6",
+    "reward_sfi_wei": "3609004388912364874"
+  },
+  {
+    "sendto": "0x31eA41b97E0F939f778B152226A01A7329844db7",
+    "reward_sfi_wei": "67248346786740000"
+  },
+  {
+    "sendto": "0x10ddD19B5d1AB85D1db238aA3270f172c38B7Fda",
+    "reward_sfi_wei": "102654717500436000"
+  },
+  {
+    "sendto": "0x3C9002CdB61C56B89467D94a2D93235DFD698089",
+    "reward_sfi_wei": "157983855063102076"
+  },
+  {
+    "sendto": "0x864f23945a1ed0021112A4bf1C8c9cD25E40d9f4",
+    "reward_sfi_wei": "4403799377076139647"
+  },
+  {
+    "sendto": "0xF92660595bBf1C76071f262e186bd2182815c613",
+    "reward_sfi_wei": "102031658059384632000"
+  },
+  {
+    "sendto": "0x684929B959e4eeA2b307ECd225B4301fa27Ff205",
+    "reward_sfi_wei": "67476669978419335470"
+  },
+  {
+    "sendto": "0x14362b6B9a95F22FdB13ff0d78066F684b80a9BC",
+    "reward_sfi_wei": "31212220234051916"
+  },
+  {
+    "sendto": "0x75CeB8716d598AEC5fCD55De2F55bCE50De38ae8",
+    "reward_sfi_wei": "1293268112535492023"
+  },
+  {
+    "sendto": "0xB39EC688A27B14436e9F15A693Da8605A3D0269D",
+    "reward_sfi_wei": "27910187666552642689"
+  },
+  {
+    "sendto": "0xfEf7643906542ECf98c89a6D74c17acC991c5b5E",
+    "reward_sfi_wei": "16808389755038601578"
+  },
+  {
+    "sendto": "0xc494a87A34F90C6CBf423776fDA3c072edB42a65",
+    "reward_sfi_wei": "550673784723910240"
+  },
+  {
+    "sendto": "0xD7F0233f147De4E878C6A57E1B0b7BaAE4aC3516",
+    "reward_sfi_wei": "4328915757831149724"
+  },
+  {
+    "sendto": "0x28CabeB7e769a66fFD874e12c2aD39932bCCC5Eb",
+    "reward_sfi_wei": "1475972305521900063"
+  },
+  {
+    "sendto": "0xAE653682Dee958914A82C9628de794dCbbEe3D04",
+    "reward_sfi_wei": "425400179018026501678"
+  },
+  {
+    "sendto": "0x6595732468A241312bc307F327bA0D64F02b3c20",
+    "reward_sfi_wei": "9893395269383832027"
+  },
+  {
+    "sendto": "0x8Bdb96D39FA93dC0f9D843C3C5E8CB89aFE98995",
+    "reward_sfi_wei": "25813005722365892477"
+  },
+  {
+    "sendto": "0x6D8a144eFCA3E16C8e2adbCdaC7cCF34164B0796",
+    "reward_sfi_wei": "282408476299492000"
+  },
+  {
+    "sendto": "0xAF3d3a62439a4f608e6CcEfE7Eb8b3088e723d7B",
+    "reward_sfi_wei": "1560369147600040264"
+  },
+  {
+    "sendto": "0x541959881e4766125980F24F8b2F89405b249Df9",
+    "reward_sfi_wei": "1390595925907120656"
+  },
+  {
+    "sendto": "0x9E51BE7071F086d3A1fD5Dc0016177473619b237",
+    "reward_sfi_wei": "79566723716169089120"
+  },
+  {
+    "sendto": "0xb126afa1075BbfBBe49E8321c6016f9B7CE5Ca13",
+    "reward_sfi_wei": "3986495760226140231"
+  },
+  {
+    "sendto": "0xbEd3D1d99fac85Eeb0B98d3425EB5f46DF7F2b48",
+    "reward_sfi_wei": "5538122696020800000"
+  },
+  {
+    "sendto": "0xC075C4ddfe32f799488a167123b559aac1Db0F50",
+    "reward_sfi_wei": "554259765943880000"
+  },
+  {
+    "sendto": "0x7E9A6b14e78BF18bD483D208af423b96AB5075A4",
+    "reward_sfi_wei": "131755304515566105"
+  },
+  {
+    "sendto": "0xF145d905A0705b7D61f103a997Cc4D8b14a92Ae1",
+    "reward_sfi_wei": "1940951918175581612"
+  },
+  {
+    "sendto": "0x26d469193a79533638c4a8c48187217AF37502e3",
+    "reward_sfi_wei": "154422941085821052"
+  },
+  {
+    "sendto": "0x345aE50b6E620cf0E8B7D344BD55b821b060F56B",
+    "reward_sfi_wei": "1213960981078510286"
+  },
+  {
+    "sendto": "0x9224bbB4E0fBE2f2f8fab55DEbC41Eb21fDfB804",
+    "reward_sfi_wei": "1834680246286332962"
+  },
+  {
+    "sendto": "0x18637e9C1f3bBf5D4492D541CE67Dcf39f1609A2",
+    "reward_sfi_wei": "1987212338262353913"
+  },
+  {
+    "sendto": "0x668C6f75486d6882a1AaCF7BF03eeE605C96fdaD",
+    "reward_sfi_wei": "1881881973887503221"
+  },
+  {
+    "sendto": "0x616F2EF297720E081eB69d4E4518f85572a6f8A1",
+    "reward_sfi_wei": "102138501959309630"
+  },
+  {
+    "sendto": "0x90b32e4BEd4c89DcE5EE0D926bA1992ec27833A3",
+    "reward_sfi_wei": "1889784986425915183"
+  },
+  {
+    "sendto": "0x71D8472C58D77F2220C333149BdF8b843C314E99",
+    "reward_sfi_wei": "6767264015507161483"
+  },
+  {
+    "sendto": "0xdFEa4755c067DfABAF0a18C88D226337874469aC",
+    "reward_sfi_wei": "772104133923035486"
+  },
+  {
+    "sendto": "0x5acfbbF0aA370F232E341BC0B1a40e996c960e07",
+    "reward_sfi_wei": "2346132539690555232"
+  },
+  {
+    "sendto": "0xE5cBa15A0Fd22aCEA247cDF3033e40dcc05c7a90",
+    "reward_sfi_wei": "1312647605034697992"
+  },
+  {
+    "sendto": "0xfb45136E6304Ea9cFd87Ab936E1111E22EB30425",
+    "reward_sfi_wei": "2978016601279360000"
+  },
+  {
+    "sendto": "0x8b308C0870dd6dA8aBa82119A924B9a621Ed27bB",
+    "reward_sfi_wei": "25609414100957151206"
+  },
+  {
+    "sendto": "0x133545903e33C96efbD09932275aC067D7a1B86b",
+    "reward_sfi_wei": "162861059386400000"
+  },
+  {
+    "sendto": "0x2cCB1Cb25695aF8F4FF38352C2696A0Af8297D01",
+    "reward_sfi_wei": "9333749855130000000"
+  },
+  {
+    "sendto": "0xAe3b67990bc37044Fab1Cde982ddf8935F8B2995",
+    "reward_sfi_wei": "1453953225427400771"
+  },
+  {
+    "sendto": "0xC3E9fe528ACc4FFF877f882158db28Dd4bF423BC",
+    "reward_sfi_wei": "2022545282619105978"
+  },
+  {
+    "sendto": "0x50b53A7925b8FD33Bba8C39b77b5C12C23607A97",
+    "reward_sfi_wei": "88904059188297020142"
+  },
+  {
+    "sendto": "0x5a71a8ec2f32BFD9e22C0bc881b418246c1b3DF6",
+    "reward_sfi_wei": "186632736767618743"
+  },
+  {
+    "sendto": "0x1968a07440BdF3D3c124c2cD8E636d8E9D946919",
+    "reward_sfi_wei": "60387903482393349144"
+  },
+  {
+    "sendto": "0x8BdAef050bf1239a6AE4396E281a0aE6B52B1Bfa",
+    "reward_sfi_wei": "16356074012159803779"
+  },
+  {
+    "sendto": "0xDA9f6e5748c13BF79eAab5BBc515334D16d9b7E2",
+    "reward_sfi_wei": "2625109648642827839"
+  },
+  {
+    "sendto": "0x4233FD60d9BEd14D1f9D0F3DAFFabdb51e109cb1",
+    "reward_sfi_wei": "27061100079653689"
+  },
+  {
+    "sendto": "0x555F1401660b2bA254119c3A71b8F0FA6Eaa93D2",
+    "reward_sfi_wei": "12839922103958736019"
+  },
+  {
+    "sendto": "0x4E475640967781Afc29d3C8aAFAe4FFC041710B7",
+    "reward_sfi_wei": "21241177679435120211"
+  },
+  {
+    "sendto": "0xeDb263D70A4Cc82b268177583094e043D584F73f",
+    "reward_sfi_wei": "25686902398949679099"
+  },
+  {
+    "sendto": "0xC13bA51d26d1b2022Fa51e25243bb49A54c4A953",
+    "reward_sfi_wei": "4925437771428767532"
+  },
+  {
+    "sendto": "0x3923014F9e46a4ec5CdF6Ff48C61Feb49c5F507C",
+    "reward_sfi_wei": "5235843984961146213"
+  },
+  {
+    "sendto": "0xC671a41162789649457058C4Ee454D6fcCd2C44c",
+    "reward_sfi_wei": "25780007490197283789"
+  },
+  {
+    "sendto": "0xddf9a07836caeE5BB79c6CD97CA6FAE94b8e6d56",
+    "reward_sfi_wei": "2288443381881786208"
+  },
+  {
+    "sendto": "0xbE8564b4CcC870d4D5e2Dee0F6c37d0796e30656",
+    "reward_sfi_wei": "9525411733059600000"
+  },
+  {
+    "sendto": "0xFF6d6Ae87B6431564737834BF733a13aF4B734F4",
+    "reward_sfi_wei": "1244204889364894112"
+  },
+  {
+    "sendto": "0x5767795b4eFbF06A40cb36181ac08f47CDB0fcEc",
+    "reward_sfi_wei": "1117155651823168488"
+  },
+  {
+    "sendto": "0x549C0421c69Be943A2A60e76B19b4A801682cBD3",
+    "reward_sfi_wei": "130406986312701738072"
+  },
+  {
+    "sendto": "0xa57033C944106A32658321ec4248Ae3571521E9e",
+    "reward_sfi_wei": "23469620430246041"
+  },
+  {
+    "sendto": "0xF3881E1a018CcC24F1c78aeD70a4b84dB04c05E4",
+    "reward_sfi_wei": "2490487107830208260"
+  },
+  {
+    "sendto": "0x48812165fda89043126Bd3Dd4BdBc1C8316d4550",
+    "reward_sfi_wei": "1415809661898161046"
+  },
+  {
+    "sendto": "0xa36f7d9917832Bf04358a31900D3cA56E1be1507",
+    "reward_sfi_wei": "716709919954665672"
+  },
+  {
+    "sendto": "0x7Ba6CDA15Da26d2F457df51456555bc7Bf07B19A",
+    "reward_sfi_wei": "129183830222236371"
+  },
+  {
+    "sendto": "0xf562F49BF62724b1888391Df40cCD34CADf48d29",
+    "reward_sfi_wei": "39121681198740067"
+  },
+  {
+    "sendto": "0xe212c1330a24C4151cA142F8e0da778303ca2b2e",
+    "reward_sfi_wei": "333100620215838000"
+  },
+  {
+    "sendto": "0xF602Fdfb832dfD62cb346ff26c55E7dDF394Fc83",
+    "reward_sfi_wei": "965266880092632960"
+  },
+  {
+    "sendto": "0x43242cB46516471Dd1e45bB749347aa6ab914330",
+    "reward_sfi_wei": "468638367438279600"
+  },
+  {
+    "sendto": "0x62A81b91BB2Bd824c4710aef111c93dC5a467d10",
+    "reward_sfi_wei": "4695885661245279520"
+  },
+  {
+    "sendto": "0x8064EebD2D1CcD4290924665eFc17c8F2da5bfC4",
+    "reward_sfi_wei": "240021732237293366"
+  },
+  {
+    "sendto": "0xCE31188cbD1d46bD33d9246f4A66068BAF709A40",
+    "reward_sfi_wei": "22061595131741293681"
+  },
+  {
+    "sendto": "0xd5643F1Ff4218C2B09239885D9bF4e99f4a65F79",
+    "reward_sfi_wei": "252598685695040000"
+  },
+  {
+    "sendto": "0x7AFf56718B462D80781B73A1AB50dA22fBc66531",
+    "reward_sfi_wei": "12097525382417177014"
+  },
+  {
+    "sendto": "0x5eE0E896d0EAD8c9348bA1726Aad2f01b7B6fD3C",
+    "reward_sfi_wei": "9075507163668637012"
+  },
+  {
+    "sendto": "0x5eE0E896d0EAD8c9348bA1726Aad2f01b7B6fD3C",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0xe1A59cDd826c4460a30a77cc0526CD19351f670b",
+    "reward_sfi_wei": "94098620970357531523"
+  },
+  {
+    "sendto": "0x2117c37a65aD3c0489682386f7d81d4c6d08B3C8",
+    "reward_sfi_wei": "22386700726230883622"
+  },
+  {
+    "sendto": "0xb7d49ADB031d6DBDF3E8e28F21C6Dd3b6f231cD5",
+    "reward_sfi_wei": "6836173369577349700"
+  },
+  {
+    "sendto": "0xdbAd48E2Cd9d05a6769F5A3827f35D0bFC6c70a8",
+    "reward_sfi_wei": "14747679317050240"
+  },
+  {
+    "sendto": "0x0B1FDB90501286ebe6087b6660C3a48db9898FAD",
+    "reward_sfi_wei": "4494242091943519696"
+  },
+  {
+    "sendto": "0xDdEEbf87264dd4Df81762ECEa6940Fb27Bd28415",
+    "reward_sfi_wei": "1549605605676568818"
+  },
+  {
+    "sendto": "0x9b667FA9EF908407Dc90ad0274039fA2fd0007b3",
+    "reward_sfi_wei": "124129635737470506"
+  },
+  {
+    "sendto": "0xF23f6Bd1a912c34D1d06C3989441D88Ec0204917",
+    "reward_sfi_wei": "67423798025850824"
+  },
+  {
+    "sendto": "0x3906E7E1F36E6f79Cc417D6cAD102F857455e568",
+    "reward_sfi_wei": "16194831324280185"
+  },
+  {
+    "sendto": "0x45521dB5fd5d1Cc05AeEcDb85220d65C7d0F2b57",
+    "reward_sfi_wei": "24580260862039722"
+  },
+  {
+    "sendto": "0x34D7bCeaA2B3cfb1dE368BAA703683EDC666d3f1",
+    "reward_sfi_wei": "31382683276519639"
+  },
+  {
+    "sendto": "0x101D5810f8841BcE68cB3e8CFbadB3f8C71fdff0",
+    "reward_sfi_wei": "8418233610729527008"
+  },
+  {
+    "sendto": "0x968eE59396a1B623584Aae5AC21f3049DB58C101",
+    "reward_sfi_wei": "365873186202775094"
+  },
+  {
+    "sendto": "0xd94D9c0c5974ECd81e7f1c1D466A53bD3af4DAe9",
+    "reward_sfi_wei": "8600157913740574047"
+  },
+  {
+    "sendto": "0x750eb8c606B3e2EAdc37d0332a22596F4D0efD35",
+    "reward_sfi_wei": "74286704970040250"
+  },
+  {
+    "sendto": "0x82Ab72623B1E29942781DF85bD6a49326A977333",
+    "reward_sfi_wei": "443396887465977710"
+  },
+  {
+    "sendto": "0xD6d507910046628CeBb660d3d5A1C2F8F9004C22",
+    "reward_sfi_wei": "2615363895344241147"
+  },
+  {
+    "sendto": "0x2c27f4E927aa1472eE374261832061b289d803aa",
+    "reward_sfi_wei": "2580616294836522649"
+  },
+  {
+    "sendto": "0x7688b399c3237d098be4688d222D586ab5236451",
+    "reward_sfi_wei": "28432426714874784117"
+  },
+  {
+    "sendto": "0x73050f3368bFC79fD57F7FAE54dcB00cB9E68774",
+    "reward_sfi_wei": "99881280299840581"
+  },
+  {
+    "sendto": "0x9498C346B3e76650511E85515fe367A038cCA77d",
+    "reward_sfi_wei": "871156162764498933"
+  },
+  {
+    "sendto": "0x6496B57Cd93c607527b418EF584a6b293b80a718",
+    "reward_sfi_wei": "648647673003400000"
+  },
+  {
+    "sendto": "0x8c3De1634251D1e51C28844391FC9c11abB9F5E4",
+    "reward_sfi_wei": "328158985975885937"
+  },
+  {
+    "sendto": "0xE51C787aaD513879FB6520ba01Fd565D431704e9",
+    "reward_sfi_wei": "19652768166155000"
+  },
+  {
+    "sendto": "0xe4fb9ca52E39B83BE69E74E7Fac8f807A9c16eF9",
+    "reward_sfi_wei": "47580951420326254"
+  },
+  {
+    "sendto": "0x7091de9A5435dbA7F051045d64c5ef56bD96064e",
+    "reward_sfi_wei": "3146407397072419455"
+  },
+  {
+    "sendto": "0x4acbA0876Cb0D9Dd8992ABC743333E686b4EF71A",
+    "reward_sfi_wei": "67913700091148688"
+  },
+  {
+    "sendto": "0xc8681B1D3343b8536086a3B0228B95c797f154bE",
+    "reward_sfi_wei": "81628711946622074"
+  },
+  {
+    "sendto": "0xdE42DDB51678d999AED372B7DD34942C3b2C1442",
+    "reward_sfi_wei": "82738919329218182"
+  },
+  {
+    "sendto": "0xD9a14b6F258B52E4E108d516487E08f7928552d3",
+    "reward_sfi_wei": "393897501448698567"
+  },
+  {
+    "sendto": "0x9a376C8e244CDBB07eb7856DA3cAC7f5794b58fA",
+    "reward_sfi_wei": "529266002396960000"
+  },
+  {
+    "sendto": "0xE968a888792b3c6ca4242a87445e2518F88F2e02",
+    "reward_sfi_wei": "42586778066008867101"
+  },
+  {
+    "sendto": "0x086f51fcEd9Ff6c742D706C319112359E3658b08",
+    "reward_sfi_wei": "417761006052542897"
+  },
+  {
+    "sendto": "0x52524f7F5F2B75Ef38e676498a4FeDb3DC089212",
+    "reward_sfi_wei": "456255374808618489"
+  },
+  {
+    "sendto": "0x42d4C197036BD9984cA652303e07dD29fA6bdB37",
+    "reward_sfi_wei": "228381303271449366"
+  },
+  {
+    "sendto": "0xd75607721247B27FCA4Ff02D3819E8EC54A8031e",
+    "reward_sfi_wei": "758428073769400000"
+  },
+  {
+    "sendto": "0x4207cC3E5Ed6C55fb5BC85cFcDeDEbE5E48891A7",
+    "reward_sfi_wei": "34517359986336000"
+  },
+  {
+    "sendto": "0xA76B1FDD162751629eCF3e8a649bc0370411e84c",
+    "reward_sfi_wei": "35559636600766559"
+  },
+  {
+    "sendto": "0x311d2F7912a689CE0FfE8D07e3b1cBEEd46BCCeE",
+    "reward_sfi_wei": "4773389792727092023"
+  },
+  {
+    "sendto": "0x83112307a51ab30f2E4e1dDA68DA852d5F2691b3",
+    "reward_sfi_wei": "159933154036464676"
+  },
+  {
+    "sendto": "0x6977e753e022F65eBEb170d8267b2EA54a431523",
+    "reward_sfi_wei": "640026116509704010"
+  },
+  {
+    "sendto": "0x049940FeDA4277b7F01eF10fCA0B975c541D8Fca",
+    "reward_sfi_wei": "16109542799112459453"
+  },
+  {
+    "sendto": "0x3dd546e60456Cc06d51687DAd722A734B73C0bee",
+    "reward_sfi_wei": "803330225224619943"
+  },
+  {
+    "sendto": "0x7E43Cfef34D5a40aeb46cA71077ED364eC3065D3",
+    "reward_sfi_wei": "122624108489689993"
+  },
+  {
+    "sendto": "0xADBc69b07B839CA353177B5A22013B30624D2dC5",
+    "reward_sfi_wei": "787426105694221391"
+  },
+  {
+    "sendto": "0x9c6BAfd4C0C5d852e593300F22b3E55BeD016BAD",
+    "reward_sfi_wei": "7917306292951024394"
+  },
+  {
+    "sendto": "0xCCa11A8EdB05D64a654092e9551F9122D70EA80e",
+    "reward_sfi_wei": "36906488188448350"
+  },
+  {
+    "sendto": "0x94e64d925eA0D2ea9b143bCe58A74946cF76Da92",
+    "reward_sfi_wei": "148488111298142174"
+  },
+  {
+    "sendto": "0xE48A40161A2eEA062d0CF93595608FA8F321Ee3D",
+    "reward_sfi_wei": "3377789816497600000"
+  },
+  {
+    "sendto": "0x40Fb94904257c84877e561eDae31672B196bF6d1",
+    "reward_sfi_wei": "95674922181331647"
+  },
+  {
+    "sendto": "0x95f1872c2c63f54072BD42F68BeEe71E0D6f67d3",
+    "reward_sfi_wei": "1357219990231333690"
+  },
+  {
+    "sendto": "0x3e025504b92bAbf4BBbC20CBB28F2d04c1608247",
+    "reward_sfi_wei": "3037533529668470039"
+  },
+  {
+    "sendto": "0xd61aF6A47515592221B1E4BbDAc3B984003a90F2",
+    "reward_sfi_wei": "4126555957965250"
+  },
+  {
+    "sendto": "0x6Fb34dC6feBaDd5cFCEc48AfdFDC44449deBec48",
+    "reward_sfi_wei": "5697351996124648861"
+  },
+  {
+    "sendto": "0xF5ecA360c5dE26A46D54b72E49800c87801c719b",
+    "reward_sfi_wei": "2487744505831762304"
+  },
+  {
+    "sendto": "0xD799F16d365bD525e0Cb0ed625c499b220b70cA8",
+    "reward_sfi_wei": "58278517725473427454"
+  },
+  {
+    "sendto": "0xf10806C57b21F89A60ac5b743532fd3d4efcE18A",
+    "reward_sfi_wei": "2435024678184384000"
+  },
+  {
+    "sendto": "0x13889F184902a81d25A092ccb9318da14481e379",
+    "reward_sfi_wei": "2730768512443514811"
+  },
+  {
+    "sendto": "0xb32BEB8516E95293fE9B2Fed95922159e9d01Ad1",
+    "reward_sfi_wei": "3728661929652115628"
+  },
+  {
+    "sendto": "0x7Bea9a9Ca90b2FCED6e0eB8aF3198437EB016791",
+    "reward_sfi_wei": "43440719017900789"
+  },
+  {
+    "sendto": "0xC8da4C1d9BB59DD32ac39A925933188b7c66c311",
+    "reward_sfi_wei": "73986122771944617"
+  },
+  {
+    "sendto": "0xb97C96B10Ee62F50F13bc06b6dE8674B475F7603",
+    "reward_sfi_wei": "167384544752215040"
+  },
+  {
+    "sendto": "0xe105b6165f5fECA43a49E57a95D8936A8E964277",
+    "reward_sfi_wei": "294992121642952400"
+  },
+  {
+    "sendto": "0x5185921Ae6ad54b7c7Aae694c397F80CD96b1fA5",
+    "reward_sfi_wei": "2073138418173437"
+  },
+  {
+    "sendto": "0x659Ab9bfEC0Ba8ce0da20C0b338551c5f464032F",
+    "reward_sfi_wei": "34975952378022290"
+  },
+  {
+    "sendto": "0x777999bE819FfEceE44A995560A9D0e97780a30c",
+    "reward_sfi_wei": "9771065367560000000"
+  },
+  {
+    "sendto": "0xCff74BE6C3586A59567C27Ff097213244505cff4",
+    "reward_sfi_wei": "45077635084055919"
+  },
+  {
+    "sendto": "0x184E2BC2087b97E59b6205150832471F1dA99223",
+    "reward_sfi_wei": "901855712599835427"
+  },
+  {
+    "sendto": "0x746164eEF43f58F11f6e86f6E4B08F3D3d4d2721",
+    "reward_sfi_wei": "1128602400837316044"
+  },
+  {
+    "sendto": "0xa267F3A4a92531f47811E05E890E977a0fe375b4",
+    "reward_sfi_wei": "121666002062518505"
+  },
+  {
+    "sendto": "0xAd5553945d7906aC295bEF282338419d72e44E79",
+    "reward_sfi_wei": "1609489838234533750"
+  },
+  {
+    "sendto": "0xC2cb4B1bCAEbAa78c8004e394CF90BA07A61C8f7",
+    "reward_sfi_wei": "2006177797284040175"
+  },
+  {
+    "sendto": "0x5C7ca6A93a46aE786D99D91ED423A91d6fa13879",
+    "reward_sfi_wei": "209251298394715359"
+  },
+  {
+    "sendto": "0xc1178D5BADA448126A5054EAF4e7c2f3fCa5E974",
+    "reward_sfi_wei": "99655933968071274"
+  },
+  {
+    "sendto": "0x7496fd894f546898D49e9A79462c9d803dF68394",
+    "reward_sfi_wei": "5156622905019814089"
+  },
+  {
+    "sendto": "0xF0bBfB6B0D222E0D065538546d20302298752446",
+    "reward_sfi_wei": "32950670397612566"
+  },
+  {
+    "sendto": "0xeE113B5073B088d53a4931842834D77c4Aacc365",
+    "reward_sfi_wei": "313897431773988990"
+  },
+  {
+    "sendto": "0xBc42cCa75284f288a3cc65A7C3A1cF38f4Fb2B46",
+    "reward_sfi_wei": "239642282973535720"
+  },
+  {
+    "sendto": "0xB1AdceddB2941033a090dD166a462fe1c2029484",
+    "reward_sfi_wei": "191467924502280000000"
+  },
+  {
+    "sendto": "0xAE0156E7303a9E0C10783cF9B90F46aF89925823",
+    "reward_sfi_wei": "143274193642209953"
+  },
+  {
+    "sendto": "0x406acb219D7b1A955a3b202aDbC979330e969698",
+    "reward_sfi_wei": "55045146435066573016"
+  }
+]

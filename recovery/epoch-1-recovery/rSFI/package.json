@@ -1,0 +1,32 @@
+{
+  "name": "redeemfromdist",
+  "version": "1.0.0",
+  "description": "Extract Redeem events from Distribution contracts",
+  "main": "get_redeem_distributions.js",
+  "scripts": {
+    "test": "node get_redeem_distributions.js --fromblock 11374859"
+  },
+  "author": "turpintinz",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/contracts": "^3.2.0",
+    "@openzeppelin/test-environment": "^0.1.6",
+    "@openzeppelin/test-helpers": "^0.5.7",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.12.1",
+    "ganache-time-traveler": "^1.0.15",
+    "husky": "^4.3.0",
+    "mocha": "^8.2.0",
+    "solidity-docgen": "^0.5.7",
+    "solhint": "^3.3.0",
+    "truffle": "^5.1.50"
+  },
+  "dependencies": {
+    "truffle-flattener": "^1.5.0",
+    "commander": "^6.2.0",
+    "web3": "^1.3.0"
+  }
+}

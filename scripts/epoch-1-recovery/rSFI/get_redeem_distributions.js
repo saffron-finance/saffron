@@ -2,6 +2,7 @@ const { Command } = require('commander');
 const Web3 = require("web3");
 const fs = require('fs');
 
+const { projectId } = require('./secrets.json');
 const program = new Command();
 program.version('1.0.0');
 program
@@ -15,7 +16,7 @@ const toBlock = program.toblock ? program.toblock : 11394311
 
 console.log(`Reading from block, ${fromBlock}, to block, ${toBlock}.`);
 
-const web3 = new Web3("wss://mainnet.infura.io/ws/v3/eac59ac8301e429aa7d149719e38544c");
+const web3 = new Web3("wss://mainnet.infura.io/ws/v3/${projectId}");
 const contractAbi = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"sender","type":"address"},{"indexed":false,"internalType":"uint256","name":"balance","type":"uint256"},{"indexed":false,"internalType":"address","name":"token","type":"address"},{"indexed":false,"internalType":"uint256","name":"share","type":"uint256"}],"name":"Redeem","type":"event"},{"inputs":[],"name":"DAI","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"S_INTEREST_EARNED","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"allowRedeem","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"depositFund","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"deposit_done","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"disallowRedeem","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"_token","type":"address"},{"internalType":"address","name":"_to","type":"address"}],"name":"erc_sweep","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"fund_rescue","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"governance","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"lp_token","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"lp_token_address","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"redeem","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"redeem_allowed","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_fund_rescue","type":"address"}],"name":"setFundRescue","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"total_distribution_amount","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"underlying_token","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"view","type":"function"}];
 
 let addresses = {

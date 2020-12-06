@@ -64,5 +64,5 @@ async function writeRedeemEvents() {
 }
 
 writeRedeemEvents().then(() => {
-    console.log("done")
+    console.log("done");
 })

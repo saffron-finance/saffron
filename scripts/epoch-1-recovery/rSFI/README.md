@@ -3,6 +3,7 @@
 
 ```shell script
 cd $PROJECT_ROOT/scripts/epoch-1-recovery/rSFI
+vim secrets.json
 npm install
 node get_redeem_distributions.js --fromblock 11374859 --toblock 11394311
 ```

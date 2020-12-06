@@ -1,4 +1,4 @@
-# Generate pool add liquidity logs
+# Generate Redeem logs
 
 
 ```shell script

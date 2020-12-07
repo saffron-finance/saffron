@@ -9,23 +9,23 @@ contract rSFI is ERC20 {
   using SafeERC20 for IERC20;
 
   address public governance;
-  address public SFI_minter;
-  uint256 public MAX_TOKENS = 15489020891056530000000;
+  address public rSFI_minter;
+  uint256 public constant MAX_TOKENS = 15489020891056530000000;
 
   constructor (string memory name, string memory symbol) ERC20(name, symbol) {
     // Initial governance is Saffron Deployer
     governance = msg.sender;
   }
 
-  function mint_SFI(address to, uint256 amount) public {
-    require(msg.sender == SFI_minter, "must be SFI_minter");
+  function mint_rSFI(address to, uint256 amount) public {
+    require(msg.sender == rSFI_minter, "must be rSFI_minter");
     require(this.totalSupply() + amount < MAX_TOKENS, "cannot mint more than MAX_TOKENS");
     _mint(to, amount);
   }
 
   function set_minter(address to) external {
     require(msg.sender == governance, "must be governance");
-    SFI_minter = to;
+    rSFI_minter = to;
   }
 
   function set_governance(address to) external {

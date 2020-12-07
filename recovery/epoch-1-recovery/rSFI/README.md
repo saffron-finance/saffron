@@ -1,7 +1,7 @@
-# Generate rSFI Rewards for Epoch 1 Recovery
-
-## rSFI
+# rSFI
 rSFI is a token representing redeemable SFI from the stuck epoch 1 pool at a 1:1 basis. rSFI will be airdropped to epoch 1 LPs periodically as LP token (dsec/principal) redemptions happen via the epoch 1 FundRescue contracts.
+
+rSFI will be redeemable for SFI on January 24th, 2021 at 14:00 UTC. rSFI will be burned to redeem SFI.
 
 Please see here for more information about Saffron epoch 1 recovery and the FundRescue contract:
 
@@ -10,7 +10,9 @@ Please see here for more information about Saffron epoch 1 recovery and the Fund
 - https://medium.com/saffron-finance/saffron-epoch-1-recovery-d10b84c95940
 
 
-## Scripts
+## Scripts to Generate rSFI for Epoch 1 Recovery
+
+Below are the scripts necessary to generate rSFI 
 
 ### Extract the Redeem events
 ```shell script

@@ -1,0 +1,13 @@
+
+Reading from block, 11374859, to block, 11403582.
+352 Redeem events for contract, DistributionSInterest.
+Completed writing to event_log/0xFdbd256C0736d79E0082e9a4055A971cb12A296b-DistributionSInterest-log.json
+411 Redeem events for contract, DistributionSPrincipal.
+Completed writing to event_log/0xf65B60d127671ACec535c359640ad390C2411577-DistributionSPrincipal-log.json
+84 Redeem events for contract, DistributionAInterest.
+Completed writing to event_log/0x3Eef976C092271bF557cb3Db26420aCdD25B8449-DistributionAInterest-log.json
+87 Redeem events for contract, DistributionAPrincipal.
+done
+Completed writing to event_log/0xb6f4d51F72279e353432fF8E47BB3904e506A403-DistributionAPrincipal-log.json
+^C
+

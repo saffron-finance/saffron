@@ -1398,5 +1398,13 @@
   {
     "sendto": "0x406acb219D7b1A955a3b202aDbC979330e969698",
     "reward_sfi_wei": "55045146435066573016"
+  },
+  {
+    "sendto": "0x1a119A751C1c3A3cf7677bA2c83984f3E8F37a68",
+    "reward_sfi_wei": "7140999607967193"
+  },
+  {
+    "sendto": "0x85EbC7d2098428Dc4C4b3C71b28ff0e921fEce37",
+    "reward_sfi_wei": "5796291273201000"
   }
 ]

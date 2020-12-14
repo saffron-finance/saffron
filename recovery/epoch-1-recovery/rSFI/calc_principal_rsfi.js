@@ -35,7 +35,7 @@ async function calculateSFI() {
     let totalSFI = web3.utils.toBN('0');
     redeems.forEach(redeem => {
       const sfi_wei_reward = web3.utils.toBN(redeem.balance).div(web3.utils.toBN('1000'))
-      rewards.push({ sendto: redeem.sender, reward_sfi_wei: sfi_wei_reward.toString() })
+      rewards.push({ sendto: redeem.sender, reward_sfi_wei: web3.utils.fromWei(sfi_wei_reward, 'ether') })
       totalSFI = totalSFI.add(sfi_wei_reward)
     })
     const contract = new web3.eth.Contract(lpTokenABI, '0x8364Cf2bc1504e05EfEd9b92Ee903b642B6f3Fb5');

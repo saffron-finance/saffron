@@ -57,7 +57,7 @@ async function calculateSFI() {
     redeems.forEach(redeem => {
       const sfi_wei_reward = (web3.utils.toBN(redeem.balance).mul(tranches[program.tranche].dsec_ratio)).div(one_ether);
       //const sfi_reward = sfi_wei_reward / 10**18;
-      rewards.push({ sendto: redeem.sender, reward_sfi_wei: sfi_wei_reward.toString() });
+      rewards.push({ sendto: redeem.sender, reward_sfi_wei: web3.utils.fromWei(sfi_wei_reward, 'ether') });
       totalSFI = totalSFI.add(sfi_wei_reward)
     })
 

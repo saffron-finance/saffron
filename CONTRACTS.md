@@ -7,7 +7,7 @@ This is a list of deployed mainnet contracts. There is a web3 interface for the 
 
 ## Epoch 1
 **Note: epoch 1 contracts are currently disabled and funds have been re-distributed to Distribution* contracts below:**
-* Saffron DAI/Compound Pool (Tranches S and A): `0x70d8682dddd33571722d14aa327049dad869aee9` [etherscan](https://etherscan.io/address/0x70d8682dddd33571722d14aa327049dad869aee9`)
+* Saffron DAI/Compound Pool (Tranches S and A): `0x70d8682dddd33571722d14aa327049dad869aee9` [etherscan](https://etherscan.io/address/0x70d8682dddd33571722d14aa327049dad869aee9)
 * DistributionSInterest: `0xFdbd256C0736d79E0082e9a4055A971cb12A296b` [etherscan](https://etherscan.io/address/0xFdbd256C0736d79E0082e9a4055A971cb12A296b)
 * DistributionSPrincipal: `0xf65B60d127671ACec535c359640ad390C2411577` [etherscan](https://etherscan.io/address/0xf65B60d127671ACec535c359640ad390C2411577)
 * DistributionAInterest: `0x3Eef976C092271bF557cb3Db26420aCdD25B8449` [etherscan](https://etherscan.io/address/0x3Eef976C092271bF557cb3Db26420aCdD25B8449)

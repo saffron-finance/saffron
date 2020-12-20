@@ -1,0 +1,39 @@
+{
+  "name": "uwu",
+  "version": "1.0.0",
+  "description": "UWU",
+  "scripts": {
+    "lint:sol": "solhint --max-warnings 0 \"contracts/**/*.sol\"",
+    "test": "npm run lint:sol && bash ./scripts/test.sh",
+    "migrate": "npm run lint:sol && bash ./scripts/migrate.sh",
+    "test_win": "npm run lint:sol && truffle test --network development",
+    "dev_deploy_win": "truffle migrate --network development --skip-dry-run --reset",
+    "ganache_win": "ganache-cli -f https://mainnet.infura.io/v3/REPLACEME -m \"REPLACEME\" -u \"0x9759A6Ac90977b93B58547b4A71c78317f391A28\" --port 8545 --gasLimit 0xffffffffff --allowUnlimitedContractSize"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/contracts": "^3.2.0",
+    "@openzeppelin/test-environment": "^0.1.6",
+    "@openzeppelin/test-helpers": "^0.5.7",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.12.1",
+    "ganache-time-traveler": "^1.0.15",
+    "husky": "^4.3.0",
+    "mocha": "^8.2.0",
+    "solidity-docgen": "^0.5.7",
+    "solhint": "^3.3.0",
+    "truffle": "^5.1.50"
+  },
+  "dependencies": {
+    "@openzeppelin/upgrades": "^2.8.0",
+    "truffle-flattener": "^1.5.0"
+  },
+  "main": "networks.js",
+  "directories": {
+    "test": "test"
+  }
+}

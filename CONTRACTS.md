@@ -46,7 +46,7 @@ This is a list of deployed mainnet contracts. There is a web3 interface for the 
 | 4     | Saffron rSFI Staking Pool                     | 210    | `0x3e98CdB8bcB60392D18750D4E0ba2D02BD59aEF3` [etherscan](https://etherscan.io/address/0x3e98CdB8bcB60392D18750D4E0ba2D02BD59aEF3) |
 | 5     | Saffron SFI/GEEQ Uniswap LP Pool              | 10     | `0x4D1D95F9E96C46f428bC8Ea797Ca39A3caF60268` [etherscan](https://etherscan.io/address/0x4D1D95F9E96C46f428bC8Ea797Ca39A3caF60268) |
 | 6     | Saffron SFI/ESD Uniswap LP Pool               | 50     | `0x31017f8B1Edd041Caca5dBB4D9d2996bB6b880cE` [etherscan](https://etherscan.io/address/0x31017f8B1Edd041Caca5dBB4D9d2996bB6b880cE) |
-| 7     | Saffron SFI/ETH Sushiswap LP Pool             | 400    | `0x212fa9E030135d09CD9e2a02aB02B13Ec94ee5aB` [etherscan](https://etherscan.io/address/0x212fa9E030135d09CD9e2a02aB02B13Ec94ee5aB) |
+| 7     | Saffron SFI/ETH Sushiswap LP Pool             | 410    | `0x212fa9E030135d09CD9e2a02aB02B13Ec94ee5aB` [etherscan](https://etherscan.io/address/0x212fa9E030135d09CD9e2a02aB02B13Ec94ee5aB) |
 | 8     | Saffron ibETH/ALPHA Uniswap LP Pool           | 50     | `0x190972727Fc7b01Af3bef04A6769CBA18815cF01` [etherscan](https://etherscan.io/address/0x190972727Fc7b01Af3bef04A6769CBA18815cF01) |
 | 9     | Saffron DAI/Rari Pool (Tranches S and A)      | 200    | `0xbafA231AAac12CE8ba0b23b86669f54a05fC23b5` [etherscan](https://etherscan.io/address/0xbafA231AAac12CE8ba0b23b86669f54a05fC23b5) |
 |       | Saffron DAI/Rari Adapter                      |        | `0x5FaCD696C55056c08F8fc44ead92964b81Af70AC` [etherscan](https://etherscan.io/address/0x5FaCD696C55056c08F8fc44ead92964b81Af70AC) |

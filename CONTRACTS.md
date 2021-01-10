@@ -52,3 +52,22 @@ This is a list of deployed mainnet contracts. There is a web3 interface for the 
 |       | Saffron DAI/Rari Adapter                      |        | `0x5FaCD696C55056c08F8fc44ead92964b81Af70AC` [etherscan](https://etherscan.io/address/0x5FaCD696C55056c08F8fc44ead92964b81Af70AC) |
 | 10    | Saffron SFI/PRT Uniswap LP Pool               | 25     | `0x0aAEbad2328580a948d82ED8C2D621ff537B8eEC` [etherscan](https://etherscan.io/address/0x0aAEbad2328580a948d82ED8C2D621ff537B8eEC) |
 
+
+## Epoch 5
+
+| Pools Index | Name                                    | Reward   | Address                                        |
+|-------|-----------------------------------------------|----------|------------------------------------------------|
+|       | Saffron Strategy                              |          | `0x304375B943d33AC58327752ec7Ac277aB41Fb0AF` [etherscan](https://etherscan.io/address/0x304375B943d33AC58327752ec7Ac277aB41Fb0AF) |
+| 0     | Saffron DAI/Compound Pool (Tranches S and A)  | 100      | `0x0033D4276440c4d9D44e7551D3cb5F631872F754` [etherscan](https://etherscan.io/address/0x0033D4276440c4d9D44e7551D3cb5F631872F754) |
+|       | Saffron DAI/Compound Adapter                  |          | `0xCdc7267Ca46846c005dCb20A5922eE95428ca36D` [etherscan](https://etherscan.io/address/0xCdc7267Ca46846c005dCb20A5922eE95428ca36D) |
+| 1     | Saffron SFI/ETH Uniswap LP Pool               | 205      | `0x730c034D7Ed43CEA0D47a681E2bc8343D1fB6450` [etherscan](https://etherscan.io/address/0x730c034D7Ed43CEA0D47a681E2bc8343D1fB6450) |
+| 2     | Saffron SFI Staking Pool                      | 105      | `0x5b8acA478d24f0AFa830355091015546a6503CD6` [etherscan](https://etherscan.io/address/0x5b8acA478d24f0AFa830355091015546a6503CD6) |
+| 3     | Saffron SFI/BTSE Uniswap LP Pool              |  50      | `0x0dAFdaD5c7d2e9B4f7A8F27c10DCA704D37eAb93` [etherscan](https://etherscan.io/address/0x0dAFdaD5c7d2e9B4f7A8F27c10DCA704D37eAb93) |
+| 4     | Saffron rSFI Staking Pool                     | 105      | `0x218D2da0298836d731ED82114419d605053D931e` [etherscan](https://etherscan.io/address/0x218D2da0298836d731ED82114419d605053D931e) |
+| 5     | Saffron SFI/GEEQ Uniswap LP Pool              |   5      | `0xdB783680D4De11e68aC48519E0d8A3A9E37EF909` [etherscan](https://etherscan.io/address/0xdB783680D4De11e68aC48519E0d8A3A9E37EF909) |
+| 6     | Saffron SFI/ESD Uniswap LP Pool               |  25      | `0xC23dE63644ee95c3Fab7DfE3dFa22aa57068e131` [etherscan](https://etherscan.io/address/0xC23dE63644ee95c3Fab7DfE3dFa22aa57068e131) |
+| 7     | Saffron SFI/ETH Sushiswap LP Pool             | 205      | `0xe59603258Dab9e6A0Fed6845B29cc1EE5fa28Bec` [etherscan](https://etherscan.io/address/0xe59603258Dab9e6A0Fed6845B29cc1EE5fa28Bec) |
+| 8     | Saffron ibETH/ALPHA Uniswap LP Pool           |  25      | `0xED2EBC251B8FEBab8345bcc48Ebaa6Ce1220B6ec` [etherscan](https://etherscan.io/address/0xED2EBC251B8FEBab8345bcc48Ebaa6Ce1220B6ec) |
+| 9     | Saffron DAI/Rari Pool (Tranches S and A)      | 100      | `0xFa1117EB3dB5055A22CA19CC6654031E485dAD90` [etherscan](https://etherscan.io/address/0xFa1117EB3dB5055A22CA19CC6654031E485dAD90) |
+|       | Saffron DAI/Rari Adapter                      |          | `0x57c1465EB29B6B54D26c9EDE427875a4ccc5179A` [etherscan](https://etherscan.io/address/0x57c1465EB29B6B54D26c9EDE427875a4ccc5179A) |
+| 10    | Saffron SFI/PRT Uniswap LP Pool               |  12.5    | `0xbe6984A6fCd7B46B529A3dA77DDdAAD1Ba2377ba` [etherscan](https://etherscan.io/address/0xbe6984A6fCd7B46B529A3dA77DDdAAD1Ba2377ba) |

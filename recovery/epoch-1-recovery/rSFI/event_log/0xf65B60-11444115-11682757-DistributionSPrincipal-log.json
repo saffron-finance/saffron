@@ -1,0 +1,65 @@
+[
+  {
+    "sender": "0x8280D028D6546f737818ed9580B66aFA8fDE101c",
+    "balance": "0",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "0",
+    "transactionHash": "0x35861ce7c185266a3c15d25453ea712238963517501f2ab021326eaecb0c2c51"
+  },
+  {
+    "sender": "0x6BAd391397F5f6047d3b6752576Ee1a4aE3d2927",
+    "balance": "508659418200000000000",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "508659418200000000000",
+    "transactionHash": "0xc491f31ebca7594dca12a21b8100e5281a2a2b48308e800e032441e6d89bb80f"
+  },
+  {
+    "sender": "0xCB34AcC40936Eec681F8602cC813697bdDc2fbD2",
+    "balance": "0",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "0",
+    "transactionHash": "0x3126a0abfea1ad053760eb3d56e3d8ac4f7d056d6c04d67a8676d052996f8916"
+  },
+  {
+    "sender": "0x12444cBf1EcB10a7aC1e6a287A19a8CF4F735F2e",
+    "balance": "0",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "0",
+    "transactionHash": "0x8e9aafe8967e8fbd5166b7996cfcbdcbde57467bdc0ed7a468a63b10f1a9c181"
+  },
+  {
+    "sender": "0xb542AF057339CAe254871140D5eE62d1A260BFff",
+    "balance": "1389255075390000000000",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "1389255075390000000000",
+    "transactionHash": "0xbb23022ab5b8fa103dbe92521b71901102b11b0016ef51e05771bb4395b1443b"
+  },
+  {
+    "sender": "0xEdb46071e2519472022995f9dE4d24c4CfDde002",
+    "balance": "9592293177750000000000",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "9592293177750000000000",
+    "transactionHash": "0x246bf26f504d609ea5a7f50c19e691bf3d0e072002d40c2dfc9d13b96a701d64"
+  },
+  {
+    "sender": "0x0025befed0d57A11dB1dC26A80e651Bb38C97027",
+    "balance": "141617594970000000000",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "141617594970000000000",
+    "transactionHash": "0xa85d4154da6d6d248b97503c91f8a2fb5ebcc61adcad16f355d36819d79d4f26"
+  },
+  {
+    "sender": "0x5b2AD5A7D3158B5Ff3B3c2744C30bAA289480870",
+    "balance": "10892264890000000000",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "10892264890000000000",
+    "transactionHash": "0x3aeb18c4fe8e053949cf98c68a797fce6ad59365e5fdd5e136dd03ad06ddabb5"
+  },
+  {
+    "sender": "0x777999bE819FfEceE44A995560A9D0e97780a30c",
+    "balance": "0",
+    "token": "0x9be973b1496E28b3b745742391B0E5977184f1AC",
+    "share": "0",
+    "transactionHash": "0x174cab687db7ca7cd2448f09a7f63a24fcb07f4ded0b7bbc2290f9cf93a47351"
+  }
+]

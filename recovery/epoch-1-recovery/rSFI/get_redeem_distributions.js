@@ -64,7 +64,7 @@ async function writeRedeemEvents() {
             redeemList.push(processedItem);
         }
 
-        let logName = `event_log/${addressesKey}-${addresses[addressesKey]}-log.json`;
+        let logName = `event_log/${addressesKey.substring(0,8)}-${fromBlock}-${toBlock}-${addresses[addressesKey]}-log.json`;
         fs.writeFile(logName, JSON.stringify(redeemList, null, 2), (err) => {
             if (err) throw err;
             console.log(`Completed writing to ${logName}`);

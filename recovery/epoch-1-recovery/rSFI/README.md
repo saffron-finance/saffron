@@ -71,7 +71,7 @@ Example format is:
 
 ### Generate rSFI Values
 
-```
+```shell
 $ node calc_desc_rsfi.js --help
 Usage: calc_dsec_rsfi [options]
 
@@ -85,3 +85,42 @@ Options:
 $ node calc_dsec_rsfi.js -i 0xFdbd25-DistributionSInterest-log.json -o 0xFdbd25-DistributionSInterest-reward.json -t S
 $ node calc_dsec_rsfi.js -i 0x3Eef97-DistributionAInterest-log.json -o 0x3Eef97-DistributionAInterest-reward.json -t A
 ```
+
+### Airdrop 3
+
+```shell
+node get_redeem_distributions.js --fromblock 11444115 --toblock 11682757
+
+node calc_principal_rsfi.js -i event_log/0xb6f4d5-11444115-11682757-DistributionAPrincipal-log.json -o rSFI_generation/0xb6f4d5-11444115-11682757-DistributionAPrincipal-rSFI-3.json
+Reading the file, event_log/0xb6f4d5-11444115-11682757-DistributionAPrincipal-log.json.
+Redeem events count: 2
+Total rSFI counted:  1000000000000000000
+dead balance      :  4238915891056530000000000
+dsec totalSupply  :  4239020891056530000000000
+remaining balance :  105000000000000000
+delta (rSFI + delta should match sfi_earned):  1000000000000000000 + 105000000000000000 = 1105000000000000000 [4239020891056530000000]
+Writing to file, rSFI_generation/0xb6f4d5-11444115-11682757-DistributionAPrincipal-rSFI-3.json
+done
+
+node calc_dsec_rsfi.js -i event_log/0x3Eef97-11444115-11682757-DistributionAInterest-log.json -o rSFI_generation/0x3Eef97-11444115-11682757-DistributionAInterest-rSFI-3.json -t A
+Reading the file, event_log/0x3Eef97-11444115-11682757-DistributionAInterest-log.json.
+Redeem events count: 0
+Total rSFI counted:  0
+dsec totalSupply:  2721051942671116842170000000000
+remaining balance:  127555230000000000000000000
+delta (rSFI + delta should match sfi_earned):  0 + 26368411284660060 = 26368411284660060 [562500000000000000000]
+Writing to file, rSFI_generation/0x3Eef97-11444115-11682757-DistributionAInterest-rSFI-3.json
+done
+
+node calc_dsec_rsfi.js -i event_log/0xFdbd25-11444115-11682757-DistributionSInterest-log.json -o rSFI_generation/0xFdbd25-11444115-11682757-DistributionSInterest-rSFI-3.json -t S
+Reading the file, event_log/0xFdbd25-11444115-11682757-DistributionSInterest-log.json.
+Redeem events count: 19
+Total rSFI counted:  35416452826350504819
+dsec totalSupply:  46452195180327979283067900000000
+remaining balance:  92280591454492381070000000000
+delta (rSFI + delta should match sfi_earned):  35416452826350504819 + 21231479226234283652 = 56647932052584788471 [10687500000000000000000]
+Writing to file, rSFI_generation/0xFdbd25-11444115-11682757-DistributionSInterest-rSFI-3.json
+done
+```
+
+The airdrop can be seen at [0xfca2a0556ecd35ae38476ac5223787d25a67eb5fc874dc3f1fb736ce029e7999](https://etherscan.io/tx/0xfca2a0556ecd35ae38476ac5223787d25a67eb5fc874dc3f1fb736ce029e7999)

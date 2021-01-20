@@ -1,0 +1,16 @@
+[
+  {
+    "sender": "0xfeDf3f726E77a7c5fF0304043F49bb261C47a1E2",
+    "balance": "1000000000000000000000",
+    "token": "0x8364Cf2bc1504e05EfEd9b92Ee903b642B6f3Fb5",
+    "share": "1000000000000000000000",
+    "transactionHash": "0x0d538e4c3fec93b37ef8f15f552c232b530c266d953028acd7750af4c2fd130c"
+  },
+  {
+    "sender": "0x9625807057dEE9D863E27F1Cf1Ca1b01AeF9ADDa",
+    "balance": "0",
+    "token": "0x8364Cf2bc1504e05EfEd9b92Ee903b642B6f3Fb5",
+    "share": "0",
+    "transactionHash": "0xe14c7ceb37e3aa5c98affde152f94bb148a3d3fe80d0abe777435ff1a3d7ce5f"
+  }
+]

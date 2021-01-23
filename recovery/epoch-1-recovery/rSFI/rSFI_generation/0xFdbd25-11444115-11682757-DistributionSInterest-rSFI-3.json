@@ -1,0 +1,78 @@
+[
+  {
+    "sendto": "0x5C7fD9500F5A7CD93F5377eDC88fa1b8194A4380",
+    "reward_sfi_wei": "0.156136833634604122"
+  },
+  {
+    "sendto": "0x3c229864378b3B0adF98aE247Ca33986AED8EC1E",
+    "reward_sfi_wei": "4.143146028349272907"
+  },
+  {
+    "sendto": "0xB1AdceddB2941033a090dD166a462fe1c2029484",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0xb542AF057339CAe254871140D5eE62d1A260BFff",
+    "reward_sfi_wei": "0.325459389102445844"
+  },
+  {
+    "sendto": "0xc2f833639b69D46422Db24000d81Ae3AB49F2bb4",
+    "reward_sfi_wei": "0.00384030086846"
+  },
+  {
+    "sendto": "0xbC2aF3A82B4cF9924B0Dd7230A49Fb12f6c6402a",
+    "reward_sfi_wei": "8.589767055304"
+  },
+  {
+    "sendto": "0x6BAd391397F5f6047d3b6752576Ee1a4aE3d2927",
+    "reward_sfi_wei": "0.07774263653799827"
+  },
+  {
+    "sendto": "0x2A579d8d0489d0bD139599A0Ac049629a7cf9b04",
+    "reward_sfi_wei": "1.342071815894403534"
+  },
+  {
+    "sendto": "0xC13bA51d26d1b2022Fa51e25243bb49A54c4A953",
+    "reward_sfi_wei": "0"
+  },
+  {
+    "sendto": "0xF0C34155F57D6953ed22cbecaB9764C7C9DA2FBB",
+    "reward_sfi_wei": "0.120171139127713059"
+  },
+  {
+    "sendto": "0x04918AF1ba8770B47A84a5f8d9f821Cd88Da251f",
+    "reward_sfi_wei": "0.005085733474889811"
+  },
+  {
+    "sendto": "0x416535372f3037606f0c001A3a3289EE5EF32A3E",
+    "reward_sfi_wei": "1.3858202457254"
+  },
+  {
+    "sendto": "0x016078A5e18D9a2A4698e8623744556F09a9Ca15",
+    "reward_sfi_wei": "15.946402197897685752"
+  },
+  {
+    "sendto": "0xEdb46071e2519472022995f9dE4d24c4CfDde002",
+    "reward_sfi_wei": "2.501056027215938295"
+  },
+  {
+    "sendto": "0x0025befed0d57A11dB1dC26A80e651Bb38C97027",
+    "reward_sfi_wei": "0.027555973193906268"
+  },
+  {
+    "sendto": "0xE652044b269A07D776e3ea5f923157B6D45B8D0b",
+    "reward_sfi_wei": "0.004198472054158666"
+  },
+  {
+    "sendto": "0x0f3FD5D797eEcaeFB9E21c63038091b7E60FA031",
+    "reward_sfi_wei": "0.77085650815896"
+  },
+  {
+    "sendto": "0x5b2AD5A7D3158B5Ff3B3c2744C30bAA289480870",
+    "reward_sfi_wei": "0.001491407327989981"
+  },
+  {
+    "sendto": "0xBCB5e31f1d80E0e1D676A1dA96421ffecAd4CD84",
+    "reward_sfi_wei": "0.01565106248267831"
+  }
+]

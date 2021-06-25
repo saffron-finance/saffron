@@ -340,3 +340,27 @@ This is a list of deployed mainnet contracts. There is a web3 interface for the 
 |       | Saffron USDT/Compound Adapter                 |           | `0xc83179ec908bae30F9f46982165c75F3D12dDE19` [etherscan](https://etherscan.io/address/0xc83179ec908bae30F9f46982165c75F3D12dDE19) |
 | 12    | Saffron USDC/Compound Pool (Tranches S and A) | 10.5      | `0xbE3F0090137fc2C0183394f5bb1ABf8886218E1C` [etherscan](https://etherscan.io/address/0xbE3F0090137fc2C0183394f5bb1ABf8886218E1C) |
 |       | Saffron USDC/Compound Adapter                 |           | `0x8Bed7f71D5A51Ad5823dF6834A2F1071694a854b` [etherscan](https://etherscan.io/address/0x8Bed7f71D5A51Ad5823dF6834A2F1071694a854b) |
+
+## Epoch 17
+
+| Pools Index | Name                                    | Reward    | Address                                        |
+|-------|-----------------------------------------------|-----------|------------------------------------------------|
+|       | Saffron Strategy                              |           | `0xf9C61B7B76c0b644Ce0B107344227A82E34B7793` [etherscan](https://etherscan.io/address/0xf9C61B7B76c0b644Ce0B107344227A82E34B7793) |
+| 0     | Saffron DAI/Compound Pool (Tranches S and A)  | 10.5      | `0x2C505925D9B8147Ec76808299892d9cFBAa38AB5` [etherscan](https://etherscan.io/address/0x2C505925D9B8147Ec76808299892d9cFBAa38AB5) |
+|       | Saffron DAI/Compound Adapter                  |           | `0x0492E0c2084089B0917554B376fcDcf6e23B6520` [etherscan](https://etherscan.io/address/0x0492E0c2084089B0917554B376fcDcf6e23B6520) |
+| 1     | Saffron SFI/ETH Uniswap LP Pool               | 33.75     | `0x32819046D7a7471EBEb3D6a94E951a02bC511D1c` [etherscan](https://etherscan.io/address/0x32819046D7a7471EBEb3D6a94E951a02bC511D1c) |
+| 2     | Saffron SFI Staking Pool                      | 22.5      | `0x478D5d1A5517aedCcb4EE320AABf7da7fD39cc7c` [etherscan](https://etherscan.io/address/0x478D5d1A5517aedCcb4EE320AABf7da7fD39cc7c) |
+| 3     | Saffron SFI/BTSE Uniswap LP Pool              | 1.5       | `0x2DBa8ea73B4abbB5E62222482FdC5b33dC208002` [etherscan](https://etherscan.io/address/0x2DBa8ea73B4abbB5E62222482FdC5b33dC208002) |
+| 4     | Saffron WBTC/Compound Pool (Tranches S and A) | 15.5-25.5 | `0xc480a60EDb8b71DfDCac3223aCd03A5BD2c83863` [etherscan](https://etherscan.io/address/0xc480a60EDb8b71DfDCac3223aCd03A5BD2c83863) |
+|       | Saffron WBTC/Compound Adapter                 |           | `0xE3cDaF32873cACBf2Ba130E500d598305b91A1f6` [etherscan](https://etherscan.io/address/0xE3cDaF32873cACBf2Ba130E500d598305b91A1f6) |
+| 5     | Saffron SFI/GEEQ Uniswap LP Pool              | 1.5       | `0x510a01B526c29D27D9354C897ED4F6b15f2c66De` [etherscan](https://etherscan.io/address/0x510a01B526c29D27D9354C897ED4F6b15f2c66De) |
+| 6     | Saffron SFI/ESD Uniswap LP Pool               | 1.5       | `0x3c9aE64BcB11f6ae4905d3030d56Bb916C25AFB4` [etherscan](https://etherscan.io/address/0x3c9aE64BcB11f6ae4905d3030d56Bb916C25AFB4) |
+| 7     | Saffron SFI/ETH Sushiswap LP Pool             | 33.75     | `0x4b54382e9823b0376feaf20E74bd7CCDD22F8C91` [etherscan](https://etherscan.io/address/0x4b54382e9823b0376feaf20E74bd7CCDD22F8C91) |
+| 8     | Saffron ibETH/ALPHA Uniswap LP Pool           | 1.5       | `0xa54edD5c0234398B3Bb55dF5b9D3caC54Eab3F95` [etherscan](https://etherscan.io/address/0xa54edD5c0234398B3Bb55dF5b9D3caC54Eab3F95) |
+| 9     | Saffron DAI/Rari Pool (Tranches S and A)      | 10.5      | `0xf5c5377fd70b76e6Bb907b9561c5c0d0916A107f` [etherscan](https://etherscan.io/address/0xf5c5377fd70b76e6Bb907b9561c5c0d0916A107f) |
+|       | Saffron DAI/Rari Adapter                      |           | `0x28194a03c556b7440c272C8eCcCEAC563ED0fD7e` [etherscan](https://etherscan.io/address/0x28194a03c556b7440c272C8eCcCEAC563ED0fD7e) |
+| 10    | Saffron SFI/PRT Uniswap LP Pool               | 1.5       | `0x7d832d7BdC6B14F85da6bF62acFdDe04f911220b` [etherscan](https://etherscan.io/address/0x7d832d7BdC6B14F85da6bF62acFdDe04f911220b) |
+| 11    | Saffron USDT/Compound Pool (Tranches S and A) | 10.5      | `0xA8016DFeaE882Af74CDB374df321EF99C08A0e52` [etherscan](https://etherscan.io/address/0xA8016DFeaE882Af74CDB374df321EF99C08A0e52) |
+|       | Saffron USDT/Compound Adapter                 |           | `0x3aA39c2A92824fFF002AA9FdD930e6D2e4BB6faA` [etherscan](https://etherscan.io/address/0x3aA39c2A92824fFF002AA9FdD930e6D2e4BB6faA) |
+| 12    | Saffron USDC/Compound Pool (Tranches S and A) | 10.5      | `0xea2CD2D8683A405E7E76D263cFd6f86D39168A04` [etherscan](https://etherscan.io/address/0xea2CD2D8683A405E7E76D263cFd6f86D39168A04) |
+|       | Saffron USDC/Compound Adapter                 |           | `0x6abfE4983897Ca10751683f94a30a1883023cB5e` [etherscan](https://etherscan.io/address/0x6abfE4983897Ca10751683f94a30a1883023cB5e) |
